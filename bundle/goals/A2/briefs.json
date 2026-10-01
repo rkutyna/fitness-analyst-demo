@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — 60 minutes of easy jogging:\n\nToday's 60-minute easy jog is your planned session, and it's a perfect chance to let your body move without pressure. Use this time to settle into a comfortable rhythm and enjoy the fresh air. Show up for yourself and get it done—you'll feel better for having started.",
+      "narration": "Today's 60-minute easy jog is your planned session, and it's a perfect chance to let your body move without pressure. Use this time to settle into a comfortable rhythm and enjoy the fresh air. Show up for yourself and get it done—you'll feel better for having started.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 60 minutes of easy jogging — the figure",
+          "value": "60",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

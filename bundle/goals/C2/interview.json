@@ -1,0 +1,184 @@
+{
+  "goal_id": "C2",
+  "transcript": [
+    {
+      "role": "coach",
+      "text": "What’s the main goal you’d like this plan to support?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "I want to lose the weight I have put back on.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "When you picture this plan working, what does it look like? For example: start with some easy jogging, then build up to longer runs.",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Get moving most days, mix walking and easy jogging, and see the scale come down over a few months.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Your goal, in your words: \"I want to lose the weight I have put back on.\" Your recorded history covers 180 days. Your longest qualified continuous block is 45.3 minutes. In that time you've recorded 36 runs and 36 walks. None of those runs reached a steady jogging pace yet. Your logged runs and walks show you already have the movement habit needed to start shedding the weight you’ve regained. How would you describe where you are with your activity right now?",
+      "card": {
+        "kind": "history",
+        "data": {
+          "as_of": "2026-08-31",
+          "days_of_history": 180,
+          "workout_counts": {
+            "running": 36,
+            "walking": 36
+          },
+          "four_week_jog_minutes": {
+            "weeks": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "last_week": 0.0
+          },
+          "longest_qualified_block_min": 45.3,
+          "sleep_midpoint_sd_hours": 0.695
+        },
+        "display": {
+          "days_of_history": "180 days",
+          "workout_counts": {
+            "running": "36",
+            "walking": "36"
+          },
+          "four_week_jog_minutes": {
+            "weeks": [
+              "0 min",
+              "0 min",
+              "0 min",
+              "0 min"
+            ],
+            "mean": "0 min",
+            "last_week": "0 min"
+          },
+          "longest_qualified_block_min": "45.3 min",
+          "sleep_midpoint_sd_hours": "± 42 m"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, it is accurate.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Which days and times of day would realistically work for you?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Monday, Wednesday and Friday evenings, plus Saturday morning.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "What kinds of exercise do you enjoy, and is there anything you’d rather avoid? For example: running and walking, but no gym.",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Walking, easy jogging and cycling.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Is there anything we should plan around, like an injury or a health condition?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "No issues.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "It sounds like there's nothing we need to plan around — is that right? Say yes or tell me what I missed.",
+      "card": {
+        "kind": "constraints",
+        "data": {
+          "constraints": []
+        },
+        "display": null
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, that's right.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "How should I communicate with you—plain, warm, or terse—and would you prefer brief or full responses?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Plain and brief.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Here's how the plan will run: we check in every Sunday, and I plan 4 weeks at a time, always looking about 12 weeks ahead. Does that work, or would you like to change anything?",
+      "card": {
+        "kind": "structure",
+        "data": {
+          "checkin_weekday": "Sunday",
+          "block_length_weeks": 4,
+          "plan_horizon": {
+            "kind": "rolling",
+            "weeks": 12
+          }
+        },
+        "display": {
+          "block_length_weeks": "4 weeks",
+          "plan_horizon": {
+            "weeks": "12 weeks"
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Sunday check-ins and 4 weeks at a time.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Here's how the plan will run: we check in every Sunday, and I plan 4 weeks at a time, always looking about 12 weeks ahead. Does that work now, or anything else to change?",
+      "card": {
+        "kind": "structure",
+        "data": {
+          "checkin_weekday": "Sunday",
+          "block_length_weeks": 4,
+          "plan_horizon": {
+            "kind": "rolling",
+            "weeks": 12
+          }
+        },
+        "display": {
+          "block_length_weeks": "4 weeks",
+          "plan_horizon": {
+            "weeks": "12 weeks"
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, that works.",
+      "card": null
+    }
+  ]
+}

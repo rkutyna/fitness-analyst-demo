@@ -1,0 +1,239 @@
+{
+  "goal_id": "C2",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week 1 starts your weight-loss routine by pairing walks with short, controlled easy-jog intervals so you create movement habits without overloading.",
+      "jog_minutes_target": 30.0,
+      "key_session": "Run/walk intervals plus a walk"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Walk 20 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 20 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Run/walk intervals: walk 5 minutes to warm up, then alternate easy jogging with walking breaks. 15 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "Run/walk intervals: walk 5 minutes to warm up, then alternate easy jogging with walking breaks. 15 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Run/walk intervals: 15 minutes of easy jogging broken into short efforts, with walking breaks after each effort.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "Run/walk intervals: 15 minutes of easy jogging broken into short efforts, with walking breaks after each effort.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 3
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Build the foundation for your weight-loss plan by making movement feel normal again without overdoing it.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Strengthen the habit of getting out the door so consistency starts to support your fat-loss progress.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Increase the challenge gently as your body adapts to walking and easy jogging.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Keep the effort comfortable while making the active week a bigger contributor to your calorie balance.",
+        "key_session_label": "Intervals (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Add variety to the run-walk mix so the routine stays interesting and your progress continues.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Ask for a little more from your legs while keeping the work controlled and sustainable.",
+        "key_session_label": "Intervals (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Let your body absorb the work with easy walking that protects your momentum and your joints.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Reestablish a steady routine after the recovery week without rushing back into hard sessions.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Rebuild the week's workload gradually while keeping the scale moving in the right direction.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Keep your sessions consistent and your effort honest as the plan continues toward your weight goal.",
+        "key_session_label": "Intervals (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Protect the routine you have built and make it feel like a normal part of your week.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Close the plan with a sustainable mix of walking and jogging that you can carry forward.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

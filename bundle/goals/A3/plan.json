@@ -1,0 +1,270 @@
+{
+  "goal_id": "A3",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 2,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Establish the lift-and-run rhythm by pairing regular strength sessions with your usual running habit to add muscle while protecting running fitness.",
+      "jog_minutes_target": 288.0,
+      "key_session": "Full-body strength"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "72 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "72 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Full-body strength (strength)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "strength",
+            "label": "Strength",
+            "title": "Full-body strength (strength)",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "72 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "72 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Upper-body strength (strength)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "strength",
+            "label": "Strength",
+            "title": "Upper-body strength (strength)",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "72 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "72 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "72 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "strength",
+            "label": "Strength",
+            "title": "Lower-body strength (strength)",
+            "impact": "unclassified",
+            "lines": []
+          },
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "72 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 6
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Establish the lift-and-run rhythm by pairing regular strength sessions with your usual running habit to add muscle while protecting running fitness.",
+        "key_session_label": "Strength (strength)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Build consistency in the combined strength and running routine so each system adapts without overwhelming the other.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Advance the strength and running workloads gradually while protecting recovery.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Deepen the lifting stimulus and running durability to drive muscle gain and keep aerobic fitness steady.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Continue blending progressive strength work with running sessions to maintain a strong, hardy frame.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Use a lighter stretch to absorb the latest training block and come back fresher.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Return to building with restored energy and keep the strength and running balance moving forward.",
+        "key_session_label": "Tempo (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Push muscular endurance and running resilience further with varied sessions.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Consolidate the gains from recent weeks before the final recovery and maintenance block.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Recover briefly to clear fatigue and set up the closing weeks of the plan.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Maintain the muscle and running fitness you have built with steady, repeatable sessions.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Hold the hard-earned strength and running capacity stable as this block ends.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — 72 minutes of easy jogging:\n\nToday's 72-minute easy jog is your planned session, and it's a perfect opportunity to focus on your breathing and find a steady pace. This run is all about consistency and letting your body do what it does best. Show up, lace up, and enjoy the movement — you'll feel great afterward.",
+      "narration": "Today's 72-minute easy jog is your planned session, and it's a perfect opportunity to focus on your breathing and find a steady pace. This run is all about consistency and letting your body do what it does best. Show up, lace up, and enjoy the movement — you'll feel great afterward.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 72 minutes of easy jogging — the figure",
+          "value": "72",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

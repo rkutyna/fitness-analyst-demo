@@ -1,0 +1,247 @@
+{
+  "goal_id": "D2",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week one builds a walking habit on your available days, so more movement starts creating the calorie deficit that helps your weight drift down.",
+      "jog_minutes_target": 0.0,
+      "key_session": "walk 15 minutes at a comfortable pace"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Walk 15 minutes at a comfortable pace and take the stairs once along the way.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace and take the stairs once along the way.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Walk 15 minutes at a comfortable pace and finish with a brief stair climb.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace and finish with a brief stair climb.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 4
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "You establish walking as the foundation habit that makes extra movement feel normal.",
+        "key_session_label": "Easy (walk)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Walking gains a steady place in your routine, so movement nudges your weight in the right direction.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You build on that base by adding cycling to the mix, keeping movement varied without losing momentum.",
+        "key_session_label": "Easy (cycling)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "A recovery block gives your body room to adapt while walking remains a gentle, calm presence.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You return to building your walking habit and let stairs become a natural part of your routes.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Your walking base grows stronger, and you practice choosing movement whenever life offers the chance.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "The middle of the plan stabilizes your new pattern, so weight can keep drifting down without strain.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "A refresh block keeps you moving gently and resets your energy for the next stretch of progress.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You return to focused walking habits, using stairs as a simple strengthening tool.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Your movement habit becomes automatic, and your attention shifts to keeping the routine easy to repeat.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Late in the plan, you protect the habit by choosing walking paths and times that fit your normal rhythm.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "The closing stretch refreshes your motivation and leaves you ready to continue losing weight through movement.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

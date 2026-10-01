@@ -1,0 +1,892 @@
+{
+  "scope": "goal",
+  "id": "C3",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "Here’s what your plan has you doing this week, from Monday, August 31 to Sunday, September 6:\n\n- Monday, August 31: Walk 15 minutes at a comfortable pace\n- Tuesday, September 1: Rest day\n- Wednesday, September 2: Walk 15 minutes at a comfortable pace\n- Thursday, September 3: Rest day\n- Friday, September 4: Walk 15 minutes at a comfortable pace\n- Saturday, September 5: Rest day\n- Sunday, September 6: Rest day\n\nThis is the 1 week of the long-term plan, which is in its Base phase, running from Monday, August 31 to Sunday, September 13. The plan’s rationale for this phase:\n\nBase: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.\n\nWeek 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.\n\nIn short, the week is built around easy walking on alternating days and rest days in between, so your body can ease into a calm bedtime routine and a steady walking rhythm without extra strain.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 13",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 13",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 22,
+        "figures_total": 22,
+        "retry": false
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "This week's plan does not appear to be a step up from what you've actually been doing, at least in terms of jogging volume. Your recent weekly jogging average was 0 min, and the plan's total jogging for the week is 0 min. Instead, the plan schedules walking sessions: Walk 15 minutes at a comfortable pace on Monday, August 31, Walk 15 minutes at a comfortable pace on Wednesday, September 2, and Walk 15 minutes at a comfortable pace on Friday, September 4. The other days are rest days. So it's more about establishing a walking routine than increasing jogging volume. This week falls within the long-term plan's current phase: \n\nBase: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "0",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "0",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Walk 15 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 9,
+        "figures_total": 9,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Your long-term plan runs from Monday, August 31 to Sunday, November 22, spanning 9 phases over 12 weeks. It's built on your recent walking baseline of 0 min. You are currently in week 1 of the Base phase, which started Monday, August 31 and ends Sunday, September 13. The next phase begins Monday, September 14. Here's the phase-by-phase outline:\n\n- Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.\n- Build: Monday, September 14 to Sunday, September 20 (1 week). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.\n- Recovery: Monday, September 21 to Sunday, September 27 (1 week). Step back and let your body absorb the new routine while noticing how sleep is responding.\n- Build: Monday, September 28 to Sunday, October 11 (2 weeks). Return to active walking with a focus on staying calm and consistent through the afternoon.\n- Recovery: Monday, October 12 to Sunday, October 18 (1 week). Recover with relaxed movement and make the bedtime habit feel more automatic.\n- Base: Monday, October 19 to Sunday, October 25 (1 week). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.\n- Build: Monday, October 26 to Sunday, November 1 (1 week). Add gentle variety to your walks so your body stays responsive without becoming exhausted.\n- Recovery: Monday, November 2 to Sunday, November 8 (1 week). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.\n- Maintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.\n\nAnd the weekly sessions are as follows:\n\n- Week 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.\n- Week 2, starting Monday, September 7 (Base): key session Easy (walk). Keep the gentle movement habit steady so your body learns to relax more reliably at night.\n- Week 3, starting Monday, September 14 (Build): key session Easy (walk). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.\n- Week 4, starting Monday, September 21 (Recovery): key session Recovery (yoga). Step back and let your body absorb the new routine while noticing how sleep is responding.\n- Week 5, starting Monday, September 28 (Build): key session Easy (walk). Return to active walking with a focus on staying calm and consistent through the afternoon.\n- Week 6, starting Monday, October 5 (Build): key session Easy (walk). Increase the walking challenge a little to deepen fitness while protecting your wind-down.\n- Week 7, starting Monday, October 12 (Recovery): key session Recovery (yoga). Recover with relaxed movement and make the bedtime habit feel more automatic.\n- Week 8, starting Monday, October 19 (Base): key session Easy (walk). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.\n- Week 9, starting Monday, October 26 (Build): key session Easy (walk). Add gentle variety to your walks so your body stays responsive without becoming exhausted.\n- Week 10, starting Monday, November 2 (Recovery): key session Recovery (walk). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.\n- Week 11, starting Monday, November 9 (Maintain): key session Easy (walk). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.\n- Week 12, starting Monday, November 16 (Maintain): key session Easy (walk). Sustain the full routine so steadier sleep and brighter afternoons become your normal pattern.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, November 22",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "9",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 13",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 14",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 14 to Sunday, September 20 (1 week). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, September 21 to Sunday, September 27 (1 week). Step back and let your body absorb the new routine while noticing how sleep is responding.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 28 to Sunday, October 11 (2 weeks). Return to active walking with a focus on staying calm and consistent through the afternoon.",
+          "unit": null,
+          "label": "plan long phase 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, October 12 to Sunday, October 18 (1 week). Recover with relaxed movement and make the bedtime habit feel more automatic.",
+          "unit": null,
+          "label": "plan long phase 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, October 19 to Sunday, October 25 (1 week). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.",
+          "unit": null,
+          "label": "plan long phase 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, October 26 to Sunday, November 1 (1 week). Add gentle variety to your walks so your body stays responsive without becoming exhausted.",
+          "unit": null,
+          "label": "plan long phase 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.",
+          "unit": null,
+          "label": "plan long phase 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Maintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.",
+          "unit": null,
+          "label": "plan long phase 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Monday, September 7 (Base): key session Easy (walk). Keep the gentle movement habit steady so your body learns to relax more reliably at night.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Monday, September 14 (Build): key session Easy (walk). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Monday, September 21 (Recovery): key session Recovery (yoga). Step back and let your body absorb the new routine while noticing how sleep is responding.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Monday, September 28 (Build): key session Easy (walk). Return to active walking with a focus on staying calm and consistent through the afternoon.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Monday, October 5 (Build): key session Easy (walk). Increase the walking challenge a little to deepen fitness while protecting your wind-down.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Monday, October 12 (Recovery): key session Recovery (yoga). Recover with relaxed movement and make the bedtime habit feel more automatic.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 8, starting Monday, October 19 (Base): key session Easy (walk). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.",
+          "unit": null,
+          "label": "plan long week 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 9, starting Monday, October 26 (Build): key session Easy (walk). Add gentle variety to your walks so your body stays responsive without becoming exhausted.",
+          "unit": null,
+          "label": "plan long week 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 10, starting Monday, November 2 (Recovery): key session Recovery (walk). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.",
+          "unit": null,
+          "label": "plan long week 10 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 11, starting Monday, November 9 (Maintain): key session Easy (walk). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.",
+          "unit": null,
+          "label": "plan long week 11 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 12, starting Monday, November 16 (Maintain): key session Easy (walk). Sustain the full routine so steadier sleep and brighter afternoons become your normal pattern.",
+          "unit": null,
+          "label": "plan long week 12 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Sunday, November 22",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "9",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "0",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 13",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 14",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Build: Monday, September 14 to Sunday, September 20 (1 week). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Recovery: Monday, September 21 to Sunday, September 27 (1 week). Step back and let your body absorb the new routine while noticing how sleep is responding.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 4 summary",
+          "value": "Build: Monday, September 28 to Sunday, October 11 (2 weeks). Return to active walking with a focus on staying calm and consistent through the afternoon.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 5 summary",
+          "value": "Recovery: Monday, October 12 to Sunday, October 18 (1 week). Recover with relaxed movement and make the bedtime habit feel more automatic.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 6 summary",
+          "value": "Base: Monday, October 19 to Sunday, October 25 (1 week). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 7 summary",
+          "value": "Build: Monday, October 26 to Sunday, November 1 (1 week). Add gentle variety to your walks so your body stays responsive without becoming exhausted.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 8 summary",
+          "value": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 9 summary",
+          "value": "Maintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Easy (walk). Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Monday, September 7 (Base): key session Easy (walk). Keep the gentle movement habit steady so your body learns to relax more reliably at night.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Monday, September 14 (Build): key session Easy (walk). Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Monday, September 21 (Recovery): key session Recovery (yoga). Step back and let your body absorb the new routine while noticing how sleep is responding.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Monday, September 28 (Build): key session Easy (walk). Return to active walking with a focus on staying calm and consistent through the afternoon.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Monday, October 5 (Build): key session Easy (walk). Increase the walking challenge a little to deepen fitness while protecting your wind-down.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Monday, October 12 (Recovery): key session Recovery (yoga). Recover with relaxed movement and make the bedtime habit feel more automatic.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 8 summary",
+          "value": "Week 8, starting Monday, October 19 (Base): key session Easy (walk). Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 9 summary",
+          "value": "Week 9, starting Monday, October 26 (Build): key session Easy (walk). Add gentle variety to your walks so your body stays responsive without becoming exhausted.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 10 summary",
+          "value": "Week 10, starting Monday, November 2 (Recovery): key session Recovery (walk). Use lighter movement to consolidate the gains in sleep quality and daytime alertness.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 11 summary",
+          "value": "Week 11, starting Monday, November 9 (Maintain): key session Easy (walk). Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 12 summary",
+          "value": "Week 12, starting Monday, November 16 (Maintain): key session Easy (walk). Sustain the full routine so steadier sleep and brighter afternoons become your normal pattern.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 31,
+        "figures_total": 31,
+        "retry": false
+      }
+    },
+    {
+      "question": "How consistent has my bedtime been lately?",
+      "text": "Over the recent weeks, your bedtime has been fairly consistent. The standard deviation of your sleep midpoint was about ± 42 m across the period from Tue Aug 4 to Mon Aug 31.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "± 42 m",
+          "unit": "h",
+          "label": "sleep midpoint sd 28d, latest sd hours (Aug 4 to Aug 31)",
+          "source": "sleep regularity"
+        },
+        {
+          "display": "from Tue Aug 4 to Mon Aug 31",
+          "unit": null,
+          "label": "sleep midpoint sd 28d, period label (Aug 4 to Aug 31)",
+          "source": "sleep regularity"
+        }
+      ],
+      "facts": [
+        {
+          "label": "sleep midpoint sd 28d, latest sd hours (Aug 4 to Aug 31)",
+          "value": "± 42 m",
+          "unit": "h",
+          "source": "sleep regularity"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sleep regularity",
+          "blurb": "Measures how consistent your bedtimes and wake times have been.",
+          "windows": [
+            {
+              "start": "2016-01-01",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      }
+    }
+  ]
+}

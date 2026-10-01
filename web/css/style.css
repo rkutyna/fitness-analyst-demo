@@ -1,0 +1,569 @@
+/* Fitness Analyst demo. One stylesheet, system fonts, dark only.
+
+   The tokens are the phone app's ("Daybreak"), under the app's names. The one
+   rule they enforce: colour is spent on state, never on decoration.
+     --figure        a value Python computed
+     serif           a sentence the model wrote
+     --refuse        a refusal the system chose; muted, never alarming
+     --fault         an actual failure, the only thing allowed to look alarming
+
+   Two tokens have a "-text" twin. The app's inkTertiary and refuse measure
+   3.4:1 and 4.2:1 on a card surface; the twins are the nearest values that
+   reach 4.5:1 there, and they are what small text uses on this site. */
+:root {
+  color-scheme: dark;
+  --ground: #101219;
+  --surface: #232734;
+  --line: #2E3341;
+  --ink: #E4E3EA;
+  --ink-secondary: #A3A3B4;
+  --ink-tertiary: #767889;
+  --ink-tertiary-text: #9092A3;
+  --accent: #9DA9DC;
+  --figure: #E8DCD2;
+  --refuse: #868799;
+  --refuse-text: #9092A3;
+  --fault: #D89A96;
+  --fault-surface: #211A1D;
+  --fault-line: #3A2B2E;
+  --attention: #9DA9DC;
+  --attention-surface: #191C29;
+  --attention-line: #2E3450;
+  --positive: #A3BFA6;
+  --positive-surface: #191F1C;
+  --positive-line: #2B372E;
+  --band-recover: #9D7FC8;
+  --band-recover-surface: #1D1828;
+  --band-recover-line: #3B2F50;
+  --band-steady: #8497CB;
+  --band-steady-surface: #181C28;
+  --band-steady-line: #303A52;
+  --band-strong: #86D8AE;
+  --band-strong-surface: #142320;
+  --band-strong-line: #29483B;
+
+  --card-radius: 16px;
+  --card-pad: 14px;
+  --card-shadow: 0 5px 11px rgb(0 0 0 / 30%);
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: ui-serif, "New York", Georgia, serif;
+  --gutter: 16px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html { -webkit-text-size-adjust: 100%; background: var(--ground); }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 15px/1.4 var(--sans);
+  overflow: hidden;
+}
+
+h1, h2, h3, p, ul, ol, dl, dd, blockquote, figure { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+a { color: var(--accent); text-underline-offset: 2px; }
+button { font: inherit; color: inherit; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+[tabindex="-1"]:focus { outline: none; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.skip {
+  position: absolute; left: 8px; top: -60px; z-index: 30;
+  background: var(--accent); color: var(--ground); padding: 8px 12px; border-radius: 8px; font-weight: 600;
+}
+.skip:focus { top: 8px; }
+
+.icon { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.icon.inline { vertical-align: -0.22em; margin-right: 6px; }
+.chev { width: 1em; height: 1em; color: var(--ink-secondary); margin-left: auto; }
+
+/* ---- the frame ------------------------------------------------------------ */
+.stage { height: 100vh; height: 100dvh; }
+
+.phone {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  background: var(--ground);
+}
+
+.phone-top { flex: none; padding: 8px var(--gutter) 0; }
+
+.notice { display: flex; align-items: flex-start; gap: 8px; }
+.notice p { flex: 1; font-size: 11.5px; line-height: 1.35; color: var(--ink-tertiary-text); }
+.asof { color: var(--ink-secondary); }
+.explain .notice-copy { font-size: 11.5px; line-height: 1.35; color: var(--ink-tertiary-text); margin-top: 6px; }
+
+.info-btn {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; margin: -4px -6px 0 0; padding: 0;
+  background: none; border: 0; border-radius: 50%; color: var(--accent); cursor: pointer;
+}
+
+.who {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  margin-top: 6px; padding: 3px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  font-size: 13px; min-height: 36px;
+}
+.viewing { color: var(--ink-secondary); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.viewing strong { color: var(--ink); font-weight: 600; }
+.strip-link { flex: none; font-weight: 600; text-decoration: none; padding: 5px 0; }
+.strip-link[aria-current="page"] { color: var(--ink); }
+.brand { display: inline-flex; align-items: center; gap: 8px; padding: 4px 0; color: var(--ink); font-weight: 600; text-decoration: none; }
+.brand-mark { color: var(--accent); stroke-width: 2.2; }
+.brand-sub { color: var(--ink-secondary); font-weight: 400; }
+
+/* Scrollbars: thin and quiet on the dark ground; the gutter is reserved so the
+   content does not change width when a scrollbar appears. */
+.screen, .explain {
+  scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+}
+@supports not (scrollbar-color: auto) {
+  .screen::-webkit-scrollbar, .explain::-webkit-scrollbar { width: 8px; height: 8px; }
+  .screen::-webkit-scrollbar-track, .explain::-webkit-scrollbar-track { background: transparent; }
+  .screen::-webkit-scrollbar-thumb, .explain::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+}
+.screen {
+  flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; scrollbar-gutter: stable;
+  padding: 10px var(--gutter) 32px;
+  overscroll-behavior: contain;
+}
+.has-tabs .screen { padding-bottom: 104px; }
+.loading { color: var(--ink-secondary); padding-top: 24px; }
+
+/* The floating tab bar: a pill pinned inside the phone. */
+.tabbar {
+  position: absolute; left: var(--gutter); right: var(--gutter);
+  bottom: max(12px, env(safe-area-inset-bottom));
+  display: flex; gap: 2px; padding: 4px;
+  background: rgb(35 39 52 / 92%);
+  border: 1px solid var(--line); border-radius: 999px;
+  box-shadow: 0 8px 22px rgb(0 0 0 / 45%);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+}
+.tab {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 1px;
+  padding: 6px 4px 5px; border-radius: 999px;
+  color: var(--ink); text-decoration: none; font-size: 10.5px; font-weight: 600;
+}
+.tab-icon { width: 24px; height: 24px; }
+.tab[aria-current="page"] { background: #151823; color: var(--accent); }
+
+/* The explanation: a sheet on a narrow screen, a side panel on a wide one. */
+.explain { display: none; }
+.explain.is-open {
+  display: block; position: fixed; inset: 0; z-index: 20; overflow-y: auto;
+  background: var(--ground); padding: 16px var(--gutter) 32px;
+}
+.explain-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.explain h2 { font-size: 20px; font-weight: 700; }
+.explain h3 { font-size: 11px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; color: var(--ink-tertiary-text); margin: 22px 0 8px; }
+.explain p { color: var(--ink-secondary); font-size: 14px; line-height: 1.5; margin-top: 8px; }
+.explain-lead { color: var(--ink); }
+.site-footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--ink-tertiary-text); font-size: 12.5px; }
+
+.legend { display: grid; gap: 8px; }
+.legend > div { display: grid; grid-template-columns: 64px 1fr; align-items: baseline; gap: 10px; }
+.legend dt { font-size: 17px; }
+.legend dd { color: var(--ink-secondary); font-size: 14px; }
+
+@media (min-width: 900px) {
+  .stage { display: flex; justify-content: center; align-items: flex-start; gap: 48px; padding: 24px; }
+  .phone {
+    flex: none; width: 390px; height: min(844px, 100%);
+    border: 1px solid var(--line); border-radius: 44px; overflow: hidden;
+    box-shadow: 0 0 0 8px #0A0C11, 0 0 0 9px var(--line), 0 30px 60px rgb(0 0 0 / 50%);
+  }
+  .phone-top { padding-top: 22px; }
+  .tabbar { bottom: 18px; }
+  .info-btn, .explain .notice-copy { display: none; }
+  .explain, .explain.is-open {
+    display: block; position: static; flex: 0 1 430px; min-width: 0;
+    max-height: 100%; overflow-y: auto; padding: 8px 8px 24px 0; background: none;
+  }
+}
+
+/* ---- type roles ----------------------------------------------------------- */
+.stack { display: flex; flex-direction: column; gap: 14px; }
+.stack > * { min-width: 0; }
+
+.large-title { font-size: 32px; line-height: 1.12; font-weight: 700; letter-spacing: -0.2px; margin-top: 6px; }
+/* The pushed-screen header is a grid, so a title and the control beside it each
+   own a column and can never share a pixel. Centred title: a 44px column on each
+   side (the back button, or nothing), so it sits on the centre line and shrinks
+   with an ellipsis. */
+.nav-bar { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; column-gap: 8px; min-height: 44px; }
+.nav-title { grid-column: 2; grid-row: 1; min-width: 0; font-size: 17px; font-weight: 600; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* A header with a wide action (Skip to the app): title left, action right. */
+.nav-bar.is-split { grid-template-columns: minmax(0, 1fr) auto; }
+.nav-bar.is-split .nav-title { grid-column: 1; text-align: left; }
+.back {
+  display: inline-flex; align-items: center; justify-content: center;
+  grid-column: 1; grid-row: 1; justify-self: start;
+  width: 40px; height: 40px; border-radius: 50%; background: var(--surface); color: var(--ink);
+}
+.pill {
+  display: inline-block; padding: 8px 14px; border-radius: 999px;
+  background: var(--surface); border: 1px solid var(--line);
+  color: var(--accent); font-weight: 500; text-decoration: none; white-space: nowrap;
+}
+/* After .pill, which sets display. */
+.nav-action { grid-column: 2; grid-row: 1; justify-self: end; display: inline-flex; align-items: center; min-height: 44px; }
+.section-title { font-size: 19px; font-weight: 500; margin-top: 4px; }
+.lead { color: var(--ink-secondary); font-size: 15px; line-height: 1.5; }
+
+.card-label {
+  font-size: 11px; line-height: 1.3; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase;
+  color: var(--ink-tertiary-text);
+}
+.card > .card-label { margin-bottom: 8px; }
+.card-label.is-refuse { color: var(--refuse-text); }
+.card-label.is-accent, .card-label.is-attention { color: var(--accent); }
+.card-label.is-fault { color: var(--fault); }
+.card-title { font-size: 17px; line-height: 1.3; font-weight: 500; color: var(--ink); }
+.row { font-size: 15px; }
+.secondary { color: var(--ink-secondary); }
+.chrome, .freshness { font-size: 11.5px; line-height: 1.4; color: var(--ink-tertiary-text); }
+.chrome.secondary { color: var(--ink-secondary); }
+.chrome.is-fault, .is-fault { color: var(--fault); }
+.is-attention { color: var(--attention); }
+.muted { color: var(--refuse-text); }
+.serif { font-family: var(--serif); }
+
+/* A sentence the model wrote. */
+.narration { font-family: var(--serif); font-size: 14.5px; line-height: 1.5; color: var(--ink); }
+.narration.secondary { color: var(--ink-secondary); }
+.narration p + p, .narration p + ul, .narration ul + p,
+.template p + p, .template p + ul, .template ul + p { margin-top: 10px; }
+.narration ul, .template ul { padding-left: 18px; list-style: disc; }
+.narration li + li, .template li + li { margin-top: 6px; }
+/* Python's own template text: not the model's, so not serif. */
+.template { font-size: 15px; line-height: 1.45; color: var(--ink); }
+
+/* A daily brief: Python's facts block in sans (a marked line hangs beside its
+   glyph), then the narration in serif. */
+.brief-provenance { margin-top: 2px; }
+.brief-prose { margin-top: 12px; }
+.brief-prose > * + * { margin-top: 12px; }
+.brief-block + .brief-block { margin-top: 12px; }
+.brief-facts { font-size: 15px; line-height: 1.45; color: var(--ink); }
+.brief-line + .brief-line { margin-top: 6px; }
+.brief-bullet { display: flex; align-items: baseline; gap: 8px; }
+.brief-marker { flex: none; }
+.brief-text { min-width: 0; overflow-wrap: anywhere; }
+.marker-dot { color: var(--ink-tertiary-text); }
+.marker-done { color: var(--positive); }
+.marker-missed { color: var(--refuse-text); }
+.card.brief .answer-foot { margin-top: 14px; }
+.card.brief > .narration, .card.brief > .template { margin-top: 10px; }
+
+/* A value Python computed. */
+.fig { color: var(--figure); font-family: var(--sans); font-variant-numeric: tabular-nums; font-weight: 500; }
+.narration .fig { font-size: 0.95em; }
+.big-figure { font-size: 40px; line-height: 1; }
+.metric-value { font-size: 20px; line-height: 1.2; }
+
+/* ---- cards ---------------------------------------------------------------- */
+.card {
+  display: block; background: var(--surface); border-radius: var(--card-radius);
+  padding: var(--card-pad); box-shadow: var(--card-shadow);
+}
+.card > * + * { margin-top: 6px; }
+.entry-card { border: 1px solid var(--line); box-shadow: none; }
+.card.fault { background: var(--fault-surface); border: 1px solid var(--fault-line); }
+.card.rejected { box-shadow: none; }
+.fault-detail { font-size: 12.5px; color: var(--fault); }
+
+.refusal-detail { font-family: var(--serif); font-size: 14px; line-height: 1.45; color: var(--ink-secondary); }
+.remedy { font-size: 11.5px; line-height: 1.35; font-weight: 600; color: var(--accent); }
+.card-note { font-size: 13px; color: var(--ink-secondary); }
+.note { font-size: 12.5px; line-height: 1.45; color: var(--ink-secondary); }
+.note-list { padding-left: 18px; list-style: disc; font-size: 13px; color: var(--ink-secondary); }
+.note-list li + li { margin-top: 6px; }
+
+.entry {
+  display: flex; align-items: center; gap: 10px; padding: 14px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--card-radius);
+  color: var(--ink); font-size: 17px; font-weight: 500; text-decoration: none;
+}
+.entry-icon { color: var(--ink); }
+.entry-text { flex: 1; min-width: 0; }
+.entry-stack { display: flex; flex-direction: column; gap: 2px; }
+.entry-sub { font-weight: 400; }
+
+.bullet { font-size: 15px; }
+.bullet .dot { color: var(--accent); }
+.bullet summary { display: flex; align-items: flex-start; gap: 8px; cursor: pointer; list-style: none; position: relative; z-index: 1; }
+.bullet summary::-webkit-details-marker, .sources summary::-webkit-details-marker { display: none; }
+.bullet summary .chev, .sources summary .chev, .lp-toggle .chev { transition: transform 0.15s ease; margin-top: 3px; }
+.bullet[open] summary .chev, .sources[open] summary .chev, .lp-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.bullet-detail { font-family: var(--serif); font-size: 13.5px; color: var(--ink-secondary); margin-top: 4px; }
+.line-dose { font-size: 15px; font-weight: 600; }
+.line-heading { font-size: 13px; font-weight: 600; color: var(--ink-secondary); margin-top: 8px; }
+.session-status { font-size: 15px; font-weight: 500; color: var(--refuse-text); }
+
+.rest-marker { display: flex; align-items: center; font-size: 17px; font-weight: 500; color: var(--refuse-text); }
+.rest-marker.is-heading { color: var(--ink); }
+
+/* Readiness. */
+.readiness-row { display: flex; align-items: baseline; gap: 10px; }
+.band-chip {
+  display: inline-flex; align-items: flex-end; gap: 5px; padding: 4px 9px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-secondary);
+  font-size: 11px; line-height: 1.2; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase;
+}
+.gauge { display: inline-flex; align-items: flex-end; gap: 2px; height: 13px; }
+.gauge i { width: 3px; border-radius: 1px; background: currentColor; opacity: 0.3; }
+.gauge i:nth-child(1) { height: 7px; }
+.gauge i:nth-child(2) { height: 10px; }
+.gauge i:nth-child(3) { height: 13px; }
+.band-recover { color: var(--band-recover); background: var(--band-recover-surface); border-color: var(--band-recover-line); }
+.band-steady { color: var(--band-steady); background: var(--band-steady-surface); border-color: var(--band-steady-line); }
+.band-strong { color: var(--band-strong); background: var(--band-strong-surface); border-color: var(--band-strong-line); }
+.band-recover .gauge i:nth-child(-n+1),
+.band-steady .gauge i:nth-child(-n+2),
+.band-strong .gauge i:nth-child(-n+3) { opacity: 1; }
+
+.metrics { display: flex; gap: 10px; margin-top: 10px; }
+.metric { flex: 1; min-width: 0; }
+.metric dd { margin-top: 2px; }
+.stat-unit { color: var(--ink-secondary); font-size: 12.5px; }
+.workout { margin-top: 10px; }
+.workout-figures { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 4px; }
+.workout-figures dd { font-size: 15px; }
+
+/* ---- week ----------------------------------------------------------------- */
+.week-range { text-align: center; font-size: 12.5px; color: var(--ink-tertiary-text); }
+.totals { display: flex; gap: 12px; }
+.totals dd { margin-top: 2px; }
+.card.day { position: relative; }
+.card.day > * + * { margin-top: 8px; }
+.day-head { font-size: inherit; font-weight: inherit; }
+.day-link { display: flex; align-items: baseline; gap: 8px; color: var(--ink); text-decoration: none; }
+/* The whole card opens the day; the disclosures inside sit above this layer. */
+.day-link::after { content: ""; position: absolute; inset: 0; border-radius: var(--card-radius); }
+.day-link:focus-visible { outline: none; }
+.day-link:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; }
+.day-link .chev { align-self: center; }
+.weekday { font-size: 17px; font-weight: 500; }
+.day-date { font-size: 11.5px; color: var(--ink-tertiary-text); }
+.session-label { color: var(--ink); font-weight: 500; }
+.plan-status { text-align: center; }
+
+/* The long plan. */
+.long-plan { padding: var(--card-pad); }
+.lp-heading { font-size: inherit; }
+.lp-toggle {
+  display: flex; align-items: flex-start; gap: 8px; width: 100%; padding: 2px 0;
+  background: none; border: 0; text-align: left; cursor: pointer;
+}
+.long-plan-list { display: grid; gap: 8px; margin-top: 10px; }
+.lp-week { padding: 6px 10px; border-radius: 10px; border: 1.5px solid transparent; }
+.lp-week > * + * { margin-top: 3px; }
+.lp-top { display: flex; align-items: baseline; gap: 8px; }
+.lp-index, .lp-now { font-size: 11px; font-weight: 600; color: var(--ink-secondary); }
+.lp-dates { font-size: 11.5px; color: var(--ink-tertiary-text); }
+.lp-now { margin-left: auto; color: var(--accent); }
+.lp-phase { font-size: 15px; font-weight: 600; }
+.lp-intent { font-family: var(--serif); font-size: 13.5px; line-height: 1.45; color: var(--ink-secondary); }
+.lp-key, .lp-withheld { font-size: 11.5px; color: var(--ink-tertiary-text); }
+.lp-withheld { font-size: 15px; }
+.lp-week.is-current { background: var(--attention-surface); border-color: var(--accent); }
+.lp-week.is-current .lp-index { color: var(--accent); }
+/* A week that has passed recedes. The app does this with opacity; here every
+   line drops to the tertiary text colour instead, which keeps it readable. */
+.lp-week.is-past, .lp-week.is-past .lp-index, .lp-week.is-past .lp-phase, .lp-week.is-past .lp-intent { color: var(--ink-tertiary-text); }
+.lp-draft { margin-top: 14px; }
+.outline-list { display: grid; gap: 10px; margin-top: 8px; }
+
+/* ---- chat ----------------------------------------------------------------- */
+/* A messaging thread. Your question is a bubble on the right, the vault's
+   answer a bubble on the left, each with its author above it. A turn is
+   tight inside (question, then answer) and loose between turns. */
+.transcript { display: flex; flex-direction: column; gap: 20px; }
+.turn { display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 8px; }
+.msg { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.msg-you { align-items: flex-end; }
+.msg-vault { align-items: flex-start; }
+.author {
+  display: flex; align-items: center; gap: 6px; padding: 0 6px;
+  font-size: 12px; line-height: 1.2; font-weight: 600; color: var(--ink-secondary);
+}
+.author-disc {
+  display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--attention-surface); color: var(--accent);
+}
+.author-mark { width: 14px; height: 14px; stroke-width: 2.2; }
+
+.bubble { min-width: 0; max-width: 85%; overflow-wrap: anywhere; word-break: break-word; }
+.bubble-you {
+  padding: 9px 14px; border-radius: 18px 18px 6px 18px;
+  background: var(--attention-line); color: var(--ink);
+}
+.question { font-size: 16px; line-height: 1.35; }
+.bubble-vault {
+  max-width: 92%; padding: 12px 14px; border-radius: 18px 18px 18px 6px;
+  background: var(--surface); box-shadow: var(--card-shadow);
+}
+.bubble-vault > * + * { margin-top: 10px; }
+.bubble-vault > .card-label { margin-bottom: -2px; }
+.empty-state > .card-label + * { margin-top: 8px; }
+
+/* The waiting beat: three dots, softly pulsing. */
+.bubble-waiting { display: flex; align-items: center; gap: 5px; padding: 15px 16px; }
+.bubble-waiting .beat { display: inline-flex; gap: 5px; }
+.beat i {
+  display: block; width: 7px; height: 7px; border-radius: 50%; background: var(--ink-secondary);
+  opacity: 0.4; animation: beat 1.2s ease-in-out infinite;
+}
+.beat i:nth-child(2) { animation-delay: 0.18s; }
+.beat i:nth-child(3) { animation-delay: 0.36s; }
+@keyframes beat { 0%, 70%, 100% { opacity: 0.35; transform: scale(0.85); } 35% { opacity: 1; transform: scale(1); } }
+
+/* What belongs to the message, under a hairline and inside the bubble. */
+.answer-foot { padding-top: 10px; border-top: 1px solid var(--line); margin-top: 12px; }
+.answer-foot > * + * { margin-top: 4px; }
+.answer-foot > .sources { margin-top: 6px; }
+.traced { font-size: 12px; color: var(--ink-secondary); }
+.sources summary {
+  display: flex; align-items: center; gap: 8px; cursor: pointer; list-style: none;
+  font-size: 13px; font-weight: 600; color: var(--accent); padding: 4px 0;
+}
+.sources summary .chev { color: var(--accent); margin: 0 0 0 auto; }
+.sources-body { margin-top: 10px; display: grid; gap: 14px; }
+.source-list { display: grid; gap: 12px; }
+.source-title { font-size: 15px; font-weight: 600; }
+.source-blurb, .source-window { font-size: 12px; color: var(--ink-secondary); margin-top: 2px; }
+
+/* The facts table, always stacked: the phone column is never wide. */
+.facts, .facts tbody, .facts tr, .facts th, .facts td { display: block; }
+.facts thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.facts caption { display: block; text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; color: var(--ink-tertiary-text); margin-bottom: 6px; }
+.facts tr { padding: 8px 0; border-top: 1px solid var(--line); }
+.facts th { text-align: left; font-size: 12.5px; font-weight: 500; color: var(--ink); overflow-wrap: anywhere; }
+.facts td { font-size: 12.5px; color: var(--ink-secondary); overflow-wrap: anywhere; }
+.facts td.fig { color: var(--figure); font-size: 15px; margin-top: 2px; }
+.facts td:not(.fig)::before { content: attr(data-label) ": "; color: var(--ink-tertiary-text); }
+
+.suggestions { display: grid; gap: 16px; margin-top: 4px; }
+.suggestion-group { display: flex; flex-direction: column; align-items: flex-end; }
+.suggestion-group > .card-label { padding-right: 6px; text-align: right; }
+.suggestion-list { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; margin-top: 8px; max-width: 100%; }
+.suggestion-list > li { display: flex; justify-content: flex-end; max-width: 92%; }
+/* Things you could send: outlined pills on the right, like the question bubble. */
+.suggestion {
+  min-height: 44px; padding: 9px 14px; max-width: 100%;
+  background: transparent; border: 1px solid var(--line); border-radius: 18px 18px 6px 18px;
+  color: var(--accent); text-align: left; font-size: 15px; line-height: 1.35; cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.suggestion:hover, .entry:hover, .pill:hover { border-color: var(--accent); }
+
+/* ---- reports -------------------------------------------------------------- */
+.chart-svg { display: block; width: 100%; height: auto; margin-top: 8px; }
+.chart-headline { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 2px; }
+.chart-unit { color: var(--ink-secondary); font-size: 13px; }
+.chart-summary { font-size: 13px; line-height: 1.45; color: var(--ink-secondary); }
+.gl { stroke: var(--line); stroke-width: 1; }
+.ax { fill: var(--ink-tertiary-text); font-size: 10px; font-family: var(--sans); }
+.bar { fill: var(--figure); fill-opacity: 0.55; }
+.bar.partial { fill-opacity: 0.22; }
+.line { fill: none; stroke: var(--figure); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.dot { fill: var(--figure); }
+.dot.partial { fill: var(--surface); stroke: var(--figure); stroke-width: 1.2; }
+.mini-bars { display: block; width: 120px; height: 34px; margin: 2px 0 4px; }
+
+/* ---- first run ------------------------------------------------------------ */
+.intake { display: flex; flex-direction: column; gap: 4px; }
+.intake-q { margin-top: 10px; }
+.intake-question { font-family: var(--serif); font-size: 14px; line-height: 1.45; color: var(--ink-secondary); }
+.intake-answer { font-size: 17px; line-height: 1.35; color: var(--ink); }
+.intake .card { margin: 10px 0 6px; }
+.kv { display: grid; gap: 8px; }
+.kv-row dt { font-size: 11.5px; color: var(--ink-tertiary-text); }
+.kv-row dd { font-size: 15px; color: var(--ink-secondary); overflow-wrap: anywhere; }
+.kv-sub { display: block; font-size: 13px; }
+.constraint-list { display: grid; gap: 8px; }
+blockquote { font-family: var(--serif); font-size: 13.5px; color: var(--ink-secondary); padding-left: 10px; border-left: 2px solid var(--line); margin-top: 4px; }
+.review-days { display: grid; gap: 3px; }
+.review-days > div { display: grid; grid-template-columns: 44px 1fr; }
+.review-days dt { font-size: 15px; }
+.review-days dd { font-size: 15px; color: var(--ink-secondary); }
+.review-sub { font-size: 11.5px; margin-top: 10px; }
+.btn-primary {
+  display: inline-block; padding: 9px 18px; border-radius: 999px;
+  background: var(--accent); color: var(--ground); font-size: 17px; font-weight: 500; text-decoration: none;
+}
+.btn-primary:hover { background: #B3BDE6; }
+
+/* ---- landing and person ---------------------------------------------------- */
+.card-list { display: grid; gap: 14px; }
+.person-card, .goal-card { display: flex; flex-direction: column; gap: 8px; color: var(--ink); text-decoration: none; }
+.card.person-card > * + *, .card.goal-card > * + * { margin-top: 0; }
+.person-head { display: flex; align-items: center; gap: 10px; }
+.person-head .card-title { display: block; }
+.avatar {
+  flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--attention-surface); border: 1px solid var(--attention-line); color: var(--accent); font-weight: 600;
+}
+.role { display: block; font-size: 12.5px; color: var(--ink-secondary); }
+.blurb { font-size: 14px; line-height: 1.45; color: var(--ink-secondary); }
+.person-card .metrics { margin-top: 2px; }
+/* The three stats sit in three equal columns that can shrink to nothing, so a
+   long label wraps inside its own column instead of running into the next
+   one; values line up along the bottom whatever the labels do. */
+.person-card .metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 12px; }
+.person-card .metric { display: flex; flex-direction: column; justify-content: space-between; gap: 4px; }
+.person-card .metric dt { overflow-wrap: anywhere; }
+.person-card .metric dd { margin-top: 0; overflow-wrap: anywhere; }
+@media (max-width: 420px) {
+  .person-card .metrics { gap: 0 8px; }
+  .person-card .metric dt { font-size: 10.5px; letter-spacing: 0.4px; }
+}
+.person-card:hover, .goal-card:hover { outline: 1px solid var(--accent); }
+
+/* ---- about ----------------------------------------------------------------- */
+.prose > * + * { margin-top: 12px; }
+.prose h2 { font-size: 19px; font-weight: 600; margin-top: 26px; }
+.prose p, .prose li { color: var(--ink-secondary); line-height: 1.55; }
+.prose strong { color: var(--ink); font-weight: 600; }
+.prose ul, .prose ol { padding-left: 20px; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li + li { margin-top: 8px; }
+.inline-label { font-size: 11px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; color: var(--refuse-text); }
+.about-kv .kv-row dd { color: var(--ink); }
+
+.diagram-wrap { margin-top: 12px; }
+.pipeline { display: block; width: 100%; max-width: 360px; height: auto; }
+.dg-py { fill: var(--surface); stroke: var(--figure); stroke-width: 1; }
+.dg-llm { fill: var(--surface); stroke: var(--ink-secondary); stroke-width: 1; stroke-dasharray: 4 3; }
+.dg-out { fill: var(--attention-surface); stroke: var(--accent); stroke-width: 1; }
+.dg-title { font-size: 14px; font-weight: 600; font-family: var(--sans); }
+.dg-sub { font-size: 11px; font-family: var(--sans); }
+.dg-t-py { fill: var(--figure); }
+.dg-t-llm { fill: var(--ink); font-family: var(--serif); }
+.dg-t-out { fill: var(--accent); }
+.dg-arrow { stroke: var(--ink-tertiary); stroke-width: 1.5; }
+.dg-head { fill: var(--ink-tertiary); }
+.diagram-key { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; font-size: 12px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; border: 1px solid; background: var(--surface); }
+.sw-py { border-color: var(--figure); }
+.sw-llm { border-color: var(--ink-secondary); border-style: dashed; }
+.sw-out { border-color: var(--accent); background: var(--attention-surface); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

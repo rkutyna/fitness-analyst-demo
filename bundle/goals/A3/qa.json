@@ -1,0 +1,802 @@
+{
+  "scope": "goal",
+  "id": "A3",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "I couldn't give you an answer I could check against your data. My wording included a number I couldn't trace to your records, so I'm not showing it. Try asking about one thing at a time, or a shorter period.",
+      "mode": "fallback",
+      "plan_question": true,
+      "has_plan_facts": false,
+      "figures": [],
+      "facts": [],
+      "sources": [],
+      "verification": {
+        "ok": false,
+        "reason": "number word outside placeholder",
+        "cause": "gate_refused",
+        "figures_verified": 0,
+        "figures_total": 33,
+        "retry": true
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "Comparing this week's plan to what you've actually been doing, it is not a step up — in fact, the planned jogging volume is lower than your recent average. The plan calls for 288 min of jogging across the week, while your mean actual jogging per week over the recent complete weeks before was 318.2 min. So the plan actually steps down from your usual jogging load.\n\n The week itself starts with 72 minutes of easy jogging on Monday, August 31, followed by Full-body strength (strength) on Tuesday, September 1, 72 minutes of easy jogging on Wednesday, September 2, Upper-body strength (strength) on Thursday, September 3, 72 minutes of easy jogging on Friday, September 4, 72 minutes of easy jogging on Saturday, September 5, and Rest day on Sunday, September 6 — so it mixes jogging days with strength days and a rest day. On Mon Aug 31, your actual workout was a strength session of 50 minutes with a max heart rate of 124 bpm, whereas the plan had 72 minutes of easy jogging — so the plan’s jogging focus differs from what you did that day. Overall, this week’s plan is a lighter jogging week than your recent pattern, not a step up.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "288",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "planned session"
+        },
+        {
+          "display": "72 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "planned session"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "planned session"
+        },
+        {
+          "display": "Full-body strength (strength)",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "72 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Upper-body strength (strength)",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "72 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "72 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Mon Aug 31",
+          "unit": null,
+          "label": "traditional strength training workout, Aug 31, date",
+          "source": "workout list"
+        },
+        {
+          "display": "50",
+          "unit": "min",
+          "label": "traditional strength training workout, Aug 31, duration",
+          "source": "workout list"
+        },
+        {
+          "display": "124",
+          "unit": "bpm",
+          "label": "traditional strength training workout, Aug 31, max heart rate",
+          "source": "workout list"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "288",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "planned session"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "72 minutes of easy jogging",
+          "unit": null,
+          "source": "planned session"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "planned session"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "Full-body strength (strength)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "72 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Upper-body strength (strength)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "72 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "72 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "traditional strength training workout, Aug 31, date",
+          "value": "Mon Aug 31",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 31, duration",
+          "value": "50",
+          "unit": "min",
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 31, max heart rate",
+          "value": "124",
+          "unit": "bpm",
+          "source": "workout list"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Planned session",
+          "blurb": "Reads the session your training plan schedules for a given day.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 20,
+        "figures_total": 20,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Your long-term plan runs from Monday, August 31 through Sunday, November 22, spanning 12 weeks in 6 phases. You are currently in week 1 of the Base phase, which runs from Monday, August 31 to Sunday, September 13; the next phase begins Monday, September 14. The written plan currently covers 1 week, from Monday, August 31 to Sunday, September 6. The plan's starting point is your recent running volume, which averaged 318.2 minutes per week over the recent weeks, and this is the basis for a step-up comparison.\n\nThe phases:\n\nBase: Monday, August 31 to Sunday, September 13 (2 weeks).\nBuild: Monday, September 14 to Sunday, October 4 (3 weeks). Advance the strength and running workloads gradually while protecting recovery.\nRecovery: Monday, October 5 to Sunday, October 11 (1 week). Use a lighter stretch to absorb the latest training block and come back fresher.\nBuild: Monday, October 12 to Sunday, November 1 (3 weeks). Return to building with restored energy and keep the strength and running balance moving forward.\nRecovery: Monday, November 2 to Sunday, November 8 (1 week). Recover briefly to clear fatigue and set up the closing weeks of the plan.\nMaintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the muscle and running fitness you have built with steady, repeatable sessions.\n\nAnd the week-by-week key sessions:\n\nWeek 1, starting Monday, August 31 (Base): key session Strength (strength).\nWeek 2, starting Monday, September 7 (Base): key session Easy (run). Build consistency in the combined strength and running routine so each system adapts without overwhelming the other.\nWeek 3, starting Monday, September 14 (Build): key session Strength (strength). Advance the strength and running workloads gradually while protecting recovery.\nWeek 4, starting Monday, September 21 (Build): key session Long (run). Deepen the lifting stimulus and running durability to drive muscle gain and keep aerobic fitness steady.\nWeek 5, starting Monday, September 28 (Build): key session Strength (strength). Continue blending progressive strength work with running sessions to maintain a strong, hardy frame.\nWeek 6, starting Monday, October 5 (Recovery): key session Easy (run). Use a lighter stretch to absorb the latest training block and come back fresher.\nWeek 7, starting Monday, October 12 (Build): key session Tempo (run). Return to building with restored energy and keep the strength and running balance moving forward.\nWeek 8, starting Monday, October 19 (Build): key session Strength (strength). Push muscular endurance and running resilience further with varied sessions.\nWeek 9, starting Monday, October 26 (Build): key session Run/walk (run). Consolidate the gains from recent weeks before the final recovery and maintenance block.\nWeek 10, starting Monday, November 2 (Recovery): key session Easy (run). Recover briefly to clear fatigue and set up the closing weeks of the plan.\nWeek 11, starting Monday, November 9 (Maintain): key session Strength (strength). Maintain the muscle and running fitness you have built with steady, repeatable sessions.\nWeek 12, starting Monday, November 16 (Maintain): key session Easy (run). Hold the hard-earned strength and running capacity stable as this block ends.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, November 22",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "6",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 13",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 14",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": "weeks",
+          "label": "plan overview, weeks written in the plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks).",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 14 to Sunday, October 4 (3 weeks). Advance the strength and running workloads gradually while protecting recovery.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, October 5 to Sunday, October 11 (1 week). Use a lighter stretch to absorb the latest training block and come back fresher.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, October 12 to Sunday, November 1 (3 weeks). Return to building with restored energy and keep the strength and running balance moving forward.",
+          "unit": null,
+          "label": "plan long phase 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Recover briefly to clear fatigue and set up the closing weeks of the plan.",
+          "unit": null,
+          "label": "plan long phase 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Maintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the muscle and running fitness you have built with steady, repeatable sessions.",
+          "unit": null,
+          "label": "plan long phase 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Strength (strength).",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Monday, September 7 (Base): key session Easy (run). Build consistency in the combined strength and running routine so each system adapts without overwhelming the other.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Monday, September 14 (Build): key session Strength (strength). Advance the strength and running workloads gradually while protecting recovery.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Monday, September 21 (Build): key session Long (run). Deepen the lifting stimulus and running durability to drive muscle gain and keep aerobic fitness steady.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Monday, September 28 (Build): key session Strength (strength). Continue blending progressive strength work with running sessions to maintain a strong, hardy frame.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Monday, October 5 (Recovery): key session Easy (run). Use a lighter stretch to absorb the latest training block and come back fresher.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Monday, October 12 (Build): key session Tempo (run). Return to building with restored energy and keep the strength and running balance moving forward.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 8, starting Monday, October 19 (Build): key session Strength (strength). Push muscular endurance and running resilience further with varied sessions.",
+          "unit": null,
+          "label": "plan long week 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 9, starting Monday, October 26 (Build): key session Run/walk (run). Consolidate the gains from recent weeks before the final recovery and maintenance block.",
+          "unit": null,
+          "label": "plan long week 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 10, starting Monday, November 2 (Recovery): key session Easy (run). Recover briefly to clear fatigue and set up the closing weeks of the plan.",
+          "unit": null,
+          "label": "plan long week 10 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 11, starting Monday, November 9 (Maintain): key session Strength (strength). Maintain the muscle and running fitness you have built with steady, repeatable sessions.",
+          "unit": null,
+          "label": "plan long week 11 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 12, starting Monday, November 16 (Maintain): key session Easy (run). Hold the hard-earned strength and running capacity stable as this block ends.",
+          "unit": null,
+          "label": "plan long week 12 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Sunday, November 22",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 13",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 14",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, weeks written in the plan",
+          "value": "1",
+          "unit": "weeks",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks).",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Build: Monday, September 14 to Sunday, October 4 (3 weeks). Advance the strength and running workloads gradually while protecting recovery.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Recovery: Monday, October 5 to Sunday, October 11 (1 week). Use a lighter stretch to absorb the latest training block and come back fresher.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 4 summary",
+          "value": "Build: Monday, October 12 to Sunday, November 1 (3 weeks). Return to building with restored energy and keep the strength and running balance moving forward.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 5 summary",
+          "value": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Recover briefly to clear fatigue and set up the closing weeks of the plan.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 6 summary",
+          "value": "Maintain: Monday, November 9 to Sunday, November 22 (2 weeks). Maintain the muscle and running fitness you have built with steady, repeatable sessions.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Strength (strength).",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Monday, September 7 (Base): key session Easy (run). Build consistency in the combined strength and running routine so each system adapts without overwhelming the other.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Monday, September 14 (Build): key session Strength (strength). Advance the strength and running workloads gradually while protecting recovery.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Monday, September 21 (Build): key session Long (run). Deepen the lifting stimulus and running durability to drive muscle gain and keep aerobic fitness steady.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Monday, September 28 (Build): key session Strength (strength). Continue blending progressive strength work with running sessions to maintain a strong, hardy frame.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Monday, October 5 (Recovery): key session Easy (run). Use a lighter stretch to absorb the latest training block and come back fresher.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Monday, October 12 (Build): key session Tempo (run). Return to building with restored energy and keep the strength and running balance moving forward.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 8 summary",
+          "value": "Week 8, starting Monday, October 19 (Build): key session Strength (strength). Push muscular endurance and running resilience further with varied sessions.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 9 summary",
+          "value": "Week 9, starting Monday, October 26 (Build): key session Run/walk (run). Consolidate the gains from recent weeks before the final recovery and maintenance block.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 10 summary",
+          "value": "Week 10, starting Monday, November 2 (Recovery): key session Easy (run). Recover briefly to clear fatigue and set up the closing weeks of the plan.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 11 summary",
+          "value": "Week 11, starting Monday, November 9 (Maintain): key session Strength (strength). Maintain the muscle and running fitness you have built with steady, repeatable sessions.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 12 summary",
+          "value": "Week 12, starting Monday, November 16 (Maintain): key session Easy (run). Hold the hard-earned strength and running capacity stable as this block ends.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 31,
+        "figures_total": 31,
+        "retry": false
+      }
+    },
+    {
+      "question": "How often have I been strength training lately?",
+      "text": "Lately, in August, you completed 4 traditional strength training sessions. They were on Mon Aug 10, Mon Aug 17, Mon Aug 24, and Mon Aug 31. All of these fell on Mondays. Over the whole June–August period, your strength training count was 13.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "4",
+          "unit": null,
+          "label": "Number of strength training workouts, 1 Aug to 31 Aug 2026",
+          "source": "workout list"
+        },
+        {
+          "display": "Mon Aug 10",
+          "unit": null,
+          "label": "traditional strength training workout, Aug 10, date",
+          "source": "workout list"
+        },
+        {
+          "display": "Mon Aug 17",
+          "unit": null,
+          "label": "traditional strength training workout, Aug 17, date",
+          "source": "workout list"
+        },
+        {
+          "display": "Mon Aug 24",
+          "unit": null,
+          "label": "traditional strength training workout, Aug 24, date",
+          "source": "workout list"
+        },
+        {
+          "display": "Mon Aug 31",
+          "unit": null,
+          "label": "traditional strength training workout, Aug 31, date",
+          "source": "workout list"
+        },
+        {
+          "display": "13",
+          "unit": null,
+          "label": "Number of strength training workouts, 1 Jun to 31 Aug 2026",
+          "source": "workout list"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Number of strength training workouts, 1 Aug to 31 Aug 2026",
+          "value": "4",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 10, date",
+          "value": "Mon Aug 10",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 17, date",
+          "value": "Mon Aug 17",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 24, date",
+          "value": "Mon Aug 24",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "traditional strength training workout, Aug 31, date",
+          "value": "Mon Aug 31",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "Number of strength training workouts, 1 Jun to 31 Aug 2026",
+          "value": "13",
+          "unit": null,
+          "source": "workout list"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-08-01",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-06-01",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 6,
+        "figures_total": 6,
+        "retry": false
+      }
+    }
+  ]
+}

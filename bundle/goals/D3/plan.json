@@ -1,0 +1,239 @@
+{
+  "goal_id": "D3",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Ease into an evening walk on your available training days to anchor a wind-down rhythm for better sleep.",
+      "jog_minutes_target": 0.0,
+      "key_session": "Evening walk"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 3
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Establish the habit of an evening walk and a regular wind-down to support your sleep routine.",
+        "key_session_label": "Easy (walk)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Reinforce your walking rhythm on the days you have available and notice how it affects your sleep.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Deepen the evening movement habit with steady, comfortable walks.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Add a gentle yoga wind-down to your routine to improve relaxation before bed.",
+        "key_session_label": "Recovery (yoga)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Keep movement gentle and protect your sleep rhythm as your body adapts.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Return to consistent evening walks and keep your bedtime routine stable.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Use a slightly longer walk to build confidence in your movement habit.",
+        "key_session_label": "Long (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Prioritize relaxation and easy movement to safeguard your sleep quality.",
+        "key_session_label": "Recovery (yoga)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Keep your walk-and-wind-down rhythm steady as it becomes automatic.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Protect the evening movement routine when life gets busy.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Refine the blend of walking and yoga that leaves you feeling most rested.",
+        "key_session_label": "Technique (yoga)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Sustain your movement habit and consistent bedtime for the long term.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

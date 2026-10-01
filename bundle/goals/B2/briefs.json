@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — Run/walk intervals: 3 × (10 min jog / 2 min walk):\n\nToday you've got three rounds of ten-minute jogs with two-minute walks between them. That rhythm is the whole session — you don't need to be fast or perfect; just show up and let the intervals carry you. Lace up, step out, and take the first block as it comes — you've got this.",
+      "narration": "Today you've got three rounds of ten-minute jogs with two-minute walks between them. That rhythm is the whole session — you don't need to be fast or perfect; just show up and let the intervals carry you. Lace up, step out, and take the first block as it comes — you've got this.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 0,
+        "figures_total": 0,
+        "retry": true
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: Run/walk intervals: 3 × (10 min jog / 2 min walk) — first figure",
+          "value": "3",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: Run/walk intervals: 3 × (10 min jog / 2 min walk) — second figure",
+          "value": "10",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: Run/walk intervals: 3 × (10 min jog / 2 min walk) — third figure",
+          "value": "2",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

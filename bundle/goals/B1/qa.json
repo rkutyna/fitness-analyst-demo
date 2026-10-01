@@ -1,0 +1,1246 @@
+{
+  "scope": "goal",
+  "id": "B1",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "This week’s plan runs from Monday, August 31 to Sunday, September 6. It is week 1 of the 12-week plan, currently in the Base phase, which spans Monday, August 31 through Sunday, September 20.\n\nHere’s what’s on the schedule:\n\n- Monday, August 31: Rest day.\n- Tuesday, September 1: Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down (30 min jog minutes).\n- Wednesday, September 2: Rest day.\n- Thursday, September 3: Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises (0 min jog minutes).\n- Friday, September 4: Rest day.\n- Saturday, September 5: Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down (45 min jog minutes).\n- Sunday, September 6: 15 minutes of easy jogging, or walk if the calf feels tight (15 min jog minutes.\n\nTotal planned jog time for the week is 90 minutes.\n\nWhy this shape? The plan’s own rationale:\n\nWeek 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.\n\nBase: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 20",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "30",
+          "unit": "min",
+          "label": "plan, Sep 1, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan, Sep 3, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "45",
+          "unit": "min",
+          "label": "plan, Sep 5, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "15 minutes of easy jogging, or walk if the calf feels tight",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "15",
+          "unit": "min",
+          "label": "plan, Sep 6, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "90",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 20",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, jog minutes",
+          "value": "30",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, jog minutes",
+          "value": "0",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, jog minutes",
+          "value": "45",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "15 minutes of easy jogging, or walk if the calf feels tight",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, jog minutes",
+          "value": "15",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "90",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 28,
+        "figures_total": 28,
+        "retry": false
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "This week's written plan, from Monday, August 31 through Sunday, September 6, totals 90 min of jogging. Your recent weeks have averaged 95.5 min per week. So the plan is not a step up; it is essentially a holding week, with slightly less running than your recent average.\n\nDay by day: Monday, August 31 is a rest day (Rest day). Tuesday, September 1 is a training day: Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down, with 30 min jog minutes. Wednesday, September 2 is a rest day (Rest day). Thursday, September 3 is a training day: Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises, with 0 min jog minutes. Friday, September 4 is a rest day (Rest day). Saturday, September 5 is a training day: Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down, with 45 min jog minutes. Sunday, September 6 is a training day: 15 minutes of easy jogging, or walk if the calf feels tight, with 15 min jog minutes. \n\nThis is week 1 of the Base phase, which runs from Monday, August 31 to Sunday, September 20. So you can treat this week as a steady baseline, not an increase.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "90",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "95.5",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Aug 31, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 1, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "30",
+          "unit": "min",
+          "label": "plan, Sep 1, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 2, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 3, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan, Sep 3, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 4, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 5, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "45",
+          "unit": "min",
+          "label": "plan, Sep 5, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 6, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "15 minutes of easy jogging, or walk if the calf feels tight",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "15",
+          "unit": "min",
+          "label": "plan, Sep 6, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 20",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "90",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "95.5",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, jog minutes",
+          "value": "30",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, jog minutes",
+          "value": "0",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, jog minutes",
+          "value": "45",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "15 minutes of easy jogging, or walk if the calf feels tight",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, jog minutes",
+          "value": "15",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 20",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 33,
+        "figures_total": 33,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Your long-term plan runs from Monday, August 31 to Sunday, November 22, spanning 12 weeks across 7 phases. You are currently in the Base phase, which started Monday, August 31 and runs through Sunday, September 20. The next phase begins Monday, September 21.\n\nHere are the phases:\n\n- Base: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.\n- Recovery: Monday, September 21 to Sunday, September 27 (1 week). Recover from the opening block and keep the left calf comfortable before the next build.\n- Build: Monday, September 28 to Sunday, October 11 (2 weeks). Add a little more running across the week while protecting the weekend long run.\n- Recovery: Monday, October 12 to Sunday, October 18 (1 week). Step back before the next push so your legs absorb the recent build.\n- Build: Monday, October 19 to Sunday, November 1 (2 weeks). Return to building with the weekend run as the focus and easy runs during the week.\n- Recovery: Monday, November 2 to Sunday, November 8 (1 week). Take a recovery week so your body can absorb the work before the final build.\n- Build: Monday, November 9 to Sunday, November 22 (2 weeks). Build the weekend run again after recovery to keep moving toward the half marathon.\n\nAnd the weekly breakdown:\n\n- Week 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.\n- Week 2, starting Monday, September 7 (Base): key session Easy (run). Strengthen the weekday running habit so your body adapts without a jump in load.\n- Week 3, starting Monday, September 14 (Base): key session Long (run). Let the weekend run grow gently while the easy days stay conversational.\n- Week 4, starting Monday, September 21 (Recovery): key session Recovery (run). Recover from the opening block and keep the left calf comfortable before the next build.\n- Week 5, starting Monday, September 28 (Build): key session Long (run). Add a little more running across the week while protecting the weekend long run.\n- Week 6, starting Monday, October 5 (Build): key session Easy (run). Use consistent easy runs to support a slightly longer weekend effort.\n- Week 7, starting Monday, October 12 (Recovery): key session Recovery (run). Step back before the next push so your legs absorb the recent build.\n- Week 8, starting Monday, October 19 (Build): key session Long (run). Return to building with the weekend run as the focus and easy runs during the week.\n- Week 9, starting Monday, October 26 (Build): key session Long (run). Keep the long run smooth while increasing your tolerance for time on feet.\n- Week 10, starting Monday, November 2 (Recovery): key session Recovery (run). Take a recovery week so your body can absorb the work before the final build.\n- Week 11, starting Monday, November 9 (Build): key session Long (run). Build the weekend run again after recovery to keep moving toward the half marathon.\n- Week 12, starting Monday, November 16 (Build): key session Long (run). Close this plan window with a solid running week that prepares you for the next training block.\n\nThat covers the next few months. The written plan overview currently covers 1 week from Monday, August 31 to Sunday, September 6, but the long-term plan extends further.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, November 22",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "7",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 20",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 21",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, September 21 to Sunday, September 27 (1 week). Recover from the opening block and keep the left calf comfortable before the next build.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 28 to Sunday, October 11 (2 weeks). Add a little more running across the week while protecting the weekend long run.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, October 12 to Sunday, October 18 (1 week). Step back before the next push so your legs absorb the recent build.",
+          "unit": null,
+          "label": "plan long phase 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, October 19 to Sunday, November 1 (2 weeks). Return to building with the weekend run as the focus and easy runs during the week.",
+          "unit": null,
+          "label": "plan long phase 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Take a recovery week so your body can absorb the work before the final build.",
+          "unit": null,
+          "label": "plan long phase 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, November 9 to Sunday, November 22 (2 weeks). Build the weekend run again after recovery to keep moving toward the half marathon.",
+          "unit": null,
+          "label": "plan long phase 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Monday, September 7 (Base): key session Easy (run). Strengthen the weekday running habit so your body adapts without a jump in load.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Monday, September 14 (Base): key session Long (run). Let the weekend run grow gently while the easy days stay conversational.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Monday, September 21 (Recovery): key session Recovery (run). Recover from the opening block and keep the left calf comfortable before the next build.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Monday, September 28 (Build): key session Long (run). Add a little more running across the week while protecting the weekend long run.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Monday, October 5 (Build): key session Easy (run). Use consistent easy runs to support a slightly longer weekend effort.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Monday, October 12 (Recovery): key session Recovery (run). Step back before the next push so your legs absorb the recent build.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 8, starting Monday, October 19 (Build): key session Long (run). Return to building with the weekend run as the focus and easy runs during the week.",
+          "unit": null,
+          "label": "plan long week 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 9, starting Monday, October 26 (Build): key session Long (run). Keep the long run smooth while increasing your tolerance for time on feet.",
+          "unit": null,
+          "label": "plan long week 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 10, starting Monday, November 2 (Recovery): key session Recovery (run). Take a recovery week so your body can absorb the work before the final build.",
+          "unit": null,
+          "label": "plan long week 10 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 11, starting Monday, November 9 (Build): key session Long (run). Build the weekend run again after recovery to keep moving toward the half marathon.",
+          "unit": null,
+          "label": "plan long week 11 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 12, starting Monday, November 16 (Build): key session Long (run). Close this plan window with a solid running week that prepares you for the next training block.",
+          "unit": null,
+          "label": "plan long week 12 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": "weeks",
+          "label": "plan overview, weeks written in the plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Sunday, November 22",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "7",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 20",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 21",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 20 (3 weeks). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Recovery: Monday, September 21 to Sunday, September 27 (1 week). Recover from the opening block and keep the left calf comfortable before the next build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Build: Monday, September 28 to Sunday, October 11 (2 weeks). Add a little more running across the week while protecting the weekend long run.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 4 summary",
+          "value": "Recovery: Monday, October 12 to Sunday, October 18 (1 week). Step back before the next push so your legs absorb the recent build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 5 summary",
+          "value": "Build: Monday, October 19 to Sunday, November 1 (2 weeks). Return to building with the weekend run as the focus and easy runs during the week.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 6 summary",
+          "value": "Recovery: Monday, November 2 to Sunday, November 8 (1 week). Take a recovery week so your body can absorb the work before the final build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 7 summary",
+          "value": "Build: Monday, November 9 to Sunday, November 22 (2 weeks). Build the weekend run again after recovery to keep moving toward the half marathon.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Monday, September 7 (Base): key session Easy (run). Strengthen the weekday running habit so your body adapts without a jump in load.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Monday, September 14 (Base): key session Long (run). Let the weekend run grow gently while the easy days stay conversational.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Monday, September 21 (Recovery): key session Recovery (run). Recover from the opening block and keep the left calf comfortable before the next build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Monday, September 28 (Build): key session Long (run). Add a little more running across the week while protecting the weekend long run.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Monday, October 5 (Build): key session Easy (run). Use consistent easy runs to support a slightly longer weekend effort.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Monday, October 12 (Recovery): key session Recovery (run). Step back before the next push so your legs absorb the recent build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 8 summary",
+          "value": "Week 8, starting Monday, October 19 (Build): key session Long (run). Return to building with the weekend run as the focus and easy runs during the week.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 9 summary",
+          "value": "Week 9, starting Monday, October 26 (Build): key session Long (run). Keep the long run smooth while increasing your tolerance for time on feet.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 10 summary",
+          "value": "Week 10, starting Monday, November 2 (Recovery): key session Recovery (run). Take a recovery week so your body can absorb the work before the final build.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 11 summary",
+          "value": "Week 11, starting Monday, November 9 (Build): key session Long (run). Build the weekend run again after recovery to keep moving toward the half marathon.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 12 summary",
+          "value": "Week 12, starting Monday, November 16 (Build): key session Long (run). Close this plan window with a solid running week that prepares you for the next training block.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, weeks written in the plan",
+          "value": "1",
+          "unit": "weeks",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 30,
+        "figures_total": 30,
+        "retry": false
+      }
+    },
+    {
+      "question": "What's the longest run I've done recently?",
+      "text": "Your longest run recently was 4.49 mi, on Sat Aug 15. That run also had the longest duration: 53.3 min.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "4.49",
+          "unit": "mi",
+          "label": "Longest running distance, 3 Jun to 31 Aug 2026",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 15",
+          "unit": null,
+          "label": "Date of the longest running distance, 3 Jun to 31 Aug 2026",
+          "source": "workout list"
+        },
+        {
+          "display": "53.3",
+          "unit": "min",
+          "label": "Longest running duration, 3 Jun to 31 Aug 2026",
+          "source": "workout list"
+        }
+      ],
+      "facts": [
+        {
+          "label": "Longest running distance, 3 Jun to 31 Aug 2026",
+          "value": "4.49",
+          "unit": "mi",
+          "source": "workout list"
+        },
+        {
+          "label": "Date of the longest running distance, 3 Jun to 31 Aug 2026",
+          "value": "Sat Aug 15",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "Longest running duration, 3 Jun to 31 Aug 2026",
+          "value": "53.3",
+          "unit": "min",
+          "source": "workout list"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-06-03",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 3,
+        "figures_total": 3,
+        "retry": false
+      }
+    }
+  ]
+}

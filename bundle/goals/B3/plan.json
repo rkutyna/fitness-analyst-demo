@@ -1,0 +1,255 @@
+{
+  "goal_id": "B3",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week 1 builds your lifting base and keeps easy runs in the week so you can start adding weight safely.",
+      "jog_minutes_target": 70.0,
+      "key_session": "Strength: goblet squat, dumbbell bench press, one-arm row"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Full Body Strength A (strength)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength A (strength)",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "35 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "35 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Full Body Strength B (strength)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength B (strength)",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "35 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "35 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Full Body Strength C (strength)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength C (strength)",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 5
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Build your lifting base and keep comfortable runs in place as you start this strength block.",
+        "key_session_label": "Strength (strength)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Add steady gym progress without letting your easy runs become rushed.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Strengthen the main movement patterns that will carry heavier loads later in the block.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Increase gym effort gradually while your easy runs stay relaxed and sustainable.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Turn the early foundation into harder strength work without rushing the weight on your lifts.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Absorb the first hard stretch with lighter movement and easy pacing to protect your progress.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Return to tougher lifting with fresh legs and a more resilient base.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Expand your capacity with controlled, sustainable strength sessions.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Push your main lifts forward while using easy running to stay fit between sessions.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Pull back briefly to let your body consolidate the hard weeks and stay durable.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Keep your muscle and strength settled with consistent, controlled training.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Lock in the block and leave yourself ready for whatever comes next.",
+        "key_session_label": "Strength (strength)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1841 @@
+{
+  "scope": "goal",
+  "id": "A1",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "Here’s what your plan has you doing this week, from Monday, August 31 through Sunday, September 6. It’s week 1 of 7 in the long-term plan, currently in the Base phase, which runs from Monday, August 31 to Sunday, September 6.\n\n- Monday, August 31: 67 minutes of easy jogging (a training day)\n- Tuesday, September 1: 35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle (a training day)\n- Wednesday, September 2: 67 minutes of easy jogging (a training day)\n- Thursday, September 3: Traditional strength training: goblet squats, push-ups, single-leg deadlifts, and farmer carries (a training day)\n- Friday, September 4: 70 minutes of easy jogging (a training day)\n- Saturday, September 5: 71 minutes of easy jogging (a training day)\n- Sunday, September 6: Rest day (a rest day)\n\nIn total, that’s 318 minutes of jogging for the week, compared with your recent weekly average of 318.2 minutes.\n\nWhy this structure? The plan’s current phase is designed as follows:\n\n- Base: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.\n\nMore specifically, the week’s purpose:\n\n- Week 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.\n\nAfter this week, the plan moves into the Build phase starting Monday, September 7.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "7",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "67 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Aug 31, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 1, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "67 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 2, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Traditional strength training: goblet squats, push-ups, single-leg deadlifts, and farmer carries",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 3, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "70 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 4, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "71 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 5, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 6, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "318",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "week plan"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 7",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "7",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "67 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "67 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Traditional strength training: goblet squats, push-ups, single-leg deadlifts, and farmer carries",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "70 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "71 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "318",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 7",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 33,
+        "figures_total": 33,
+        "retry": false
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "This week's plan totals 318 minutes of jogging, while your average over the recent weeks was 318.2 minutes per week. So the planned volume is essentially the same as what you've actually been doing—it is not a step up in total jogging time. The step-up is qualitative: the plan adds short faster work, like the intervals session on Tuesday, September 1, which is described as 35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle, to begin sharpening mile speed, while keeping the easy mileage steady. In short, this week is about protecting your existing easy mileage and adding a little speed, not about increasing overall load.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "318",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "318",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle",
+          "unit": null,
+          "source": "week plan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        },
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 4,
+        "figures_total": 4,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Your long-term plan runs from Monday, August 31 to Sunday, October 18. You are currently in week 1 of 7, in the Base phase, which started Monday, August 31 and ends Sunday, September 6. The next phase begins Monday, September 7. The plan has 4 phases:\n\nBase: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.\nBuild: Monday, September 7 to Sunday, October 4 (4 weeks). You build on the base week by keeping easy days steady and making the faster work more mile-specific.\nPeak: Monday, October 5 to Sunday, October 11 (1 week). You hit the hardest mile-specific work just before the taper, without adding more overall load.\nTaper: Monday, October 12 to Sunday, October 18 (1 week). You arrive at the track time trial rested and ready to run a fast mile.\n\nWeek by week:\n\nWeek 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.\nWeek 2, starting Monday, September 7 (Build): key session Intervals (run). You build on the base week by keeping easy days steady and making the faster work more mile-specific.\nWeek 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the faster work while keeping easy running as the foundation of the week.\nWeek 4, starting Monday, September 21 (Build): key session Tempo (run). You consolidate the speed and endurance gains so the faster effort feels smoother and more controlled.\nWeek 5, starting Monday, September 28 (Build): key session Intervals (run). You sharpen the fastest work while keeping easy days relaxed enough to absorb the added speed.\nWeek 6, starting Monday, October 5 (Peak): key session Tempo (run). You hit the hardest mile-specific work just before the taper, without adding more overall load.\nWeek 7, starting Monday, October 12 (Taper): key session Technique (run). You arrive at the track time trial rested and ready to run a fast mile.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, October 18",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "7",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 7",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "4",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 7 to Sunday, October 4 (4 weeks). You build on the base week by keeping easy days steady and making the faster work more mile-specific.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Peak: Monday, October 5 to Sunday, October 11 (1 week). You hit the hardest mile-specific work just before the taper, without adding more overall load.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Taper: Monday, October 12 to Sunday, October 18 (1 week). You arrive at the track time trial rested and ready to run a fast mile.",
+          "unit": null,
+          "label": "plan long phase 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Monday, September 7 (Build): key session Intervals (run). You build on the base week by keeping easy days steady and making the faster work more mile-specific.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the faster work while keeping easy running as the foundation of the week.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Monday, September 21 (Build): key session Tempo (run). You consolidate the speed and endurance gains so the faster effort feels smoother and more controlled.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Monday, September 28 (Build): key session Intervals (run). You sharpen the fastest work while keeping easy days relaxed enough to absorb the added speed.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Monday, October 5 (Peak): key session Tempo (run). You hit the hardest mile-specific work just before the taper, without adding more overall load.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Monday, October 12 (Taper): key session Technique (run). You arrive at the track time trial rested and ready to run a fast mile.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Sunday, October 18",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "7",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 7",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "4",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 6 (1 week). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Build: Monday, September 7 to Sunday, October 4 (4 weeks). You build on the base week by keeping easy days steady and making the faster work more mile-specific.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Peak: Monday, October 5 to Sunday, October 11 (1 week). You hit the hardest mile-specific work just before the taper, without adding more overall load.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 4 summary",
+          "value": "Taper: Monday, October 12 to Sunday, October 18 (1 week). You arrive at the track time trial rested and ready to run a fast mile.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Intervals (run). You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Monday, September 7 (Build): key session Intervals (run). You build on the base week by keeping easy days steady and making the faster work more mile-specific.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the faster work while keeping easy running as the foundation of the week.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Monday, September 21 (Build): key session Tempo (run). You consolidate the speed and endurance gains so the faster effort feels smoother and more controlled.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Monday, September 28 (Build): key session Intervals (run). You sharpen the fastest work while keeping easy days relaxed enough to absorb the added speed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Monday, October 5 (Peak): key session Tempo (run). You hit the hardest mile-specific work just before the taper, without adding more overall load.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Monday, October 12 (Taper): key session Technique (run). You arrive at the track time trial rested and ready to run a fast mile.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 20,
+        "figures_total": 20,
+        "retry": false
+      }
+    },
+    {
+      "question": "What pace have my recent runs been at?",
+      "text": "Your recent runs have had these paces:  \nOn Sat Jul 11, your pace was 9:15 min/mi.  \nOn Sun Jul 12, your pace was 9:28 min/mi.  \nOn Tue Jul 14, your pace was 9:49 min/mi.  \nOn Wed Jul 15, your pace was 9:50 min/mi.  \nOn Fri Jul 17, your pace was 8:52 min/mi.  \nOn Sat Jul 18, your pace was 9:29 min/mi.  \nOn Sun Jul 19, your pace was 10:02 min/mi.  \nOn Tue Jul 21, your pace was 10:17 min/mi.  \nOn Wed Jul 22, your pace was 9:40 min/mi.  \nOn Thu Jul 23, your pace was 9:25 min/mi.  \nOn Fri Jul 24, your pace was 8:46 min/mi.  \nOn Sat Jul 25, your pace was 9:05 min/mi.  \nOn Sun Jul 26, your pace was 8:26 min/mi.  \nOn Tue Jul 28, your pace was 8:55 min/mi.  \nOn Wed Jul 29, your pace was 8:49 min/mi.  \nOn Thu Jul 30, your pace was 9:50 min/mi.  \nOn Fri Jul 31, your pace was 9:47 min/mi.  \nOn Sat Aug 1, your pace was 8:52 min/mi.  \nOn Sun Aug 2, your pace was 8:59 min/mi.  \nOn Tue Aug 4, your pace was 8:56 min/mi.  \nOn Wed Aug 5, your pace was 10:14 min/mi.  \nOn Thu Aug 6, your pace was 8:40 min/mi.  \nOn Fri Aug 7, your pace was 9:22 min/mi.  \nOn Sat Aug 8, your pace was 9:22 min/mi.  \nOn Sun Aug 9, your pace was 8:23 min/mi.  \nOn Tue Aug 11, your pace was 8:43 min/mi.  \nOn Wed Aug 12, your pace was 9:32 min/mi.  \nOn Thu Aug 13, your pace was 9:16 min/mi.  \nOn Fri Aug 14, your pace was 8:22 min/mi.  \nOn Sat Aug 15, your pace was 9:30 min/mi.  \nOn Sun Aug 16, your pace was 8:41 min/mi.  \nOn Tue Aug 18, your pace was 9:50 min/mi.  \nOn Wed Aug 19, your pace was 8:54 min/mi.  \nOn Thu Aug 20, your pace was 9:14 min/mi.  \nOn Fri Aug 21, your pace was 8:28 min/mi.  \nOn Sat Aug 22, your pace was 9:03 min/mi.  \nOn Sun Aug 23, your pace was 9:39 min/mi.  \nOn Tue Aug 25, your pace was 9:02 min/mi.  \nOn Wed Aug 26, your pace was 9:42 min/mi.  \nOn Thu Aug 27, your pace was 9:20 min/mi.  \nOn Fri Aug 28, your pace was 9:45 min/mi.  \nOn Sat Aug 29, your pace was 9:22 min/mi.  \nOn Sun Aug 30, your pace was 9:31 min/mi.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "Sat Jul 11",
+          "unit": null,
+          "label": "running workout, Jul 11, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:15 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 11, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Jul 12",
+          "unit": null,
+          "label": "running workout, Jul 12, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:28 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 12, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Jul 14",
+          "unit": null,
+          "label": "running workout, Jul 14, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:49 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 14, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Jul 15",
+          "unit": null,
+          "label": "running workout, Jul 15, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:50 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 15, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Jul 17",
+          "unit": null,
+          "label": "running workout, Jul 17, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:52 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 17, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Jul 18",
+          "unit": null,
+          "label": "running workout, Jul 18, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:29 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 18, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Jul 19",
+          "unit": null,
+          "label": "running workout, Jul 19, date",
+          "source": "workout list"
+        },
+        {
+          "display": "10:02 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 19, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Jul 21",
+          "unit": null,
+          "label": "running workout, Jul 21, date",
+          "source": "workout list"
+        },
+        {
+          "display": "10:17 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 21, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Jul 22",
+          "unit": null,
+          "label": "running workout, Jul 22, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:40 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 22, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Jul 23",
+          "unit": null,
+          "label": "running workout, Jul 23, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:25 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 23, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Jul 24",
+          "unit": null,
+          "label": "running workout, Jul 24, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:46 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 24, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Jul 25",
+          "unit": null,
+          "label": "running workout, Jul 25, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:05 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 25, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Jul 26",
+          "unit": null,
+          "label": "running workout, Jul 26, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:26 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 26, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Jul 28",
+          "unit": null,
+          "label": "running workout, Jul 28, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:55 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 28, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Jul 29",
+          "unit": null,
+          "label": "running workout, Jul 29, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:49 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 29, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Jul 30",
+          "unit": null,
+          "label": "running workout, Jul 30, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:50 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 30, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Jul 31",
+          "unit": null,
+          "label": "running workout, Jul 31, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:47 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Jul 31, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 1",
+          "unit": null,
+          "label": "running workout, Aug 1, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:52 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 1, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Aug 2",
+          "unit": null,
+          "label": "running workout, Aug 2, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:59 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 2, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Aug 4",
+          "unit": null,
+          "label": "running workout, Aug 4, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:56 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 4, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Aug 5",
+          "unit": null,
+          "label": "running workout, Aug 5, date",
+          "source": "workout list"
+        },
+        {
+          "display": "10:14 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 5, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Aug 6",
+          "unit": null,
+          "label": "running workout, Aug 6, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:40 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 6, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Aug 7",
+          "unit": null,
+          "label": "running workout, Aug 7, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:22 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 7, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 8",
+          "unit": null,
+          "label": "running workout, Aug 8, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:22 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 8, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Aug 9",
+          "unit": null,
+          "label": "running workout, Aug 9, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:23 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 9, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Aug 11",
+          "unit": null,
+          "label": "running workout, Aug 11, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:43 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 11, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Aug 12",
+          "unit": null,
+          "label": "running workout, Aug 12, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:32 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 12, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Aug 13",
+          "unit": null,
+          "label": "running workout, Aug 13, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:16 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 13, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Aug 14",
+          "unit": null,
+          "label": "running workout, Aug 14, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:22 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 14, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 15",
+          "unit": null,
+          "label": "running workout, Aug 15, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:30 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 15, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Aug 16",
+          "unit": null,
+          "label": "running workout, Aug 16, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:41 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 16, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Aug 18",
+          "unit": null,
+          "label": "running workout, Aug 18, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:50 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 18, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Aug 19",
+          "unit": null,
+          "label": "running workout, Aug 19, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:54 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 19, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Aug 20",
+          "unit": null,
+          "label": "running workout, Aug 20, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:14 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 20, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Aug 21",
+          "unit": null,
+          "label": "running workout, Aug 21, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8:28 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 21, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 22",
+          "unit": null,
+          "label": "running workout, Aug 22, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:03 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 22, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Aug 23",
+          "unit": null,
+          "label": "running workout, Aug 23, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:39 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 23, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Tue Aug 25",
+          "unit": null,
+          "label": "running workout, Aug 25, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:02 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 25, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Wed Aug 26",
+          "unit": null,
+          "label": "running workout, Aug 26, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:42 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 26, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Thu Aug 27",
+          "unit": null,
+          "label": "running workout, Aug 27, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:20 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 27, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Fri Aug 28",
+          "unit": null,
+          "label": "running workout, Aug 28, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:45 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 28, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sat Aug 29",
+          "unit": null,
+          "label": "running workout, Aug 29, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:22 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 29, pace",
+          "source": "workout list"
+        },
+        {
+          "display": "Sun Aug 30",
+          "unit": null,
+          "label": "running workout, Aug 30, date",
+          "source": "workout list"
+        },
+        {
+          "display": "9:31 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 30, pace",
+          "source": "workout list"
+        }
+      ],
+      "facts": [
+        {
+          "label": "running workout, Jul 11, date",
+          "value": "Sat Jul 11",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 11, pace",
+          "value": "9:15 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 12, date",
+          "value": "Sun Jul 12",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 12, pace",
+          "value": "9:28 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 14, date",
+          "value": "Tue Jul 14",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 14, pace",
+          "value": "9:49 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 15, date",
+          "value": "Wed Jul 15",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 15, pace",
+          "value": "9:50 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 17, date",
+          "value": "Fri Jul 17",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 17, pace",
+          "value": "8:52 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 18, date",
+          "value": "Sat Jul 18",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 18, pace",
+          "value": "9:29 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 19, date",
+          "value": "Sun Jul 19",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 19, pace",
+          "value": "10:02 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 21, date",
+          "value": "Tue Jul 21",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 21, pace",
+          "value": "10:17 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 22, date",
+          "value": "Wed Jul 22",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 22, pace",
+          "value": "9:40 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 23, date",
+          "value": "Thu Jul 23",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 23, pace",
+          "value": "9:25 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 24, date",
+          "value": "Fri Jul 24",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 24, pace",
+          "value": "8:46 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 25, date",
+          "value": "Sat Jul 25",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 25, pace",
+          "value": "9:05 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 26, date",
+          "value": "Sun Jul 26",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 26, pace",
+          "value": "8:26 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 28, date",
+          "value": "Tue Jul 28",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 28, pace",
+          "value": "8:55 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 29, date",
+          "value": "Wed Jul 29",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 29, pace",
+          "value": "8:49 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 30, date",
+          "value": "Thu Jul 30",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 30, pace",
+          "value": "9:50 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 31, date",
+          "value": "Fri Jul 31",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Jul 31, pace",
+          "value": "9:47 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 1, date",
+          "value": "Sat Aug 1",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 1, pace",
+          "value": "8:52 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 2, date",
+          "value": "Sun Aug 2",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 2, pace",
+          "value": "8:59 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 4, date",
+          "value": "Tue Aug 4",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 4, pace",
+          "value": "8:56 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 5, date",
+          "value": "Wed Aug 5",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 5, pace",
+          "value": "10:14 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 6, date",
+          "value": "Thu Aug 6",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 6, pace",
+          "value": "8:40 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 7, date",
+          "value": "Fri Aug 7",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 7, pace",
+          "value": "9:22 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 8, date",
+          "value": "Sat Aug 8",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 8, pace",
+          "value": "9:22 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 9, date",
+          "value": "Sun Aug 9",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 9, pace",
+          "value": "8:23 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 11, date",
+          "value": "Tue Aug 11",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 11, pace",
+          "value": "8:43 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 12, date",
+          "value": "Wed Aug 12",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 12, pace",
+          "value": "9:32 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 13, date",
+          "value": "Thu Aug 13",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 13, pace",
+          "value": "9:16 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 14, date",
+          "value": "Fri Aug 14",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 14, pace",
+          "value": "8:22 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 15, date",
+          "value": "Sat Aug 15",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 15, pace",
+          "value": "9:30 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 16, date",
+          "value": "Sun Aug 16",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 16, pace",
+          "value": "8:41 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 18, date",
+          "value": "Tue Aug 18",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 18, pace",
+          "value": "9:50 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 19, date",
+          "value": "Wed Aug 19",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 19, pace",
+          "value": "8:54 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 20, date",
+          "value": "Thu Aug 20",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 20, pace",
+          "value": "9:14 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 21, date",
+          "value": "Fri Aug 21",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 21, pace",
+          "value": "8:28 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 22, date",
+          "value": "Sat Aug 22",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 22, pace",
+          "value": "9:03 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 23, date",
+          "value": "Sun Aug 23",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 23, pace",
+          "value": "9:39 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 25, date",
+          "value": "Tue Aug 25",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 25, pace",
+          "value": "9:02 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 26, date",
+          "value": "Wed Aug 26",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 26, pace",
+          "value": "9:42 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 27, date",
+          "value": "Thu Aug 27",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 27, pace",
+          "value": "9:20 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 28, date",
+          "value": "Fri Aug 28",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 28, pace",
+          "value": "9:45 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 29, date",
+          "value": "Sat Aug 29",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 29, pace",
+          "value": "9:22 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 30, date",
+          "value": "Sun Aug 30",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 30, pace",
+          "value": "9:31 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-06-03",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 86,
+        "figures_total": 86,
+        "retry": false
+      }
+    }
+  ]
+}

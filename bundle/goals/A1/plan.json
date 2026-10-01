@@ -1,0 +1,208 @@
+{
+  "goal_id": "A1",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week 1 protects your current easy mileage and adds a short fast session to start building the speed needed for a faster mile time trial.",
+      "jog_minutes_target": 310.0,
+      "key_session": "short fast run"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "67 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "67 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "35 minutes of easy jogging with 8 × (1 minute fast run / 2 minutes walk) included in the middle.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "67 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "67 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Traditional strength training: goblet squats, push-ups, single-leg deadlifts, and farmer carries.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "strength",
+            "label": "Strength",
+            "title": "Traditional strength training: goblet squats, push-ups, single-leg deadlifts, and farmer carries.",
+            "impact": "unclassified",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "70 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "70 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "71 minutes of easy jogging.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "71 minutes of easy jogging.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 6
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 7,
+    "current_index": 1,
+    "position_label": "Week 1 of 7",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "You protect your existing easy mileage and add short faster work to begin sharpening mile speed.",
+        "key_session_label": "Intervals (run)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You build on the base week by keeping easy days steady and making the faster work more mile-specific.",
+        "key_session_label": "Intervals (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You extend the faster work while keeping easy running as the foundation of the week.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You consolidate the speed and endurance gains so the faster effort feels smoother and more controlled.",
+        "key_session_label": "Tempo (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You sharpen the fastest work while keeping easy days relaxed enough to absorb the added speed.",
+        "key_session_label": "Intervals (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Peak",
+        "intent": "You hit the hardest mile-specific work just before the taper, without adding more overall load.",
+        "key_session_label": "Tempo (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Taper",
+        "intent": "You arrive at the track time trial rested and ready to run a fast mile.",
+        "key_session_label": "Technique (run)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

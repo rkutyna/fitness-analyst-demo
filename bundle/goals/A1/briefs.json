@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — 67 minutes of easy jogging:\n\nToday’s 67 minutes of easy jogging is your chance to let your body settle into a steady rhythm—no pace pressure, just movement that builds your week’s foundation. Show up for that hour, and let each minute remind you why you started. You’ve got this.",
+      "narration": "Today’s 67 minutes of easy jogging is your chance to let your body settle into a steady rhythm—no pace pressure, just movement that builds your week’s foundation. Show up for that hour, and let each minute remind you why you started. You’ve got this.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 67 minutes of easy jogging — the figure",
+          "value": "67",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

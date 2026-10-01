@@ -1,0 +1,241 @@
+{
+  "goal_id": "C1",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "You start the return to a comfortable 5K by reintroducing short jog-and-walk efforts that keep your knee comfortable.",
+      "jog_minutes_target": 16.0,
+      "key_session": "Run/walk: 4 × (2 min jog / 3 min walk)"
+    }
+  ],
+  "warnings": [
+    "Your right knee — keep an eye on it during this run. In your words: \"My right knee gets sore when I ramp up too fast, so I'd like to go easy on it.\""
+  ],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "4 × (2 min jog / 3 min walk)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "4 × (2 min jog / 3 min walk)",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "4 × (2 min jog / 3 min walk)",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "4 × (2 min jog / 3 min walk)",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Walk 20 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 20 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 3
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "You start the return to a comfortable 5K by reintroducing short jog-and-walk efforts that keep your knee comfortable.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "You establish a repeatable walk-jog routine so your right knee adapts to regular movement.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Your focus shifts to linking the easy jog portions seamlessly while keeping the effort controlled.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "A quieter week lets your knee and energy systems absorb the new routine.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "You return to consistent jog-walk work with refreshed legs and a calm pace.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You extend your comfortable running stretches and make steady jogging feel more automatic.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Endurance becomes the priority as you spend more time in a relaxed run rhythm.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "You ease back with gentle walking and short easy outings so your body can consolidate.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "You rebuild consistency with run/walk sessions that support the goal without overloading the knee.",
+        "key_session_label": "Run/walk (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "The focus turns to maintaining a steady running rhythm for longer stretches.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "You preserve the aerobic base you have built and keep the routine sustainable.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "A stable closing week locks in the habits that move you toward a comfortable 5K.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

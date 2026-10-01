@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — 4 × (2 min jog / 3 min walk):\n\nToday’s session is built around 4 rounds of 2-minute jogs and 3-minute walks. That exact rhythm is already mapped in your plan, so you can trust the structure and just move through each round. Show up for yourself—start the first round and let the pattern carry you.",
+      "narration": "Today’s session is built around 4 rounds of 2-minute jogs and 3-minute walks. That exact rhythm is already mapped in your plan, so you can trust the structure and just move through each round. Show up for yourself—start the first round and let the pattern carry you.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 3,
+        "figures_total": 3,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 4 × (2 min jog / 3 min walk) — first figure",
+          "value": "4",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 4 × (2 min jog / 3 min walk) — second figure",
+          "value": "2",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 4 × (2 min jog / 3 min walk) — third figure",
+          "value": "3",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

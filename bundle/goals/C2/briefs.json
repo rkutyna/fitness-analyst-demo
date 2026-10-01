@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — Walk 20 minutes at a comfortable pace:\n\nGood morning. Today's plan gives you a straightforward 20-minute walk at a comfortable pace, which is a great way to connect with your body without pushing too hard. Just focus on the movement and the rhythm of your steps. You've got this — show up and enjoy the simple win of getting moving.",
+      "narration": "Good morning. Today's plan gives you a straightforward 20-minute walk at a comfortable pace, which is a great way to connect with your body without pushing too hard. Just focus on the movement and the rhythm of your steps. You've got this — show up and enjoy the simple win of getting moving.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: Walk 20 minutes at a comfortable pace — the figure",
+          "value": "20",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

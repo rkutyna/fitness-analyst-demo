@@ -1,0 +1,189 @@
+{
+  "goal_id": "B1",
+  "transcript": [
+    {
+      "role": "coach",
+      "text": "What is the main goal you want this plan to support?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "I want to run my first half marathon in 16 weeks.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "When you imagine this plan working well, what does that look like for you? For example: start with some easy jogging, then build up to longer runs.",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Stretch my weekend run a little each week and keep the other jogs easy until I can cover the distance.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Your goal, in your words: \"I want to run my first half marathon in 16 weeks.\" Your recorded history covers 180 days. Your longest qualified continuous block is 46.3 minutes. In that time you've recorded 72 runs, 50 strength sessions, and 24 walks. Your four-week jog average is 95.5 minutes per week. Your history of easy running, strength training, and walking gives you a strong foundation to start building toward your target endurance race. How would you describe where you are with your activity right now?",
+      "card": {
+        "kind": "history",
+        "data": {
+          "as_of": "2026-08-31",
+          "days_of_history": 180,
+          "workout_counts": {
+            "running": 72,
+            "traditional_strength_training": 50,
+            "walking": 24
+          },
+          "four_week_jog_minutes": {
+            "weeks": [
+              86.0,
+              82.7,
+              103.7,
+              109.7
+            ],
+            "mean": 95.5,
+            "last_week": 109.7
+          },
+          "longest_qualified_block_min": 46.3,
+          "sleep_midpoint_sd_hours": 0.673
+        },
+        "display": {
+          "days_of_history": "180 days",
+          "workout_counts": {
+            "running": "72",
+            "traditional_strength_training": "50",
+            "walking": "24"
+          },
+          "four_week_jog_minutes": {
+            "weeks": [
+              "86 min",
+              "82.7 min",
+              "103.7 min",
+              "109.7 min"
+            ],
+            "mean": "95.5 min",
+            "last_week": "109.7 min"
+          },
+          "longest_qualified_block_min": "46.3 min",
+          "sleep_midpoint_sd_hours": "± 40 m"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, that's my usual routine.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Which days and time of day are realistically available for your runs?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Tuesday, Thursday, Saturday and Sunday mornings.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "What kinds of exercise do you enjoy, and is there anything you’d rather avoid? For example: running and walking, but no gym.",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Running and some walking. I do a bit of strength work too.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Is there anything we should plan around, like an injury or a health condition?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "My left calf gets tight when I add mileage too fast.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "I heard: your left calf — keep an eye on it. In your words: “My left calf gets tight when I add mileage too fast.” Is that right? Say yes or correct it.",
+      "card": {
+        "kind": "constraints",
+        "data": {
+          "constraints": [
+            {
+              "kind": "joint",
+              "site": "calf",
+              "side": "left",
+              "severity": "monitor",
+              "until": null,
+              "text": "My left calf gets tight when I add mileage too fast."
+            }
+          ]
+        },
+        "display": null
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, that's right.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "How would you like me to communicate with you—plain, warm, or terse—and should my replies be brief or full?",
+      "card": null
+    },
+    {
+      "role": "user",
+      "text": "Warm, but keep it brief.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Here's how the plan will run: we check in every Sunday, and I plan 4 weeks at a time, building toward 2026-12-21. Does that work, or would you like to change anything?",
+      "card": {
+        "kind": "structure",
+        "data": {
+          "checkin_weekday": "Sunday",
+          "block_length_weeks": 4,
+          "plan_horizon": {
+            "date": "2026-12-21",
+            "kind": "goal_date"
+          }
+        },
+        "display": {
+          "block_length_weeks": "4 weeks"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Let's check in on Sundays, 4 weeks at a time.",
+      "card": null
+    },
+    {
+      "role": "coach",
+      "text": "Here's how the plan will run: we check in every Sunday, and I plan 4 weeks at a time, building toward 2026-12-21. Does that work now, or anything else to change?",
+      "card": {
+        "kind": "structure",
+        "data": {
+          "checkin_weekday": "Sunday",
+          "block_length_weeks": 4,
+          "plan_horizon": {
+            "date": "2026-12-21",
+            "kind": "goal_date"
+          }
+        },
+        "display": {
+          "block_length_weeks": "4 weeks"
+        }
+      }
+    },
+    {
+      "role": "user",
+      "text": "Yes, that works.",
+      "card": null
+    }
+  ]
+}

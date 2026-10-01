@@ -1,0 +1,344 @@
+{
+  "as_of": "2026-08-31",
+  "days": [
+    {
+      "date": "2026-08-31",
+      "is_today": true,
+      "is_future": false,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Full Body Strength A (strength)",
+        "is_rest_day": false,
+        "session_lines": [
+          {
+            "text": "3 × 10 Goblet squat",
+            "detail": null
+          },
+          {
+            "text": "3 × 8 Dumbbell bench press",
+            "detail": null
+          },
+          {
+            "text": "3 × 8 One-arm dumbbell row",
+            "detail": null
+          }
+        ],
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength A (strength)",
+            "status": null,
+            "impact": "unclassified",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "ok",
+        "score": {
+          "value": 58.0,
+          "unit": "score",
+          "display": "58/100"
+        },
+        "band": "steady",
+        "note": null,
+        "components": {
+          "hrv": {
+            "value": 41.03,
+            "unit": "ms",
+            "display": "41 ms"
+          },
+          "rhr": {
+            "value": 60.4,
+            "unit": "bpm",
+            "display": "60 bpm"
+          }
+        }
+      },
+      "yesterday": {
+        "status": "unavailable",
+        "reason": "plan_not_found",
+        "detail": "Your plan didn't cover Sunday, August 30, so there's nothing to look back on yet.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "35 minutes of easy jogging.",
+        "is_rest_day": false,
+        "session_lines": [],
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "35 minutes of easy jogging.",
+            "status": null,
+            "impact": "impact",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "ok",
+        "score": {
+          "value": 59.0,
+          "unit": "score",
+          "display": "59/100"
+        },
+        "band": "steady",
+        "note": null,
+        "components": {
+          "hrv": {
+            "value": 41.03,
+            "unit": "ms",
+            "display": "41 ms"
+          },
+          "rhr": {
+            "value": 60.4,
+            "unit": "bpm",
+            "display": "60 bpm"
+          }
+        }
+      },
+      "yesterday": {
+        "status": "ok",
+        "date": "2026-08-31",
+        "outcome": "done",
+        "credited": [
+          "traditional_strength_training"
+        ],
+        "substituted": [],
+        "workouts": [
+          {
+            "type": "traditional_strength_training",
+            "duration_min": {
+              "value": 50.3,
+              "unit": "min",
+              "display": "50 min"
+            },
+            "distance_mi": null,
+            "pace_min_per_mi": null,
+            "avg_heart_rate": {
+              "value": 113.0,
+              "unit": "bpm",
+              "display": "113 bpm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-01 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Full Body Strength B (strength)",
+        "is_rest_day": false,
+        "session_lines": [
+          {
+            "text": "3 × 8 Romanian deadlift",
+            "detail": null
+          },
+          {
+            "text": "3 × 8 Overhead press",
+            "detail": null
+          },
+          {
+            "text": "3 × 10 Lat pulldown",
+            "detail": null
+          }
+        ],
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength B (strength)",
+            "status": null,
+            "impact": "unclassified",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "rest_day",
+        "detail": "2026-09-02 is a scheduled rest day; no session is planned. There is nothing to grade.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "35 minutes of easy jogging.",
+        "is_rest_day": false,
+        "session_lines": [],
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "35 minutes of easy jogging.",
+            "status": null,
+            "impact": "impact",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-03 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Full Body Strength C (strength)",
+        "is_rest_day": false,
+        "session_lines": [
+          {
+            "text": "3 × 10 Goblet squat",
+            "detail": null
+          },
+          {
+            "text": "3 × 8 Incline dumbbell press",
+            "detail": null
+          },
+          {
+            "text": "3 × 10 Seated row",
+            "detail": null
+          }
+        ],
+        "sessions": [
+          {
+            "modality": "traditional_strength_training",
+            "label": "Traditional strength training",
+            "title": "Full Body Strength C (strength)",
+            "status": null,
+            "impact": "unclassified",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-04 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-05 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    }
+  ]
+}

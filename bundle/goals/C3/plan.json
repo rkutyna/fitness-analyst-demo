@@ -1,0 +1,239 @@
+{
+  "goal_id": "C3",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 1,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week 1 builds a regular bedtime and gentle walking habit to calm your nervous system and steady afternoon energy.",
+      "jog_minutes_target": 0.0,
+      "key_session": "walk"
+    }
+  ],
+  "warnings": [],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Walk 15 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 15 minutes at a comfortable pace.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      }
+    ],
+    "planned_sessions": 3
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Establish a calm bedtime routine and easy walking rhythm to help regulate your sleep-wake cycle.",
+        "key_session_label": "Easy (walk)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Keep the gentle movement habit steady so your body learns to relax more reliably at night.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Add a slightly stronger walking stimulus to improve daytime energy without overdoing it.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Step back and let your body absorb the new routine while noticing how sleep is responding.",
+        "key_session_label": "Recovery (yoga)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Return to active walking with a focus on staying calm and consistent through the afternoon.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Increase the walking challenge a little to deepen fitness while protecting your wind-down.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Recover with relaxed movement and make the bedtime habit feel more automatic.",
+        "key_session_label": "Recovery (yoga)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Reestablish a reliable base of easy walks to keep sleep pressure steady and energy stable.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Add gentle variety to your walks so your body stays responsive without becoming exhausted.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Use lighter movement to consolidate the gains in sleep quality and daytime alertness.",
+        "key_session_label": "Recovery (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Maintain the walking and bedtime rhythm that keeps your energy from dipping later in the day.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Maintain",
+        "intent": "Sustain the full routine so steadier sleep and brighter afternoons become your normal pattern.",
+        "key_session_label": "Easy (walk)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

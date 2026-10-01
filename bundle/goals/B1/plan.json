@@ -1,0 +1,249 @@
+{
+  "goal_id": "B1",
+  "status": "ok",
+  "accepted": true,
+  "explanation": null,
+  "attempts": 2,
+  "outline": [
+    {
+      "week": 1,
+      "intent": "Week 1 extends your weekend run a little while keeping the other jogs easy, starting the aerobic base for the half marathon.",
+      "jog_minutes_target": 90.0,
+      "key_session": "Saturday long run at a conversational effort."
+    }
+  ],
+  "warnings": [
+    "Your left calf — keep an eye on it during this run. In your words: \"My left calf gets tight when I add mileage too fast.\""
+  ],
+  "rejected": [],
+  "week": {
+    "week_start": "2026-08-31",
+    "window_start": "2026-08-31",
+    "window_end": "2026-09-06",
+    "title": "Plan week — 2026-08-31",
+    "days": [
+      {
+        "date": "2026-08-31",
+        "weekday": "Mon",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-01",
+        "weekday": "Tue",
+        "title": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "Walk 5 minutes to warm up, then 3 × (10 min jog / 2 min walk), then walk 5 minutes to cool down.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-02",
+        "weekday": "Wed",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-03",
+        "weekday": "Thu",
+        "title": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 25 minutes at a comfortable pace, then do 2 × 10 bodyweight squats, 2 × 10 glute bridges, and 2 × 12 calf raises.",
+            "impact": "non_impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-04",
+        "weekday": "Fri",
+        "title": "Rest day.",
+        "is_rest_day": true,
+        "sessions": []
+      },
+      {
+        "date": "2026-09-05",
+        "weekday": "Sat",
+        "title": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "Walk 5 minutes to warm up, then 45 minutes of easy jogging, then walk 5 minutes to cool down.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      },
+      {
+        "date": "2026-09-06",
+        "weekday": "Sun",
+        "title": "15 minutes of easy jogging, or walk if the calf feels tight.",
+        "is_rest_day": false,
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "15 minutes of easy jogging, or walk if the calf feels tight.",
+            "impact": "impact",
+            "lines": []
+          }
+        ]
+      }
+    ],
+    "planned_sessions": 4
+  },
+  "long_plan": {
+    "as_of": "2026-08-31",
+    "weeks_total": 12,
+    "current_index": 1,
+    "position_label": "Week 1 of 12",
+    "weeks": [
+      {
+        "index": 1,
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Build your half-marathon base by making the weekend run the anchor and keeping other jogs easy.",
+        "key_session_label": "Long (run)",
+        "is_current": true,
+        "is_past": false
+      },
+      {
+        "index": 2,
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Strengthen the weekday running habit so your body adapts without a jump in load.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 3,
+        "start": "2026-09-14",
+        "end": "2026-09-20",
+        "withheld": false,
+        "phase_label": "Base",
+        "intent": "Let the weekend run grow gently while the easy days stay conversational.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 4,
+        "start": "2026-09-21",
+        "end": "2026-09-27",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Recover from the opening block and keep the left calf comfortable before the next build.",
+        "key_session_label": "Recovery (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 5,
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Add a little more running across the week while protecting the weekend long run.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 6,
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Use consistent easy runs to support a slightly longer weekend effort.",
+        "key_session_label": "Easy (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 7,
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Step back before the next push so your legs absorb the recent build.",
+        "key_session_label": "Recovery (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 8,
+        "start": "2026-10-19",
+        "end": "2026-10-25",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Return to building with the weekend run as the focus and easy runs during the week.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 9,
+        "start": "2026-10-26",
+        "end": "2026-11-01",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Keep the long run smooth while increasing your tolerance for time on feet.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 10,
+        "start": "2026-11-02",
+        "end": "2026-11-08",
+        "withheld": false,
+        "phase_label": "Recovery",
+        "intent": "Take a recovery week so your body can absorb the work before the final build.",
+        "key_session_label": "Recovery (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 11,
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Build the weekend run again after recovery to keep moving toward the half marathon.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      },
+      {
+        "index": 12,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "withheld": false,
+        "phase_label": "Build",
+        "intent": "Close this plan window with a solid running week that prepares you for the next training block.",
+        "key_session_label": "Long (run)",
+        "is_current": false,
+        "is_past": false
+      }
+    ]
+  }
+}

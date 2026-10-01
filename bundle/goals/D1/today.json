@@ -1,0 +1,267 @@
+{
+  "as_of": "2026-08-31",
+  "days": [
+    {
+      "date": "2026-08-31",
+      "is_today": true,
+      "is_future": false,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "3 × (5 min jog / 2 min walk)",
+        "is_rest_day": false,
+        "session_lines": [],
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "3 × (5 min jog / 2 min walk)",
+            "status": null,
+            "impact": "impact",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "ok",
+        "score": {
+          "value": 68.0,
+          "unit": "score",
+          "display": "68/100"
+        },
+        "band": "steady",
+        "note": null,
+        "components": {
+          "hrv": {
+            "value": 36.17,
+            "unit": "ms",
+            "display": "36 ms"
+          },
+          "rhr": {
+            "value": 72.63,
+            "unit": "bpm",
+            "display": "73 bpm"
+          }
+        }
+      },
+      "yesterday": {
+        "status": "unavailable",
+        "reason": "plan_not_found",
+        "detail": "Your plan didn't cover Sunday, August 30, so there's nothing to look back on yet.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "ok",
+        "score": {
+          "value": 68.0,
+          "unit": "score",
+          "display": "68/100"
+        },
+        "band": "steady",
+        "note": null,
+        "components": {
+          "hrv": {
+            "value": 36.17,
+            "unit": "ms",
+            "display": "36 ms"
+          },
+          "rhr": {
+            "value": 72.63,
+            "unit": "bpm",
+            "display": "73 bpm"
+          }
+        }
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "session_not_recorded",
+        "detail": "No session was recorded for 2026-08-31; the day is present in daily metrics.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "3 × (5 min jog / 2 min walk)",
+        "is_rest_day": false,
+        "session_lines": [],
+        "sessions": [
+          {
+            "modality": "run",
+            "label": "Run",
+            "title": "3 × (5 min jog / 2 min walk)",
+            "status": null,
+            "impact": "impact",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "rest_day",
+        "detail": "2026-09-01 is a scheduled rest day; no session is planned. There is nothing to grade.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-02 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Walk 20 minutes at a comfortable pace.",
+        "is_rest_day": false,
+        "session_lines": [],
+        "sessions": [
+          {
+            "modality": "walk",
+            "label": "Walk",
+            "title": "Walk 20 minutes at a comfortable pace.",
+            "status": null,
+            "impact": "non_impact",
+            "lines": []
+          }
+        ],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "rest_day",
+        "detail": "2026-09-03 is a scheduled rest day; no session is planned. There is nothing to grade.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "future_day",
+        "detail": "2026-09-04 has not happened yet — your data runs through 2026-08-31.",
+        "remedy": null
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "is_today": false,
+      "is_future": true,
+      "freshness": {
+        "as_of": "2026-08-31",
+        "data_through": "2026-08-31"
+      },
+      "plan": {
+        "status": "ok",
+        "session_title": "Rest day.",
+        "is_rest_day": true,
+        "session_lines": [],
+        "sessions": [],
+        "anchors": []
+      },
+      "readiness": {
+        "status": "unavailable",
+        "reason": "stale",
+        "detail": "Readiness needs recent recovery data; the latest is from 2026-08-31.",
+        "remedy": "Wear the watch overnight; this clears once fresh readings arrive."
+      },
+      "yesterday": {
+        "status": "empty",
+        "reason": "rest_day",
+        "detail": "2026-09-05 is a scheduled rest day; no session is planned. There is nothing to grade.",
+        "remedy": null
+      }
+    }
+  ]
+}

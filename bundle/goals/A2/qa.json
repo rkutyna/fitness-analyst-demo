@@ -1,0 +1,802 @@
+{
+  "scope": "goal",
+  "id": "A2",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "Here is your plan for the week from Monday, August 31 to Monday, September 7. The written plan covers 1 week, with these sessions:\n\n- Monday, August 31: 60 minutes of easy jogging\n- Tuesday, September 1: 5 × (10 min jog / 2 min walk)\n- Wednesday, September 2: Rest day\n- Thursday, September 3: 10 × (5 min jog / 2 min walk)\n- Friday, September 4: Trail leg strength (strength)\n- Saturday, September 5: 72 minutes of easy jogging on a hilly trail\n- Sunday, September 6: Hike 60 minutes on rolling terrain\n- Monday, September 7: 45 minutes of easy jogging\n\nTotal planned jogging minutes for the week: 277 min.\n\nWhy: This is week 1 of the long-term plan's Base phase, which runs from Monday, August 31 to Monday, September 28. The phase summary says:\n\nBase: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.\n\nAnd the week summary says:\n\nWeek 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.\n\nThe plan is built on your recent weeks' mean of 318.2 min jogging minutes per week, so this week's total of 277 minutes keeps you in a steady base-building range.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Monday, September 7",
+          "unit": null,
+          "label": "plan, Sep 7, day",
+          "source": "week plan"
+        },
+        {
+          "display": "1",
+          "unit": "weeks",
+          "label": "plan overview, weeks written in the plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "60 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "5 × (10 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "10 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Trail leg strength (strength)",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "72 minutes of easy jogging on a hilly trail",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Hike 60 minutes on rolling terrain",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "45 minutes of easy jogging",
+          "unit": null,
+          "label": "plan, Sep 7, session",
+          "source": "week plan"
+        },
+        {
+          "display": "277",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 28",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "week plan"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 7, day",
+          "value": "Monday, September 7",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan overview, weeks written in the plan",
+          "value": "1",
+          "unit": "weeks",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "60 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "5 × (10 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "10 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Trail leg strength (strength)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "72 minutes of easy jogging on a hilly trail",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "Hike 60 minutes on rolling terrain",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 7, session",
+          "value": "45 minutes of easy jogging",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "277",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Monday, September 28",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "week plan"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        },
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 28,
+        "figures_total": 28,
+        "retry": false
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "The plan for the week starting Monday, August 31 calls for 277 minutes of jogging total, while your recent weekly average over the weeks before that was 318.2 minutes. So in terms of pure running volume, this week is actually a slight step down, not a step up. It does add a strength day and a hike, so the overall training stimulus is different rather than simply more running.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "277",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "277",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 3,
+        "figures_total": 3,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Here's what your long-term plan looks like over the next few months. It runs from Monday, August 31 to Monday, November 23, covering 12 weeks in 3 phases. You're currently in the Base phase, which started Monday, August 31 and runs through Monday, September 28. The next phase begins Tuesday, September 29. Your current week is week 1.\n\nThe phases are:\n\nBase: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.\n\nBuild: Tuesday, September 29 to Monday, November 16 (7 weeks). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.\n\nRecovery: Tuesday, November 17 to Monday, November 23 (1 week). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.\n\nHere are the weekly key sessions:\n\nWeek 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.\n\nWeek 2, starting Tuesday, September 8 (Base): key session Run/walk (run). Add gentle climbing and extra time on your feet to strengthen the engine for later trail work.\n\nWeek 3, starting Tuesday, September 15 (Base): key session Easy (run). Make the weekend trail session the anchor while the weekday runs develop your aerobic foundation.\n\nWeek 4, starting Tuesday, September 22 (Base): key session Long (run). Introduce more undulating terrain and practice relaxed effort over sustained climbs.\n\nWeek 5, starting Tuesday, September 29 (Build): key session Intervals (run). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.\n\nWeek 6, starting Tuesday, October 6 (Build): key session Long (run). Use back-to-back trail days to practice moving well when your legs feel heavy.\n\nWeek 7, starting Tuesday, October 13 (Build): key session Easy (run). Build durability by pairing hill work with a relaxed long session on the weekend.\n\nWeek 8, starting Tuesday, October 20 (Build): key session Strength (strength). Keep the focus on smooth effort and time outdoors as the trail race gets closer.\n\nWeek 9, starting Tuesday, October 27 (Build): key session Long (run). Practice fueling and hydration during your runs and keep every climb patient.\n\nWeek 10, starting Tuesday, November 3 (Build): key session Run/walk (run). Consolidate your fitness with consistent running and treat each climb as pacing practice.\n\nWeek 11, starting Tuesday, November 10 (Build): key session Easy (run). Sustain the training rhythm and keep the long session purposeful but relaxed.\n\nWeek 12, starting Tuesday, November 17 (Recovery): key session Recovery (run). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.\n\nThis plan builds on your recent weekly jog volume of 318.2 minutes.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, November 23",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "3",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 28",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Tuesday, September 29",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Tuesday, September 29 to Monday, November 16 (7 weeks). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Tuesday, November 17 to Monday, November 23 (1 week). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Tuesday, September 8 (Base): key session Run/walk (run). Add gentle climbing and extra time on your feet to strengthen the engine for later trail work.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Tuesday, September 15 (Base): key session Easy (run). Make the weekend trail session the anchor while the weekday runs develop your aerobic foundation.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Tuesday, September 22 (Base): key session Long (run). Introduce more undulating terrain and practice relaxed effort over sustained climbs.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Tuesday, September 29 (Build): key session Intervals (run). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Tuesday, October 6 (Build): key session Long (run). Use back-to-back trail days to practice moving well when your legs feel heavy.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Tuesday, October 13 (Build): key session Easy (run). Build durability by pairing hill work with a relaxed long session on the weekend.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 8, starting Tuesday, October 20 (Build): key session Strength (strength). Keep the focus on smooth effort and time outdoors as the trail race gets closer.",
+          "unit": null,
+          "label": "plan long week 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 9, starting Tuesday, October 27 (Build): key session Long (run). Practice fueling and hydration during your runs and keep every climb patient.",
+          "unit": null,
+          "label": "plan long week 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 10, starting Tuesday, November 3 (Build): key session Run/walk (run). Consolidate your fitness with consistent running and treat each climb as pacing practice.",
+          "unit": null,
+          "label": "plan long week 10 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 11, starting Tuesday, November 10 (Build): key session Easy (run). Sustain the training rhythm and keep the long session purposeful but relaxed.",
+          "unit": null,
+          "label": "plan long week 11 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 12, starting Tuesday, November 17 (Recovery): key session Recovery (run). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.",
+          "unit": null,
+          "label": "plan long week 12 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "318.2",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Monday, November 23",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "3",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Monday, September 28",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Tuesday, September 29",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Monday, September 28 (4 weeks). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Build: Tuesday, September 29 to Monday, November 16 (7 weeks). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Recovery: Tuesday, November 17 to Monday, November 23 (1 week). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Long (run). Build the base you need for the trail race by introducing steady run and hike training plus a weekend trail session.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Tuesday, September 8 (Base): key session Run/walk (run). Add gentle climbing and extra time on your feet to strengthen the engine for later trail work.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Tuesday, September 15 (Base): key session Easy (run). Make the weekend trail session the anchor while the weekday runs develop your aerobic foundation.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Tuesday, September 22 (Base): key session Long (run). Introduce more undulating terrain and practice relaxed effort over sustained climbs.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Tuesday, September 29 (Build): key session Intervals (run). Grow your comfort on the trails with a steady weekday climb and a longer weekend outing.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Tuesday, October 6 (Build): key session Long (run). Use back-to-back trail days to practice moving well when your legs feel heavy.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Tuesday, October 13 (Build): key session Easy (run). Build durability by pairing hill work with a relaxed long session on the weekend.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 8 summary",
+          "value": "Week 8, starting Tuesday, October 20 (Build): key session Strength (strength). Keep the focus on smooth effort and time outdoors as the trail race gets closer.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 9 summary",
+          "value": "Week 9, starting Tuesday, October 27 (Build): key session Long (run). Practice fueling and hydration during your runs and keep every climb patient.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 10 summary",
+          "value": "Week 10, starting Tuesday, November 3 (Build): key session Run/walk (run). Consolidate your fitness with consistent running and treat each climb as pacing practice.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 11 summary",
+          "value": "Week 11, starting Tuesday, November 10 (Build): key session Easy (run). Sustain the training rhythm and keep the long session purposeful but relaxed.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 12 summary",
+          "value": "Week 12, starting Tuesday, November 17 (Recovery): key session Recovery (run). Recover while preserving the routine you have built, so you stay ready for the next step toward race day.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "318.2",
+          "unit": "min",
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 25,
+        "figures_total": 25,
+        "retry": false
+      }
+    },
+    {
+      "question": "What was my longest run in the last two months?",
+      "text": "Your longest run in the last two months was on Sat Aug 22, covering 8.73 mi in 79 min at an average pace of 9:03 min/mi.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "Sat Aug 22",
+          "unit": null,
+          "label": "running workout, Aug 22, date",
+          "source": "workout list"
+        },
+        {
+          "display": "8.73",
+          "unit": "mi",
+          "label": "running workout, Aug 22, distance",
+          "source": "workout list"
+        },
+        {
+          "display": "79",
+          "unit": "min",
+          "label": "running workout, Aug 22, duration",
+          "source": "workout list"
+        },
+        {
+          "display": "9:03 min/mi",
+          "unit": "min/mi",
+          "label": "running workout, Aug 22, pace",
+          "source": "workout list"
+        }
+      ],
+      "facts": [
+        {
+          "label": "running workout, Aug 22, date",
+          "value": "Sat Aug 22",
+          "unit": null,
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 22, distance",
+          "value": "8.73",
+          "unit": "mi",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 22, duration",
+          "value": "79",
+          "unit": "min",
+          "source": "workout list"
+        },
+        {
+          "label": "running workout, Aug 22, pace",
+          "value": "9:03 min/mi",
+          "unit": "min/mi",
+          "source": "workout list"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Workout list",
+          "blurb": "Lists your workouts over a date range with their type, duration, distance, energy and heart rate.",
+          "windows": [
+            {
+              "start": "2026-07-01",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 4,
+        "figures_total": 4,
+        "retry": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-01T18:52:29Z",
+  "end_date": "2026-08-31",
+  "dry_run": false,
+  "engine_sha": "3626072",
+  "model": {
+    "backend": "openrouter",
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "plan_model": "deepseek/deepseek-v4-pro",
+    "providers": "coreweave/fp8,nextbit/fp8",
+    "plan_providers": "novita/fp8,parasail/fp8",
+    "reasoning": "low"
+  },
+  "leaves": {
+    "A": {
+      "leaf_id": "A",
+      "kind": "person",
+      "generated_at": "2026-10-01T18:34:07Z",
+      "model_calls": 24
+    },
+    "B": {
+      "leaf_id": "B",
+      "kind": "person",
+      "generated_at": "2026-10-01T18:33:43Z",
+      "model_calls": 18
+    },
+    "C": {
+      "leaf_id": "C",
+      "kind": "person",
+      "generated_at": "2026-10-01T18:34:06Z",
+      "model_calls": 22
+    },
+    "D": {
+      "leaf_id": "D",
+      "kind": "person",
+      "generated_at": "2026-10-01T18:34:44Z",
+      "model_calls": 23
+    },
+    "A1": {
+      "leaf_id": "A1",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:43:39Z",
+      "model_calls": 27
+    },
+    "A2": {
+      "leaf_id": "A2",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:51:40Z",
+      "model_calls": 27
+    },
+    "A3": {
+      "leaf_id": "A3",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:52:29Z",
+      "model_calls": 31
+    },
+    "B1": {
+      "leaf_id": "B1",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:42:55Z",
+      "model_calls": 28
+    },
+    "B2": {
+      "leaf_id": "B2",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:44:52Z",
+      "model_calls": 27
+    },
+    "B3": {
+      "leaf_id": "B3",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:46:58Z",
+      "model_calls": 26
+    },
+    "C1": {
+      "leaf_id": "C1",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:43:14Z",
+      "model_calls": 27
+    },
+    "C2": {
+      "leaf_id": "C2",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:45:26Z",
+      "model_calls": 29
+    },
+    "C3": {
+      "leaf_id": "C3",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:47:18Z",
+      "model_calls": 27
+    },
+    "D1": {
+      "leaf_id": "D1",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:44:41Z",
+      "model_calls": 28
+    },
+    "D2": {
+      "leaf_id": "D2",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:46:24Z",
+      "model_calls": 25
+    },
+    "D3": {
+      "leaf_id": "D3",
+      "kind": "goal",
+      "generated_at": "2026-10-01T18:49:25Z",
+      "model_calls": 28
+    }
+  }
+}

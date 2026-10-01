@@ -1,0 +1,1030 @@
+{
+  "person_id": "B",
+  "end_date": "2026-08-31",
+  "days": 180,
+  "series": [
+    {
+      "metric": "jog_minutes",
+      "label": "Jogging minutes per week",
+      "unit": "min",
+      "aggregation": "weekly_total",
+      "points": [
+        {
+          "start": "2026-03-05",
+          "end": "2026-03-08",
+          "value": 67.6,
+          "n_days": 4,
+          "partial": true
+        },
+        {
+          "start": "2026-03-09",
+          "end": "2026-03-15",
+          "value": 108.4,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-16",
+          "end": "2026-03-22",
+          "value": 98.4,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-23",
+          "end": "2026-03-29",
+          "value": 104.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-30",
+          "end": "2026-04-05",
+          "value": 82.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-06",
+          "end": "2026-04-12",
+          "value": 98.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-13",
+          "end": "2026-04-19",
+          "value": 95.9,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-20",
+          "end": "2026-04-26",
+          "value": 73.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-27",
+          "end": "2026-05-03",
+          "value": 103.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-04",
+          "end": "2026-05-10",
+          "value": 65.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-11",
+          "end": "2026-05-17",
+          "value": 109.1,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-18",
+          "end": "2026-05-24",
+          "value": 80.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-25",
+          "end": "2026-05-31",
+          "value": 93.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-06-07",
+          "value": 96.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-08",
+          "end": "2026-06-14",
+          "value": 83.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-21",
+          "value": 100.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-28",
+          "value": 106.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-07-05",
+          "value": 63.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-12",
+          "value": 106.6,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-19",
+          "value": 73.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-26",
+          "value": 98.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-08-02",
+          "value": 92.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-09",
+          "value": 86.1,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-16",
+          "value": 82.6,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "value": 103.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-30",
+          "value": 109.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-31",
+          "end": "2026-08-31",
+          "value": 0.0,
+          "n_days": 1,
+          "partial": true
+        }
+      ],
+      "summary": "Jogging minutes per week: 96 min on average over the last 4 full weeks, down 3 min from 98 min over the first 4 full weeks.",
+      "headline": {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "value": 109.7,
+        "unit": "min",
+        "display": "110",
+        "n_days": 7
+      }
+    },
+    {
+      "metric": "resting_heart_rate",
+      "label": "Resting heart rate",
+      "unit": "bpm",
+      "aggregation": "weekly_mean",
+      "points": [
+        {
+          "start": "2026-03-05",
+          "end": "2026-03-08",
+          "value": 59.75,
+          "n_days": 4,
+          "partial": true
+        },
+        {
+          "start": "2026-03-09",
+          "end": "2026-03-15",
+          "value": 59.89,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-16",
+          "end": "2026-03-22",
+          "value": 59.83,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-23",
+          "end": "2026-03-29",
+          "value": 60.56,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-30",
+          "end": "2026-04-05",
+          "value": 58.74,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-06",
+          "end": "2026-04-12",
+          "value": 60.06,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-13",
+          "end": "2026-04-19",
+          "value": 58.89,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-20",
+          "end": "2026-04-26",
+          "value": 60.47,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-27",
+          "end": "2026-05-03",
+          "value": 58.03,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-04",
+          "end": "2026-05-10",
+          "value": 57.81,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-11",
+          "end": "2026-05-17",
+          "value": 60.06,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-18",
+          "end": "2026-05-24",
+          "value": 60.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-25",
+          "end": "2026-05-31",
+          "value": 60.21,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-06-07",
+          "value": 60.27,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-08",
+          "end": "2026-06-14",
+          "value": 59.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-21",
+          "value": 58.34,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-28",
+          "value": 59.79,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-07-05",
+          "value": 59.31,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-12",
+          "value": 59.49,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-19",
+          "value": 58.61,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-26",
+          "value": 59.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-08-02",
+          "value": 60.24,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-09",
+          "value": 59.77,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-16",
+          "value": 59.49,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "value": 60.24,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-30",
+          "value": 60.79,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-31",
+          "end": "2026-08-31",
+          "value": 59.3,
+          "n_days": 1,
+          "partial": true
+        }
+      ],
+      "summary": "Resting heart rate: 60 bpm on average over the last 4 full weeks, about the same as 60 bpm over the first 4 full weeks.",
+      "headline": {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "value": 60.79,
+        "unit": "bpm",
+        "display": "61",
+        "n_days": 7
+      }
+    },
+    {
+      "metric": "sleep_asleep",
+      "label": "Sleep per night",
+      "unit": "h",
+      "aggregation": "weekly_mean",
+      "points": [
+        {
+          "start": "2026-03-05",
+          "end": "2026-03-08",
+          "value": 6.72,
+          "n_days": 4,
+          "partial": true
+        },
+        {
+          "start": "2026-03-09",
+          "end": "2026-03-15",
+          "value": 7.33,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-16",
+          "end": "2026-03-22",
+          "value": 7.59,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-23",
+          "end": "2026-03-29",
+          "value": 7.11,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-30",
+          "end": "2026-04-05",
+          "value": 7.21,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-06",
+          "end": "2026-04-12",
+          "value": 7.57,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-13",
+          "end": "2026-04-19",
+          "value": 7.11,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-20",
+          "end": "2026-04-26",
+          "value": 7.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-27",
+          "end": "2026-05-03",
+          "value": 7.27,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-04",
+          "end": "2026-05-10",
+          "value": 7.55,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-11",
+          "end": "2026-05-17",
+          "value": 7.34,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-18",
+          "end": "2026-05-24",
+          "value": 7.18,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-25",
+          "end": "2026-05-31",
+          "value": 7.38,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-06-07",
+          "value": 7.6,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-08",
+          "end": "2026-06-14",
+          "value": 6.96,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-21",
+          "value": 7.51,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-28",
+          "value": 7.32,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-07-05",
+          "value": 7.14,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-12",
+          "value": 7.11,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-19",
+          "value": 7.37,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-26",
+          "value": 6.84,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-08-02",
+          "value": 7.41,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-09",
+          "value": 7.17,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-16",
+          "value": 7.34,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "value": 7.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-30",
+          "value": 7.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-31",
+          "end": "2026-08-31",
+          "value": 7.78,
+          "n_days": 1,
+          "partial": true
+        }
+      ],
+      "summary": "Sleep per night: 7.2 h on average over the last 4 full weeks, about the same as 7.3 h over the first 4 full weeks.",
+      "headline": {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "value": 7.0,
+        "unit": "h",
+        "display": "7",
+        "n_days": 7
+      }
+    },
+    {
+      "metric": "step_count",
+      "label": "Steps per day",
+      "unit": "steps",
+      "aggregation": "weekly_mean",
+      "points": [
+        {
+          "start": "2026-03-05",
+          "end": "2026-03-08",
+          "value": 9754.78,
+          "n_days": 4,
+          "partial": true
+        },
+        {
+          "start": "2026-03-09",
+          "end": "2026-03-15",
+          "value": 10085.58,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-16",
+          "end": "2026-03-22",
+          "value": 9533.71,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-23",
+          "end": "2026-03-29",
+          "value": 9754.63,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-03-30",
+          "end": "2026-04-05",
+          "value": 10299.0,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-06",
+          "end": "2026-04-12",
+          "value": 10325.72,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-13",
+          "end": "2026-04-19",
+          "value": 10280.3,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-20",
+          "end": "2026-04-26",
+          "value": 9403.7,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-04-27",
+          "end": "2026-05-03",
+          "value": 9867.46,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-04",
+          "end": "2026-05-10",
+          "value": 9591.23,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-11",
+          "end": "2026-05-17",
+          "value": 10310.13,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-18",
+          "end": "2026-05-24",
+          "value": 9898.99,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-05-25",
+          "end": "2026-05-31",
+          "value": 10338.86,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-06-07",
+          "value": 10686.37,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-08",
+          "end": "2026-06-14",
+          "value": 10263.66,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-21",
+          "value": 11068.63,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-28",
+          "value": 10769.89,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-07-05",
+          "value": 9124.93,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-12",
+          "value": 9999.06,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-19",
+          "value": 9359.15,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-26",
+          "value": 9628.48,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-08-02",
+          "value": 10487.71,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-09",
+          "value": 9115.07,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-16",
+          "value": 10005.22,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "value": 9772.61,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-30",
+          "value": 10619.61,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-08-31",
+          "end": "2026-08-31",
+          "value": 7425.12,
+          "n_days": 1,
+          "partial": true
+        }
+      ],
+      "summary": "Steps per day: 9,878 steps on average over the last 4 full weeks, about the same as 9,918 steps over the first 4 full weeks.",
+      "headline": {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "value": 10619.61,
+        "unit": "steps",
+        "display": "10,620",
+        "n_days": 7
+      }
+    },
+    {
+      "metric": "body_mass",
+      "label": "Body weight",
+      "unit": "lb",
+      "aggregation": "weekly_mean",
+      "points": [
+        {
+          "start": "2026-03-05",
+          "end": "2026-03-08",
+          "value": 178.37,
+          "n_days": 3,
+          "partial": true
+        },
+        {
+          "start": "2026-03-09",
+          "end": "2026-03-15",
+          "value": 178.0,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-03-16",
+          "end": "2026-03-22",
+          "value": 177.98,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-03-23",
+          "end": "2026-03-29",
+          "value": 178.32,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-03-30",
+          "end": "2026-04-05",
+          "value": 177.93,
+          "n_days": 3,
+          "partial": false
+        },
+        {
+          "start": "2026-04-06",
+          "end": "2026-04-12",
+          "value": 178.1,
+          "n_days": 3,
+          "partial": false
+        },
+        {
+          "start": "2026-04-13",
+          "end": "2026-04-19",
+          "value": 178.03,
+          "n_days": 6,
+          "partial": false
+        },
+        {
+          "start": "2026-04-20",
+          "end": "2026-04-26",
+          "value": 178.04,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-04-27",
+          "end": "2026-05-03",
+          "value": 178.12,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-05-04",
+          "end": "2026-05-10",
+          "value": 178.78,
+          "n_days": 6,
+          "partial": false
+        },
+        {
+          "start": "2026-05-11",
+          "end": "2026-05-17",
+          "value": 179.53,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-05-18",
+          "end": "2026-05-24",
+          "value": 178.8,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-05-25",
+          "end": "2026-05-31",
+          "value": 177.95,
+          "n_days": 6,
+          "partial": false
+        },
+        {
+          "start": "2026-06-01",
+          "end": "2026-06-07",
+          "value": 177.86,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-06-08",
+          "end": "2026-06-14",
+          "value": 178.0,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-06-15",
+          "end": "2026-06-21",
+          "value": 179.0,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-06-22",
+          "end": "2026-06-28",
+          "value": 178.9,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-06-29",
+          "end": "2026-07-05",
+          "value": 178.54,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-07-06",
+          "end": "2026-07-12",
+          "value": 178.5,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-07-13",
+          "end": "2026-07-19",
+          "value": 178.09,
+          "n_days": 7,
+          "partial": false
+        },
+        {
+          "start": "2026-07-20",
+          "end": "2026-07-26",
+          "value": 178.5,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-07-27",
+          "end": "2026-08-02",
+          "value": 177.72,
+          "n_days": 6,
+          "partial": false
+        },
+        {
+          "start": "2026-08-03",
+          "end": "2026-08-09",
+          "value": 178.46,
+          "n_days": 5,
+          "partial": false
+        },
+        {
+          "start": "2026-08-10",
+          "end": "2026-08-16",
+          "value": 178.45,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "value": 179.18,
+          "n_days": 4,
+          "partial": false
+        },
+        {
+          "start": "2026-08-24",
+          "end": "2026-08-30",
+          "value": 179.28,
+          "n_days": 4,
+          "partial": false
+        }
+      ],
+      "summary": "Body weight: 178.8 lb on average over the last 4 full weeks, about the same as 178.1 lb over the first 4 full weeks.",
+      "headline": {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "value": 179.28,
+        "unit": "lb",
+        "display": "179.3",
+        "n_days": 4
+      }
+    }
+  ]
+}

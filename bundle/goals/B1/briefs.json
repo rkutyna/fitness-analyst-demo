@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today is a rest/mobility day — Rest day.\n\nToday is a rest day, and that's a powerful part of your training. It's the time when your body rebuilds and your mind recharges, so you can come back stronger. Honor this day by moving gently and breathing deeply. Show up for yourself by truly resting.",
+      "narration": "Today is a rest day, and that's a powerful part of your training. It's the time when your body rebuilds and your mind recharges, so you can come back stronger. Honor this day by moving gently and breathing deeply. Show up for yourself by truly resting.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 0,
+        "figures_total": 0,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

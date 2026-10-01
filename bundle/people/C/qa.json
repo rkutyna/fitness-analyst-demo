@@ -1,0 +1,886 @@
+{
+  "scope": "person",
+  "id": "C",
+  "answers": [
+    {
+      "question": "How much have I been running over the last four weeks?",
+      "text": "Over the last four weeks, your running volume was none each week: 0 m in the week of August 3, 0 m in the week of August 10, 0 m in the week of August 17, and 0 m in the week of August 24. So you have not been running at all during that window.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "0 m",
+          "unit": "min",
+          "label": "jog minutes, jog minutes (Aug 3 to Aug 9)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "the week of August 3",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 3 to Aug 9)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "0 m",
+          "unit": "min",
+          "label": "jog minutes, jog minutes (Aug 10 to Aug 16)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "the week of August 10",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 10 to Aug 16)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "0 m",
+          "unit": "min",
+          "label": "jog minutes, jog minutes (Aug 17 to Aug 23)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "the week of August 17",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 17 to Aug 23)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "0 m",
+          "unit": "min",
+          "label": "jog minutes, jog minutes (Aug 24 to Aug 30)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "the week of August 24",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 24 to Aug 30)",
+          "source": "jogging and walking minutes"
+        }
+      ],
+      "facts": [
+        {
+          "label": "jog minutes, jog minutes (Aug 3 to Aug 9)",
+          "value": "0 m",
+          "unit": "min",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "label": "jog minutes, jog minutes (Aug 10 to Aug 16)",
+          "value": "0 m",
+          "unit": "min",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "label": "jog minutes, jog minutes (Aug 17 to Aug 23)",
+          "value": "0 m",
+          "unit": "min",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "label": "jog minutes, jog minutes (Aug 24 to Aug 30)",
+          "value": "0 m",
+          "unit": "min",
+          "source": "jogging and walking minutes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jogging vs walking minutes",
+          "blurb": "Counts the minutes you actually spent jogging, separate from walking, over a date range.",
+          "windows": [
+            {
+              "start": "2026-08-03",
+              "end": "2026-08-30"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 4,
+        "figures_total": 4,
+        "retry": true
+      }
+    },
+    {
+      "question": "How has my resting heart rate changed over the last three months?",
+      "text": "Over the recent months (from Tue Jun 9 to Mon Aug 31) your resting heart rate averaged 62 beats per minute, with a typical range from 55 bpm to 68 bpm. The weekly averages started at 59 bpm in the week of June 1, rose to a peak of 64 bpm in the week of July 13, then settled to 62 bpm on Mon Aug 31. Over the full period, the baseline average was 62 bpm and the recent average was 62 bpm, yielding a relative change of 0.35 percent. The overall mean was 62 bpm with a median of 62 bpm and a standard deviation of 2 bpm.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "from Tue Jun 9 to Mon Aug 31",
+          "unit": null,
+          "label": "resting heart rate, period label (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "62",
+          "unit": "count/min",
+          "label": "resting heart rate, mean (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "55",
+          "unit": "count/min",
+          "label": "resting heart rate, min (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "68",
+          "unit": "count/min",
+          "label": "resting heart rate, max (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "59",
+          "unit": "count/min",
+          "label": "resting heart rate, mean (Jun 1 to Jun 7)",
+          "source": "weekly series"
+        },
+        {
+          "display": "the week of June 1",
+          "unit": null,
+          "label": "resting heart rate, period label (Jun 1 to Jun 7)",
+          "source": "weekly series"
+        },
+        {
+          "display": "64",
+          "unit": "count/min",
+          "label": "resting heart rate, mean (Jul 13 to Jul 19)",
+          "source": "weekly series"
+        },
+        {
+          "display": "the week of July 13",
+          "unit": null,
+          "label": "resting heart rate, period label (Jul 13 to Jul 19)",
+          "source": "weekly series"
+        },
+        {
+          "display": "62",
+          "unit": "count/min",
+          "label": "resting heart rate, mean (Aug 31)",
+          "source": "weekly series"
+        },
+        {
+          "display": "Mon Aug 31",
+          "unit": null,
+          "label": "resting heart rate, period label (Aug 31)",
+          "source": "weekly series"
+        },
+        {
+          "display": "62",
+          "unit": "count/min",
+          "label": "resting heart rate, baseline avg (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "62",
+          "unit": "count/min",
+          "label": "resting heart rate, recent avg (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "0.35",
+          "unit": "%",
+          "label": "resting heart rate, delta pct (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "62",
+          "unit": "count/min",
+          "label": "resting heart rate, median (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "2",
+          "unit": "count/min",
+          "label": "resting heart rate, std (Jun 9 to Aug 31)",
+          "source": "metric summary"
+        }
+      ],
+      "facts": [
+        {
+          "label": "resting heart rate, mean (Jun 9 to Aug 31)",
+          "value": "62",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, min (Jun 9 to Aug 31)",
+          "value": "55",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, max (Jun 9 to Aug 31)",
+          "value": "68",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, mean (Jun 1 to Jun 7)",
+          "value": "59",
+          "unit": "count/min",
+          "source": "weekly series"
+        },
+        {
+          "label": "resting heart rate, mean (Jul 13 to Jul 19)",
+          "value": "64",
+          "unit": "count/min",
+          "source": "weekly series"
+        },
+        {
+          "label": "resting heart rate, mean (Aug 31)",
+          "value": "62",
+          "unit": "count/min",
+          "source": "weekly series"
+        },
+        {
+          "label": "resting heart rate, baseline avg (Jun 9 to Aug 31)",
+          "value": "62",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, recent avg (Jun 9 to Aug 31)",
+          "value": "62",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, delta pct (Jun 9 to Aug 31)",
+          "value": "0.35",
+          "unit": "%",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, median (Jun 9 to Aug 31)",
+          "value": "62",
+          "unit": "count/min",
+          "source": "metric summary"
+        },
+        {
+          "label": "resting heart rate, std (Jun 9 to Aug 31)",
+          "value": "2",
+          "unit": "count/min",
+          "source": "metric summary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Measurement summary",
+          "blurb": "Summarizes a measurement over a period: average, middle value, range and its weekly trend.",
+          "windows": [
+            {
+              "start": "2026-06-09",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Weekly averages",
+          "blurb": "Returns the weekly average of a measurement, each with how many days it covers and how much week-to-week change is just noise.",
+          "windows": [
+            {
+              "start": "2026-06-01",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 12,
+        "figures_total": 12,
+        "retry": false
+      }
+    },
+    {
+      "question": "How did I sleep last week?",
+      "text": "During the week of August 24, you slept an average of 7 h 24 m per night, with about 7 h 42 m spent in bed. Your sleep included an average of 1 h 13 m of deep sleep and 1 h 31 m of REM. You woke up on average 2 awakenings times per night, and it took you about 10 m to fall asleep. Your sleep midpoint varied by ± 41 m from Mon Aug 3 to Sun Aug 30 period.\n\nYou rated your sleep quality as follows: on Tue Aug 25 you gave it 4out of 5, on Wed Aug 26 4out of 5, on Fri Aug 28 5out of 5, on Sat Aug 29 4out of 5, and on Sun Aug 30 3out of 5.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "the week of August 24",
+          "unit": null,
+          "label": "sleep asleep, period label (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "7 h 24 m",
+          "unit": "min",
+          "label": "sleep asleep, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "7 h 42 m",
+          "unit": "min",
+          "label": "sleep in bed, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "1 h 13 m",
+          "unit": "min",
+          "label": "sleep deep, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "1 h 31 m",
+          "unit": "min",
+          "label": "sleep rem, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "2",
+          "unit": "count",
+          "label": "sleep awakenings, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "10 m",
+          "unit": "min",
+          "label": "sleep latency, mean (Aug 24 to Aug 30)",
+          "source": "daily series"
+        },
+        {
+          "display": "± 41 m",
+          "unit": "h",
+          "label": "sleep midpoint sd 28d, latest sd hours (Aug 3 to Aug 30)",
+          "source": "sleep regularity"
+        },
+        {
+          "display": "from Mon Aug 3 to Sun Aug 30",
+          "unit": null,
+          "label": "sleep midpoint sd 28d, period label (Aug 3 to Aug 30)",
+          "source": "sleep regularity"
+        },
+        {
+          "display": "Tue Aug 25",
+          "unit": null,
+          "label": "subjective sleep quality, period label (Aug 25)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "4",
+          "unit": "score",
+          "label": "subjective sleep quality, sleep quality (Aug 25)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "out of 5",
+          "unit": null,
+          "label": "Sleep quality rating scale",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "Wed Aug 26",
+          "unit": null,
+          "label": "subjective sleep quality, period label (Aug 26)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "4",
+          "unit": "score",
+          "label": "subjective sleep quality, sleep quality (Aug 26)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "Fri Aug 28",
+          "unit": null,
+          "label": "subjective sleep quality, period label (Aug 28)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "5",
+          "unit": "score",
+          "label": "subjective sleep quality, sleep quality (Aug 28)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "Sat Aug 29",
+          "unit": null,
+          "label": "subjective sleep quality, period label (Aug 29)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "4",
+          "unit": "score",
+          "label": "subjective sleep quality, sleep quality (Aug 29)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "Sun Aug 30",
+          "unit": null,
+          "label": "subjective sleep quality, period label (Aug 30)",
+          "source": "daily check-ins"
+        },
+        {
+          "display": "3",
+          "unit": "score",
+          "label": "subjective sleep quality, sleep quality (Aug 30)",
+          "source": "daily check-ins"
+        }
+      ],
+      "facts": [
+        {
+          "label": "sleep asleep, mean (Aug 24 to Aug 30)",
+          "value": "7 h 24 m",
+          "unit": "min",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep in bed, mean (Aug 24 to Aug 30)",
+          "value": "7 h 42 m",
+          "unit": "min",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep deep, mean (Aug 24 to Aug 30)",
+          "value": "1 h 13 m",
+          "unit": "min",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep rem, mean (Aug 24 to Aug 30)",
+          "value": "1 h 31 m",
+          "unit": "min",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep awakenings, mean (Aug 24 to Aug 30)",
+          "value": "2",
+          "unit": "count",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep latency, mean (Aug 24 to Aug 30)",
+          "value": "10 m",
+          "unit": "min",
+          "source": "daily series"
+        },
+        {
+          "label": "sleep midpoint sd 28d, latest sd hours (Aug 3 to Aug 30)",
+          "value": "± 41 m",
+          "unit": "h",
+          "source": "sleep regularity"
+        },
+        {
+          "label": "subjective sleep quality, sleep quality (Aug 25)",
+          "value": "4",
+          "unit": "score",
+          "source": "daily check-ins"
+        },
+        {
+          "label": "Sleep quality rating scale",
+          "value": "out of 5",
+          "unit": null,
+          "source": "daily check-ins"
+        },
+        {
+          "label": "subjective sleep quality, sleep quality (Aug 26)",
+          "value": "4",
+          "unit": "score",
+          "source": "daily check-ins"
+        },
+        {
+          "label": "subjective sleep quality, sleep quality (Aug 28)",
+          "value": "5",
+          "unit": "score",
+          "source": "daily check-ins"
+        },
+        {
+          "label": "subjective sleep quality, sleep quality (Aug 29)",
+          "value": "4",
+          "unit": "score",
+          "source": "daily check-ins"
+        },
+        {
+          "label": "subjective sleep quality, sleep quality (Aug 30)",
+          "value": "3",
+          "unit": "score",
+          "source": "daily check-ins"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Sleep regularity",
+          "blurb": "Measures how consistent your bedtimes and wake times have been.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Check-ins",
+          "blurb": "Reads your own daily check-ins (stress, soreness, energy, sleep quality, drinks and notes) for a date range.",
+          "windows": [
+            {
+              "start": "2026-08-24",
+              "end": "2026-08-30"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 17,
+        "figures_total": 17,
+        "retry": false
+      }
+    },
+    {
+      "question": "How many steps do I average on a typical day, and has that changed recently?",
+      "text": "On a typical day from Sun Aug 2 to Mon Aug 31, your average step count was 7,455 steps. That is compared with a baseline average of 7,753 steps, and the most recent stretch averaged 6,477 steps, a change of -16.45 percent. So yes, your daily steps have decreased recently.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "from Sun Aug 2 to Mon Aug 31",
+          "unit": null,
+          "label": "step count, period label (Aug 2 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "7,455",
+          "unit": "count",
+          "label": "step count, mean (Aug 2 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "7,753",
+          "unit": "count",
+          "label": "step count, baseline avg (Aug 2 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "6,477",
+          "unit": "count",
+          "label": "step count, recent avg (Aug 2 to Aug 31)",
+          "source": "metric summary"
+        },
+        {
+          "display": "-16.45",
+          "unit": "%",
+          "label": "step count, delta pct (Aug 2 to Aug 31)",
+          "source": "metric summary"
+        }
+      ],
+      "facts": [
+        {
+          "label": "step count, mean (Aug 2 to Aug 31)",
+          "value": "7,455",
+          "unit": "count",
+          "source": "metric summary"
+        },
+        {
+          "label": "step count, baseline avg (Aug 2 to Aug 31)",
+          "value": "7,753",
+          "unit": "count",
+          "source": "metric summary"
+        },
+        {
+          "label": "step count, recent avg (Aug 2 to Aug 31)",
+          "value": "6,477",
+          "unit": "count",
+          "source": "metric summary"
+        },
+        {
+          "label": "step count, delta pct (Aug 2 to Aug 31)",
+          "value": "-16.45",
+          "unit": "%",
+          "source": "metric summary"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Measurement summary",
+          "blurb": "Summarizes a measurement over a period: average, middle value, range and its weekly trend.",
+          "windows": [
+            {
+              "start": "2026-08-02",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 4,
+        "figures_total": 4,
+        "retry": false
+      }
+    },
+    {
+      "question": "How has my weight changed over the last three months?",
+      "text": "Over the recent months, your weight has trended upward. Starting at an average of 170.4 lb during the week of June 1, it rose to 178.3 lb by the week of August 24. Across the full period from Tue Jun 2 to Sun Aug 30, your average weight was 173.9 lb, with a minimum of 170 lb and a maximum of 179.2 lb. The baseline average was 173.5 lb while the recent average was 178.2 lb, corresponding to a change of 2.68%. Earlier in the period, from Mon Jun 8 to Sun Jul 19, your average was 172.8 lb, whereas later, from Mon Jul 20 to Sun Aug 30, it was 175.8 lb.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "170.4",
+          "unit": "lb",
+          "label": "body mass, mean (Jun 1 to Jun 7)",
+          "source": "weekly series"
+        },
+        {
+          "display": "the week of June 1",
+          "unit": null,
+          "label": "body mass, period label (Jun 1 to Jun 7)",
+          "source": "weekly series"
+        },
+        {
+          "display": "178.3",
+          "unit": "lb",
+          "label": "body mass, mean (Aug 24 to Aug 30)",
+          "source": "weekly series"
+        },
+        {
+          "display": "the week of August 24",
+          "unit": null,
+          "label": "body mass, period label (Aug 24 to Aug 30)",
+          "source": "weekly series"
+        },
+        {
+          "display": "from Tue Jun 2 to Sun Aug 30",
+          "unit": null,
+          "label": "body mass, period label (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "173.9",
+          "unit": "lb",
+          "label": "body mass, mean (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "170",
+          "unit": "lb",
+          "label": "body mass, min (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "179.2",
+          "unit": "lb",
+          "label": "body mass, max (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "173.5",
+          "unit": "lb",
+          "label": "body mass, baseline avg (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "178.2",
+          "unit": "lb",
+          "label": "body mass, recent avg (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "2.68",
+          "unit": "%",
+          "label": "body mass, delta pct (Jun 2 to Aug 30)",
+          "source": "metric summary"
+        },
+        {
+          "display": "from Mon Jun 8 to Sun Jul 19",
+          "unit": null,
+          "label": "body mass, period label (Jun 8 to Jul 19)",
+          "source": "block comparison"
+        },
+        {
+          "display": "172.8",
+          "unit": "lb",
+          "label": "body mass, mean (Jun 8 to Jul 19)",
+          "source": "block comparison"
+        },
+        {
+          "display": "from Mon Jul 20 to Sun Aug 30",
+          "unit": null,
+          "label": "body mass, period label (Jul 20 to Aug 30)",
+          "source": "block comparison"
+        },
+        {
+          "display": "175.8",
+          "unit": "lb",
+          "label": "body mass, mean (Jul 20 to Aug 30)",
+          "source": "block comparison"
+        }
+      ],
+      "facts": [
+        {
+          "label": "body mass, mean (Jun 1 to Jun 7)",
+          "value": "170.4",
+          "unit": "lb",
+          "source": "weekly series"
+        },
+        {
+          "label": "body mass, mean (Aug 24 to Aug 30)",
+          "value": "178.3",
+          "unit": "lb",
+          "source": "weekly series"
+        },
+        {
+          "label": "body mass, mean (Jun 2 to Aug 30)",
+          "value": "173.9",
+          "unit": "lb",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, min (Jun 2 to Aug 30)",
+          "value": "170",
+          "unit": "lb",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, max (Jun 2 to Aug 30)",
+          "value": "179.2",
+          "unit": "lb",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, baseline avg (Jun 2 to Aug 30)",
+          "value": "173.5",
+          "unit": "lb",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, recent avg (Jun 2 to Aug 30)",
+          "value": "178.2",
+          "unit": "lb",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, delta pct (Jun 2 to Aug 30)",
+          "value": "2.68",
+          "unit": "%",
+          "source": "metric summary"
+        },
+        {
+          "label": "body mass, mean (Jun 8 to Jul 19)",
+          "value": "172.8",
+          "unit": "lb",
+          "source": "block comparison"
+        },
+        {
+          "label": "body mass, mean (Jul 20 to Aug 30)",
+          "value": "175.8",
+          "unit": "lb",
+          "source": "block comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Weekly averages",
+          "blurb": "Returns the weekly average of a measurement, each with how many days it covers and how much week-to-week change is just noise.",
+          "windows": [
+            {
+              "start": "2026-06-01",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Measurement summary",
+          "blurb": "Summarizes a measurement over a period: average, middle value, range and its weekly trend.",
+          "windows": [
+            {
+              "start": "2026-06-02",
+              "end": "2026-08-30"
+            }
+          ]
+        },
+        {
+          "title": "Block comparison",
+          "blurb": "Compares your two most recent training blocks for one measurement and says whether the difference is bigger than normal noise.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 10,
+        "figures_total": 10,
+        "retry": false
+      }
+    }
+  ]
+}

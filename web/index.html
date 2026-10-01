@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fitness Analyst demo</title>
+  <meta name="description" content="A click-through demo of an AI running coach whose every number is computed by deterministic Python, with a language model used only to narrate.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101219">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="stage">
+    <div class="phone" id="phone">
+      <header class="phone-top">
+        <div class="notice">
+          <p role="note">Synthetic people · pre-generated · data as of <span class="asof">the bundle’s last day</span> · no model runs on this site<span class="dry-run" hidden> · preview build: placeholder wording</span></p>
+          <button type="button" class="info-btn" id="explain-open" aria-expanded="false" aria-controls="explain">
+            <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0-18z"/><path d="M12 11v5.5"/><path d="M12 7.6v.4"/></svg>
+            <span class="sr-only">What am I looking at?</span>
+          </button>
+        </div>
+        <div class="who" id="who"></div>
+      </header>
+      <main id="main" class="screen" tabindex="-1">
+        <p class="loading">Loading…</p>
+        <noscript><p>This demo needs JavaScript to render. Its data is available as JSON under <code>/api/tree</code>.</p></noscript>
+      </main>
+      <nav class="tabbar" id="tabbar" aria-label="App" hidden></nav>
+    </div>
+    <aside class="explain" id="explain" aria-labelledby="explain-h">
+      <div class="explain-head">
+        <h2 id="explain-h">What you are looking at</h2>
+        <button type="button" class="info-btn" id="explain-close">
+          <svg class="icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg>
+          <span class="sr-only">Close</span>
+        </button>
+      </div>
+      <p class="notice-copy" role="note">Synthetic people · pre-generated · data as of <span class="asof">the bundle’s last day</span> · no model runs on this site<span class="dry-run" hidden> · preview build: placeholder wording</span></p>
+      <p class="explain-lead">A replica of the phone app, filled with content that was generated and verified in advance. Every number was computed by Python; the model only wrote sentences around them.</p>
+      <div id="explain-body"></div>
+      <footer class="site-footer">
+        Built by Roger Kutyna · <a href="https://rogerkutyna.com" rel="noopener">rogerkutyna.com</a> ·
+        <a href="https://github.com/rkutyna/fitness-analyst-demo" rel="noopener">source</a>
+      </footer>
+    </aside>
+  </div>
+</body>
+</html>

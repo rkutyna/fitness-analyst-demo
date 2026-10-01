@@ -1,0 +1,1072 @@
+{
+  "scope": "goal",
+  "id": "D1",
+  "answers": [
+    {
+      "question": "What does my plan have me doing this week, and why?",
+      "text": "This week’s plan runs from Monday, August 31 through Sunday, September 6. It is week 1 of the long-term plan, in the Base phase, which starts Monday, August 31 and ends Sunday, September 13.\n\nDay by day:\n- Monday, August 31: 3 × (5 min jog / 2 min walk) (a training day)\n- Tuesday, September 1: Rest day (a rest day)\n- Wednesday, September 2: 3 × (5 min jog / 2 min walk) (a training day)\n- Thursday, September 3: Rest day (a rest day)\n- Friday, September 4: Walk 20 minutes at a comfortable pace (a training day)\n- Saturday, September 5: Rest day (a rest day)\n- Sunday, September 6: Rest day (a rest day)\n\nThat adds up to 30 min of planned jogging for the week. Given your recent weekly jogging average of 0 min , the plan starts with short walk-run blends.\n\nWhy:\n- Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.\n- Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "1",
+          "unit": null,
+          "label": "current week of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 13",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Aug 31, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Tuesday, September 1",
+          "unit": null,
+          "label": "plan, Sep 1, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 1, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 1, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 2, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Thursday, September 3",
+          "unit": null,
+          "label": "plan, Sep 3, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 3, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 3, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 20 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a training day",
+          "unit": null,
+          "label": "plan, Sep 4, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Saturday, September 5",
+          "unit": null,
+          "label": "plan, Sep 5, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 5, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 5, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan, Sep 6, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Rest day",
+          "unit": null,
+          "label": "plan, Sep 6, session",
+          "source": "week plan"
+        },
+        {
+          "display": "a rest day",
+          "unit": null,
+          "label": "plan, Sep 6, rest or training day",
+          "source": "week plan"
+        },
+        {
+          "display": "30",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "week plan"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current week of the long-term plan",
+          "value": "1",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 13",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, day",
+          "value": "Tuesday, September 1",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 1, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, day",
+          "value": "Thursday, September 3",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 3, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Walk 20 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, rest or training day",
+          "value": "a training day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, day",
+          "value": "Saturday, September 5",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 5, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, session",
+          "value": "Rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 6, rest or training day",
+          "value": "a rest day",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "30",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "0",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 31,
+        "figures_total": 31,
+        "retry": false
+      }
+    },
+    {
+      "question": "Is this week's plan a step up from what I've actually been doing?",
+      "text": "Yes, this week’s plan is a clear step up from what you’ve actually been doing. The plan for Monday, August 31 through Sunday, September 6 calls for 30 min of jogging in total, while your recent weeks averaged just 0 min per week. On Monday, August 31, the plan has 3 × (5 min jog / 2 min walk) for 15 min, and on Wednesday, September 2 it repeats 3 × (5 min jog / 2 min walk) for 15 min. Friday, September 4 is a Walk 20 minutes at a comfortable pace with no jogging, and the rest of the week are rest days. By contrast, your actual jogging on Mon Aug 31 was 0 m, matching your recent pattern of no jogging. So the plan introduces structured run/walk sessions where you had none before — a definite step up, but a gentle one designed to build a foundation.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 6",
+          "unit": null,
+          "label": "plan overview, latest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "30",
+          "unit": "min",
+          "label": "plan, week of Aug 31, total jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "0",
+          "unit": "min",
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan, Aug 31, day",
+          "source": "week plan"
+        },
+        {
+          "display": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Aug 31, session",
+          "source": "week plan"
+        },
+        {
+          "display": "15",
+          "unit": "min",
+          "label": "plan, Aug 31, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Wednesday, September 2",
+          "unit": null,
+          "label": "plan, Sep 2, day",
+          "source": "week plan"
+        },
+        {
+          "display": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "label": "plan, Sep 2, session",
+          "source": "week plan"
+        },
+        {
+          "display": "15",
+          "unit": "min",
+          "label": "plan, Sep 2, jog minutes",
+          "source": "week plan"
+        },
+        {
+          "display": "Friday, September 4",
+          "unit": null,
+          "label": "plan, Sep 4, day",
+          "source": "week plan"
+        },
+        {
+          "display": "Walk 20 minutes at a comfortable pace",
+          "unit": null,
+          "label": "plan, Sep 4, session",
+          "source": "week plan"
+        },
+        {
+          "display": "Mon Aug 31",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 31)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "0 m",
+          "unit": "min",
+          "label": "jog minutes, jog minutes (Aug 31)",
+          "source": "jogging and walking minutes"
+        }
+      ],
+      "facts": [
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, latest planned day",
+          "value": "Sunday, September 6",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, week of Aug 31, total jog minutes",
+          "value": "30",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan basis 2026-08-03 2026-08-30 jog minutes weekly mean",
+          "value": "0",
+          "unit": "min",
+          "source": "plan overview"
+        },
+        {
+          "label": "plan, Aug 31, day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, session",
+          "value": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Aug 31, jog minutes",
+          "value": "15",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, day",
+          "value": "Wednesday, September 2",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, session",
+          "value": "3 × (5 min jog / 2 min walk)",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 2, jog minutes",
+          "value": "15",
+          "unit": "min",
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, day",
+          "value": "Friday, September 4",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "plan, Sep 4, session",
+          "value": "Walk 20 minutes at a comfortable pace",
+          "unit": null,
+          "source": "week plan"
+        },
+        {
+          "label": "jog minutes, jog minutes (Aug 31)",
+          "value": "0 m",
+          "unit": "min",
+          "source": "jogging and walking minutes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        },
+        {
+          "title": "Week plan",
+          "blurb": "Reads the sessions your training plan sets out for a week.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Jogging vs walking minutes",
+          "blurb": "Counts the minutes you actually spent jogging, separate from walking, over a date range.",
+          "windows": [
+            {
+              "start": "2026-08-31",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 13,
+        "figures_total": 13,
+        "retry": true
+      }
+    },
+    {
+      "question": "What does my plan look like over the next few months?",
+      "text": "Your long-term plan spans 12 weeks across 5 phases, from Monday, August 31 through Sunday, November 22. You are currently in the Base phase, which runs from Monday, August 31 to Sunday, September 13. The next phase starts on Monday, September 14.\n\nThe phases are:\n\n- Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.\n- Build: Monday, September 14 to Sunday, October 4 (3 weeks). You extend the jogging portions within your walk-run outings to build endurance.\n- Recovery: Monday, October 5 to Sunday, October 11 (1 week). A lighter week helps you absorb the progress you have made without losing your routine.\n- Build: Monday, October 12 to Sunday, November 15 (5 weeks). You return to building endurance with renewed energy and slightly harder walk-run work.\n- Maintain: Monday, November 16 to Sunday, November 22 (1 week). You maintain your hard-earned 5K readiness with steady walks and light jogging.\n\nAnd week by week:\n\n- Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.\n- Week 2, starting Monday, September 7 (Base): key session Easy (walk). The focus stays on comfort as your walks and easy jogs begin to feel repeatable.\n- Week 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the jogging portions within your walk-run outings to build endurance.\n- Week 4, starting Monday, September 21 (Build): key session Run/walk (run). Your body adapts to sustained efforts with recovery built into each session.\n- Week 5, starting Monday, September 28 (Build): key session Run/walk (run). You practice the rhythm you want for a 5K finish while keeping every effort controlled.\n- Week 6, starting Monday, October 5 (Recovery): key session Recovery (walk). A lighter week helps you absorb the progress you have made without losing your routine.\n- Week 7, starting Monday, October 12 (Build): key session Run/walk (run). You return to building endurance with renewed energy and slightly harder walk-run work.\n- Week 8, starting Monday, October 19 (Build): key session Run/walk (run). Confidence grows as your jogging segments become a natural part of each outing.\n- Week 9, starting Monday, October 26 (Build): key session Long (run). You practice covering more time on your feet with a mix of walking and relaxed jogging.\n- Week 10, starting Monday, November 2 (Build): key session Intervals (run). You sharpen the walk-run strategy you will rely on for your first 5K.\n- Week 11, starting Monday, November 9 (Build): key session Long (run). You bring your walk-run skills together in sessions that feel manageable.\n- Week 12, starting Monday, November 16 (Maintain): key session Easy (run). You maintain your hard-earned 5K readiness with steady walks and light jogging.",
+      "mode": "narration",
+      "plan_question": true,
+      "has_plan_facts": true,
+      "figures": [
+        {
+          "display": "12",
+          "unit": null,
+          "label": "weeks in the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "5",
+          "unit": null,
+          "label": "long-term plan, phases total",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "plan overview, earliest planned day",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, November 22",
+          "unit": null,
+          "label": "long-term plan, end",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base",
+          "unit": null,
+          "label": "current phase of the long-term plan",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, August 31",
+          "unit": null,
+          "label": "current phase starts",
+          "source": "plan overview"
+        },
+        {
+          "display": "Sunday, September 13",
+          "unit": null,
+          "label": "current phase ends",
+          "source": "plan overview"
+        },
+        {
+          "display": "Monday, September 14",
+          "unit": null,
+          "label": "next phase begins",
+          "source": "plan overview"
+        },
+        {
+          "display": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "label": "plan long phase 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, September 14 to Sunday, October 4 (3 weeks). You extend the jogging portions within your walk-run outings to build endurance.",
+          "unit": null,
+          "label": "plan long phase 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Recovery: Monday, October 5 to Sunday, October 11 (1 week). A lighter week helps you absorb the progress you have made without losing your routine.",
+          "unit": null,
+          "label": "plan long phase 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Build: Monday, October 12 to Sunday, November 15 (5 weeks). You return to building endurance with renewed energy and slightly harder walk-run work.",
+          "unit": null,
+          "label": "plan long phase 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Maintain: Monday, November 16 to Sunday, November 22 (1 week). You maintain your hard-earned 5K readiness with steady walks and light jogging.",
+          "unit": null,
+          "label": "plan long phase 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "label": "plan long week 1 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 2, starting Monday, September 7 (Base): key session Easy (walk). The focus stays on comfort as your walks and easy jogs begin to feel repeatable.",
+          "unit": null,
+          "label": "plan long week 2 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the jogging portions within your walk-run outings to build endurance.",
+          "unit": null,
+          "label": "plan long week 3 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 4, starting Monday, September 21 (Build): key session Run/walk (run). Your body adapts to sustained efforts with recovery built into each session.",
+          "unit": null,
+          "label": "plan long week 4 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 5, starting Monday, September 28 (Build): key session Run/walk (run). You practice the rhythm you want for a 5K finish while keeping every effort controlled.",
+          "unit": null,
+          "label": "plan long week 5 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 6, starting Monday, October 5 (Recovery): key session Recovery (walk). A lighter week helps you absorb the progress you have made without losing your routine.",
+          "unit": null,
+          "label": "plan long week 6 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 7, starting Monday, October 12 (Build): key session Run/walk (run). You return to building endurance with renewed energy and slightly harder walk-run work.",
+          "unit": null,
+          "label": "plan long week 7 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 8, starting Monday, October 19 (Build): key session Run/walk (run). Confidence grows as your jogging segments become a natural part of each outing.",
+          "unit": null,
+          "label": "plan long week 8 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 9, starting Monday, October 26 (Build): key session Long (run). You practice covering more time on your feet with a mix of walking and relaxed jogging.",
+          "unit": null,
+          "label": "plan long week 9 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 10, starting Monday, November 2 (Build): key session Intervals (run). You sharpen the walk-run strategy you will rely on for your first 5K.",
+          "unit": null,
+          "label": "plan long week 10 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 11, starting Monday, November 9 (Build): key session Long (run). You bring your walk-run skills together in sessions that feel manageable.",
+          "unit": null,
+          "label": "plan long week 11 summary",
+          "source": "plan overview"
+        },
+        {
+          "display": "Week 12, starting Monday, November 16 (Maintain): key session Easy (run). You maintain your hard-earned 5K readiness with steady walks and light jogging.",
+          "unit": null,
+          "label": "plan long week 12 summary",
+          "source": "plan overview"
+        }
+      ],
+      "facts": [
+        {
+          "label": "weeks in the long-term plan",
+          "value": "12",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, phases total",
+          "value": "5",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan overview, earliest planned day",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "long-term plan, end",
+          "value": "Sunday, November 22",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase of the long-term plan",
+          "value": "Base",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase starts",
+          "value": "Monday, August 31",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "current phase ends",
+          "value": "Sunday, September 13",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "next phase begins",
+          "value": "Monday, September 14",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 1 summary",
+          "value": "Base: Monday, August 31 to Sunday, September 13 (2 weeks). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 2 summary",
+          "value": "Build: Monday, September 14 to Sunday, October 4 (3 weeks). You extend the jogging portions within your walk-run outings to build endurance.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 3 summary",
+          "value": "Recovery: Monday, October 5 to Sunday, October 11 (1 week). A lighter week helps you absorb the progress you have made without losing your routine.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 4 summary",
+          "value": "Build: Monday, October 12 to Sunday, November 15 (5 weeks). You return to building endurance with renewed energy and slightly harder walk-run work.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long phase 5 summary",
+          "value": "Maintain: Monday, November 16 to Sunday, November 22 (1 week). You maintain your hard-earned 5K readiness with steady walks and light jogging.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 1 summary",
+          "value": "Week 1, starting Monday, August 31 (Base): key session Run/walk (run). You start with short walk-run blends to build a consistent foundation for your first 5K.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 2 summary",
+          "value": "Week 2, starting Monday, September 7 (Base): key session Easy (walk). The focus stays on comfort as your walks and easy jogs begin to feel repeatable.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 3 summary",
+          "value": "Week 3, starting Monday, September 14 (Build): key session Run/walk (run). You extend the jogging portions within your walk-run outings to build endurance.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 4 summary",
+          "value": "Week 4, starting Monday, September 21 (Build): key session Run/walk (run). Your body adapts to sustained efforts with recovery built into each session.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 5 summary",
+          "value": "Week 5, starting Monday, September 28 (Build): key session Run/walk (run). You practice the rhythm you want for a 5K finish while keeping every effort controlled.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 6 summary",
+          "value": "Week 6, starting Monday, October 5 (Recovery): key session Recovery (walk). A lighter week helps you absorb the progress you have made without losing your routine.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 7 summary",
+          "value": "Week 7, starting Monday, October 12 (Build): key session Run/walk (run). You return to building endurance with renewed energy and slightly harder walk-run work.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 8 summary",
+          "value": "Week 8, starting Monday, October 19 (Build): key session Run/walk (run). Confidence grows as your jogging segments become a natural part of each outing.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 9 summary",
+          "value": "Week 9, starting Monday, October 26 (Build): key session Long (run). You practice covering more time on your feet with a mix of walking and relaxed jogging.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 10 summary",
+          "value": "Week 10, starting Monday, November 2 (Build): key session Intervals (run). You sharpen the walk-run strategy you will rely on for your first 5K.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 11 summary",
+          "value": "Week 11, starting Monday, November 9 (Build): key session Long (run). You bring your walk-run skills together in sessions that feel manageable.",
+          "unit": null,
+          "source": "plan overview"
+        },
+        {
+          "label": "plan long week 12 summary",
+          "value": "Week 12, starting Monday, November 16 (Maintain): key session Easy (run). You maintain your hard-earned 5K readiness with steady walks and light jogging.",
+          "unit": null,
+          "source": "plan overview"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Training plan overview",
+          "blurb": "Reads your long-term training plan: the weeks written so far and, when there is one, the week-by-week outline of phases and intent.",
+          "windows": []
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 25,
+        "figures_total": 25,
+        "retry": false
+      }
+    },
+    {
+      "question": "How much have I been walking lately?",
+      "text": "From Sat Aug 1 to Mon Aug 31, your daily walking/running distance averaged 1.69 mi, and your daily step count averaged 3,712 steps. No jogging minutes were recorded in any week from the week of June 29 through Mon Aug 31, so this distance reflects walking. On Mon Aug 24 you covered 2.52 mi, and on Thu Aug 13 you covered 0.56 mi.",
+      "mode": "narration",
+      "plan_question": false,
+      "has_plan_facts": false,
+      "figures": [
+        {
+          "display": "from Sat Aug 1 to Mon Aug 31",
+          "unit": null,
+          "label": "distance walking running, period label (Aug 1 to Aug 31)",
+          "source": "daily series"
+        },
+        {
+          "display": "1.69",
+          "unit": "mi",
+          "label": "distance walking running, mean (Aug 1 to Aug 31)",
+          "source": "daily series"
+        },
+        {
+          "display": "3,712",
+          "unit": "count",
+          "label": "step count, mean (Aug 1 to Aug 31)",
+          "source": "daily series"
+        },
+        {
+          "display": "the week of June 29",
+          "unit": null,
+          "label": "jog minutes, period label (Jun 29 to Jul 5)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "Mon Aug 31",
+          "unit": null,
+          "label": "jog minutes, period label (Aug 31)",
+          "source": "jogging and walking minutes"
+        },
+        {
+          "display": "Mon Aug 24",
+          "unit": null,
+          "label": "distance walking running, period label (Aug 24)",
+          "source": "daily series"
+        },
+        {
+          "display": "2.52",
+          "unit": "mi",
+          "label": "distance walking running, value (Aug 24)",
+          "source": "daily series"
+        },
+        {
+          "display": "Thu Aug 13",
+          "unit": null,
+          "label": "distance walking running, period label (Aug 13)",
+          "source": "daily series"
+        },
+        {
+          "display": "0.56",
+          "unit": "mi",
+          "label": "distance walking running, value (Aug 13)",
+          "source": "daily series"
+        }
+      ],
+      "facts": [
+        {
+          "label": "distance walking running, mean (Aug 1 to Aug 31)",
+          "value": "1.69",
+          "unit": "mi",
+          "source": "daily series"
+        },
+        {
+          "label": "step count, mean (Aug 1 to Aug 31)",
+          "value": "3,712",
+          "unit": "count",
+          "source": "daily series"
+        },
+        {
+          "label": "distance walking running, value (Aug 24)",
+          "value": "2.52",
+          "unit": "mi",
+          "source": "daily series"
+        },
+        {
+          "label": "distance walking running, value (Aug 13)",
+          "value": "0.56",
+          "unit": "mi",
+          "source": "daily series"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-01",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Daily values",
+          "blurb": "Returns one value per day for a measurement over a date range, totalled or averaged as that measurement requires.",
+          "windows": [
+            {
+              "start": "2026-08-01",
+              "end": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "title": "Jogging vs walking minutes",
+          "blurb": "Counts the minutes you actually spent jogging, separate from walking, over a date range.",
+          "windows": [
+            {
+              "start": "2026-07-01",
+              "end": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": "ok",
+        "figures_verified": 4,
+        "figures_total": 4,
+        "retry": false
+      }
+    }
+  ]
+}

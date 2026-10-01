@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — 3 × (5 min jog / 2 min walk):\n\nToday's session is a steady rhythm of 3 rounds, each with 5 minutes of jogging and 2 minutes of walking—a structure that lets you build momentum without burning out. That balance is the heart of what we're doing this week: consistent effort, not perfection. So lace up, step out, and let each round remind you that showing up is the win. I'll be right here with you.",
+      "narration": "Today's session is a steady rhythm of 3 rounds, each with 5 minutes of jogging and 2 minutes of walking—a structure that lets you build momentum without burning out. That balance is the heart of what we're doing this week: consistent effort, not perfection. So lace up, step out, and let each round remind you that showing up is the win. I'll be right here with you.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 3,
+        "figures_total": 3,
+        "retry": true
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 3 × (5 min jog / 2 min walk) — first figure",
+          "value": "3",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 3 × (5 min jog / 2 min walk) — second figure",
+          "value": "5",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: 3 × (5 min jog / 2 min walk) — third figure",
+          "value": "2",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

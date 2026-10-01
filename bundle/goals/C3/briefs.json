@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "kind": "morning",
+      "label": "Morning brief",
+      "written_at": "2026-08-31T05:00:00+00:00",
+      "text": "Today's session — Walk 15 minutes at a comfortable pace:\n\nToday’s plan is a 15-minute walk at a comfortable pace — that’s your one simple anchor to get moving. Just step out, breathe, and let your body settle into the rhythm. You don’t need to do anything more than that; showing up for this is enough. So lace up and give yourself those 15 minutes — they’re yours.",
+      "narration": "Today’s plan is a 15-minute walk at a comfortable pace — that’s your one simple anchor to get moving. Just step out, breathe, and let your body settle into the rhythm. You don’t need to do anything more than that; showing up for this is enough. So lace up and give yourself those 15 minutes — they’re yours.",
+      "mode": "narration",
+      "verification": {
+        "ok": true,
+        "reason": null,
+        "cause": null,
+        "figures_verified": 1,
+        "figures_total": 1,
+        "retry": false
+      },
+      "facts": [
+        {
+          "label": "day",
+          "value": "2026-08-31",
+          "unit": null,
+          "source": "brief facts"
+        },
+        {
+          "label": "Planned session title: Walk 15 minutes at a comfortable pace — the figure",
+          "value": "15",
+          "unit": null,
+          "source": "brief facts"
+        }
+      ]
+    }
+  ]
+}

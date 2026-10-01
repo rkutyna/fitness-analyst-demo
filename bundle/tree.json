@@ -1,0 +1,93 @@
+{
+  "end_date": "2026-08-31",
+  "people": [
+    {
+      "id": "A",
+      "label": "Alex, a very active runner",
+      "blurb": "Runs most days of the week at high volume, with the odd gym session. Resting heart rate low, sleep good, weight steady.",
+      "goals": [
+        {
+          "id": "A1",
+          "label": "Fast mile time trial",
+          "blurb": "Sharpen up for an all-out mile on the track in six weeks."
+        },
+        {
+          "id": "A2",
+          "label": "50K trail ultra",
+          "blurb": "Build from a strong road base to a 50K trail race in about sixteen weeks."
+        },
+        {
+          "id": "A3",
+          "label": "Add muscle, keep the mileage",
+          "blurb": "Put on lean muscle with lifting while holding onto running fitness."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Blake, a recreational jogger",
+      "blurb": "Jogs a few times a week, lifts a little, and keeps a steady weight. A regular, unhurried routine.",
+      "goals": [
+        {
+          "id": "B1",
+          "label": "First half marathon",
+          "blurb": "Step up from short jogs to a first half marathon in about sixteen weeks."
+        },
+        {
+          "id": "B2",
+          "label": "Lose about 5 kg, keep running",
+          "blurb": "Bring body weight down gradually by being more active while keeping the jogs."
+        },
+        {
+          "id": "B3",
+          "label": "Build muscle",
+          "blurb": "Lift three times a week with two easy runs alongside."
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Casey, a lapsed runner",
+      "blurb": "Ran regularly until this summer, then drifted to mostly walks. Resting heart rate and weight have crept up since.",
+      "goals": [
+        {
+          "id": "C1",
+          "label": "Back to a comfortable 5K",
+          "blurb": "Ease back into running until a 5K feels comfortable again."
+        },
+        {
+          "id": "C2",
+          "label": "Lose the weight regained",
+          "blurb": "Bring weight back down through steady exercise."
+        },
+        {
+          "id": "C3",
+          "label": "Steadier sleep, more energy",
+          "blurb": "Sleep on a steadier schedule and feel less run down."
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Dana, mostly sedentary",
+      "blurb": "A desk job, few steps on a typical day, no workouts, and short, irregular sleep. Has not run before.",
+      "goals": [
+        {
+          "id": "D1",
+          "label": "First 5K, walk-run",
+          "blurb": "Work up to a first 5K by alternating walking and easy jogging."
+        },
+        {
+          "id": "D2",
+          "label": "Lose weight through daily movement",
+          "blurb": "Bring weight down gradually by walking more every day."
+        },
+        {
+          "id": "D3",
+          "label": "Daily movement and a sleep routine",
+          "blurb": "Build a daily walking habit and a steadier bedtime."
+        }
+      ]
+    }
+  ]
+}

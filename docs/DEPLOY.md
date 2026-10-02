@@ -37,10 +37,13 @@ Entra app registration and service principal, adds a federated credential, and
 gives that principal the Contributor role on the resource group only. It is
 safe to run twice. It writes nothing to disk and creates no password.
 
-The federated credential subject is
-`repo:rkutyna/fitness-analyst-demo:environment:production`. The deploy job
-declares `environment: production`, and GitHub then puts exactly that subject
-in the token it presents to Azure. A job that does not use that environment
+The federated credential subject has the form
+`repo:<owner>@<owner id>/<repo>@<repo id>:environment:production`; the script
+reads the two numeric ids from GitHub's public API. The deploy job declares
+`environment: production`, and GitHub then puts exactly that subject in the
+token it presents to Azure. If sign-in fails with AADSTS700213, the error
+prints the subject GitHub presented: run the script again, or set the
+credential's subject to that string. A job that does not use that environment
 (a pull request, another branch, another job) cannot sign in as this principal.
 
 ## 3. Set the repository secrets and variables

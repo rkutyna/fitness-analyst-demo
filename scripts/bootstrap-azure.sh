@@ -68,7 +68,13 @@ else
 fi
 SP_OBJECT_ID=$(az ad sp show --id "$CLIENT_ID" --query id --output tsv)
 
-SUBJECT="repo:${REPO}:environment:${ENVIRONMENT}"
+# GitHub's OIDC token names the owner and the repository with their numeric
+# ids as well (repo:owner@id/name@id:...), and Entra matches the subject
+# exactly, so read both ids from the public API rather than guessing.
+REPO_JSON=$(curl -fsSL "https://api.github.com/repos/${REPO}")
+OWNER_ID=$(printf '%s' "$REPO_JSON" | python3 -c 'import json,sys; print(json.load(sys.stdin)["owner"]["id"])')
+REPO_ID=$(printf '%s' "$REPO_JSON" | python3 -c 'import json,sys; print(json.load(sys.stdin)["id"])')
+SUBJECT="repo:${REPO%%/*}@${OWNER_ID}/${REPO#*/}@${REPO_ID}:environment:${ENVIRONMENT}"
 step "Federated credential $CRED_NAME with subject $SUBJECT"
 EXISTING=$(az ad app federated-credential list --id "$CLIENT_ID" \
   --query "[?name=='${CRED_NAME}'].subject | [0]" --output tsv)
@@ -80,9 +86,10 @@ if [ -z "$EXISTING" ]; then
 elif [ "$EXISTING" = "$SUBJECT" ]; then
   echo "already present"
 else
-  echo "A credential named ${CRED_NAME} exists with a different subject (${EXISTING})." >&2
-  echo "Delete it in the Entra portal or with az ad app federated-credential delete, then run this again." >&2
-  exit 1
+  echo "updating it (the subject was ${EXISTING})"
+  az ad app federated-credential update --id "$CLIENT_ID" --federated-credential-id "$CRED_NAME" --parameters \
+    "{\"name\":\"${CRED_NAME}\",\"issuer\":\"https://token.actions.githubusercontent.com\",\"subject\":\"${SUBJECT}\",\"audiences\":[\"api://AzureADTokenExchange\"]}" \
+    --output none
 fi
 
 SCOPE="/subscriptions/${SUBSCRIPTION_ID}/resourceGroups/${RESOURCE_GROUP}"

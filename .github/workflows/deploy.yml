@@ -8,7 +8,9 @@ name: deploy
 #   - workflow_dispatch: run it by hand. Leave the digest empty to deploy
 #     whatever the "latest" tag points at, or paste an older digest to roll back.
 #
-# Nothing here runs until the repository variable AZURE_CLIENT_ID is set.
+# Nothing here runs until the repository variable AZURE_DEPLOY_ENABLED is true.
+# The three Azure ids are repository secrets, not variables: they are not
+# credentials, but this repository and its logs are public and secrets are masked.
 
 on:
   workflow_call:
@@ -19,6 +21,12 @@ on:
         required: false
         default: ""
     secrets:
+      AZURE_CLIENT_ID:
+        required: false
+      AZURE_TENANT_ID:
+        required: false
+      AZURE_SUBSCRIPTION_ID:
+        required: false
       BUDGET_CONTACT_EMAIL:
         required: false
   workflow_dispatch:
@@ -39,8 +47,8 @@ concurrency:
 
 jobs:
   deploy:
-    # Skipped, not failed, until the owner has bootstrapped Azure and set the variables.
-    if: ${{ vars.AZURE_CLIENT_ID != '' }}
+    # Skipped, not failed, until the owner has bootstrapped Azure and set the gate.
+    if: ${{ vars.AZURE_DEPLOY_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     # The environment name becomes part of the OIDC subject:
     # repo:<owner>/<repo>:environment:production
@@ -74,9 +82,9 @@ jobs:
 
       - uses: azure/login@v2
         with:
-          client-id: ${{ vars.AZURE_CLIENT_ID }}
-          tenant-id: ${{ vars.AZURE_TENANT_ID }}
-          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Deploy infra/main.bicep
         id: deploy

@@ -10,7 +10,10 @@ password), deploys `infra/main.bicep` into one resource group with the exact
 image digest that was just published, and checks `/healthz`.
 
 Nothing in the repository contains a subscription id, tenant id or email. They
-live in repository variables and, for the budget email, a repository secret.
+live in repository secrets (the three Azure ids and the budget email) and a few
+repository variables. The ids are identifiers, not credentials, but the
+repository and its workflow logs are public and secrets are masked in logs,
+while variables are not.
 
 ## 1. Prerequisites
 
@@ -40,14 +43,16 @@ declares `environment: production`, and GitHub then puts exactly that subject
 in the token it presents to Azure. A job that does not use that environment
 (a pull request, another branch, another job) cannot sign in as this principal.
 
-## 3. Set the repository variables
+## 3. Set the repository secrets and variables
 
-The script ends by printing the exact `gh variable set` commands. They set four
-repository variables: `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`,
-`AZURE_SUBSCRIPTION_ID` and `AZURE_RESOURCE_GROUP`. Run them yourself; the
-script does not.
+The script ends by printing the exact commands. `gh secret set` stores
+`AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID`;
+`gh variable set` stores `AZURE_RESOURCE_GROUP` and `AZURE_DEPLOY_ENABLED`
+(set to `true`). Run them yourself; the script does not.
 
-Until `AZURE_CLIENT_ID` is set, the deploy job is skipped and CI stays green.
+Until the variable `AZURE_DEPLOY_ENABLED` is `true`, the deploy job is skipped
+and CI stays green. The gate is a variable because a job-level condition cannot
+read secrets. Set it last.
 
 Optional, for a budget alert: store your address as the repository secret
 `BUDGET_CONTACT_EMAIL` (`gh secret set BUDGET_CONTACT_EMAIL`). It is a secret
@@ -200,4 +205,4 @@ az group delete --name faa-demo-rg --yes --no-wait
 
 The Entra app registration made by the bootstrap script is separate. Delete it
 with `az ad app delete --id <AZURE_CLIENT_ID>`, and remove the repository
-variables. Remove the two DNS records in Cloudflare.
+secrets and variables. Remove the two DNS records in Cloudflare.

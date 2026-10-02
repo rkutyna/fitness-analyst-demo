@@ -113,12 +113,17 @@ Done. Nothing was written to disk. Values for the repository:
   AZURE_SUBSCRIPTION_ID  = ${SUBSCRIPTION_ID}
   AZURE_RESOURCE_GROUP   = ${RESOURCE_GROUP}
 
-Store them as repository variables (not secrets) with the GitHub CLI:
+Store the three ids as repository SECRETS (they are identifiers, not
+credentials, but this repository and its logs are public and secrets are masked),
+the rest as variables, with the GitHub CLI. Run them yourself:
 
-  gh variable set AZURE_CLIENT_ID       --repo ${REPO} --body "${CLIENT_ID}"
-  gh variable set AZURE_TENANT_ID       --repo ${REPO} --body "${TENANT_ID}"
-  gh variable set AZURE_SUBSCRIPTION_ID --repo ${REPO} --body "${SUBSCRIPTION_ID}"
+  gh secret set   AZURE_CLIENT_ID       --repo ${REPO} --body "${CLIENT_ID}"
+  gh secret set   AZURE_TENANT_ID       --repo ${REPO} --body "${TENANT_ID}"
+  gh secret set   AZURE_SUBSCRIPTION_ID --repo ${REPO} --body "${SUBSCRIPTION_ID}"
   gh variable set AZURE_RESOURCE_GROUP  --repo ${REPO} --body "${RESOURCE_GROUP}"
+  gh variable set AZURE_DEPLOY_ENABLED  --repo ${REPO} --body true
+
+Set AZURE_DEPLOY_ENABLED last: it is what turns the deploy job on.
 
 The deploy job signs in as environment "${ENVIRONMENT}", so create that
 environment in the repository settings if it does not exist yet (GitHub also

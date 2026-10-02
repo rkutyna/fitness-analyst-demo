@@ -65,17 +65,21 @@ def test_ci_deploy_job_calls_the_reusable_workflow_with_the_published_digest():
     assert "needs: publish" in deploy
     assert "uses: ./.github/workflows/deploy.yml" in deploy
     assert "needs.publish.outputs.digest" in deploy
-    assert "vars.AZURE_CLIENT_ID != ''" in deploy
+    assert "vars.AZURE_DEPLOY_ENABLED == 'true'" in deploy
+    assert "secrets: inherit" in deploy
     assert deploy.count("id-token: write") == 1
     assert "id-token: write" not in header(CI)
 
 
-def test_deploy_uses_oidc_with_variables_not_secrets():
+def test_deploy_uses_oidc_with_the_ids_held_as_secrets():
     assert re.search(r"(?m)^permissions:\n  id-token: write\n  contents: read\n(?!  )", header(DEPLOY))
     assert "azure/login@v2" in DEPLOY
     for name in ("AZURE_CLIENT_ID", "AZURE_TENANT_ID", "AZURE_SUBSCRIPTION_ID"):
-        assert f"vars.{name}" in DEPLOY
-        assert f"secrets.{name}" not in DEPLOY
+        assert f"secrets.{name}" in DEPLOY
+        assert f"vars.{name}" not in DEPLOY
+        # Declared as optional secrets so the reusable workflow receives them.
+        assert re.search(rf"(?m)^      {name}:\n        required: false$", DEPLOY)
+        assert name not in CI.replace("AZURE_DEPLOY_ENABLED", "")
     assert "vars.AZURE_RESOURCE_GROUP" in DEPLOY
     assert "workflow_dispatch" in DEPLOY and "workflow_call" in DEPLOY
     assert "environment: production" in DEPLOY
@@ -86,7 +90,12 @@ def test_deploy_uses_oidc_with_variables_not_secrets():
 
 def test_deploy_is_skipped_until_azure_is_bootstrapped_and_checks_health():
     job = jobs(DEPLOY)["deploy"]
-    assert re.search(r"(?m)^    if: \$\{\{ vars\.AZURE_CLIENT_ID != '' \}\}$", job)
+    assert re.search(r"(?m)^    if: \$\{\{ vars\.AZURE_DEPLOY_ENABLED == 'true' \}\}$", job)
+    # Secrets cannot be read in a job-level condition, so none may appear in one.
+    assert not re.search(r"(?m)^\s+if:.*secrets\.", DEPLOY + CI)
+    # Nothing prints the subscription or tenant.
+    assert "az account show" not in DEPLOY
+    assert "--query properties.outputs.fqdn.value" in job
     assert "az deployment group create" in job
     assert "infra/main.bicep" in job
     assert "/healthz" in job and "seq 1" in job and "exit 1" in job

@@ -61,7 +61,9 @@ The repository publishes its image to GitHub Container Registry on every push
 to `main`, and `infra/main.bicep` plus `.github/workflows/deploy.yml` deploy it
 to Azure Container Apps (consumption plan, scaled to zero). The owner's
 step-by-step runbook, including the custom domain, cost notes, rollback and
-teardown, is in [docs/DEPLOY.md](docs/DEPLOY.md).
+teardown, is in [docs/DEPLOY.md](docs/DEPLOY.md). Azure sign-in uses OpenID
+Connect with the ids held as repository secrets; the deploy job stays skipped
+until the variable `AZURE_DEPLOY_ENABLED` is `true`.
 
 ## The API
 

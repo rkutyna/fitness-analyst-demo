@@ -76,10 +76,12 @@ jobs:
 
   # Deploys exactly the digest the publish job pushed, by calling deploy.yml as
   # a reusable workflow. Skipped (not failed) until the owner has set the
-  # AZURE_CLIENT_ID repository variable; also skipped whenever publish is.
+  # AZURE_DEPLOY_ENABLED repository variable to true; also skipped whenever
+  # publish is. The Azure ids are secrets (masked in public logs), and secrets
+  # cannot be read in a job-level if, so a plain variable is the gate.
   deploy:
     needs: publish
-    if: ${{ vars.AZURE_CLIENT_ID != '' }}
+    if: ${{ vars.AZURE_DEPLOY_ENABLED == 'true' }}
     permissions:
       contents: read
       id-token: write

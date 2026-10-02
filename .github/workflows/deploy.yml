@@ -1,0 +1,122 @@
+name: deploy
+
+# Deploys infra/main.bicep with a pinned image digest to Azure Container Apps.
+#
+# Two entry points, one job:
+#   - workflow_call: ci.yml calls this after its publish job, passing the exact
+#     digest that job pushed.
+#   - workflow_dispatch: run it by hand. Leave the digest empty to deploy
+#     whatever the "latest" tag points at, or paste an older digest to roll back.
+#
+# Nothing here runs until the repository variable AZURE_CLIENT_ID is set.
+
+on:
+  workflow_call:
+    inputs:
+      digest:
+        description: "Image digest to deploy (sha256:...)"
+        type: string
+        required: false
+        default: ""
+    secrets:
+      BUDGET_CONTACT_EMAIL:
+        required: false
+  workflow_dispatch:
+    inputs:
+      digest:
+        description: "Image digest to deploy (sha256:...). Empty means the current latest tag."
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Skipped, not failed, until the owner has bootstrapped Azure and set the variables.
+    if: ${{ vars.AZURE_CLIENT_ID != '' }}
+    runs-on: ubuntu-latest
+    # The environment name becomes part of the OIDC subject:
+    # repo:<owner>/<repo>:environment:production
+    environment: production
+    env:
+      IMAGE_NAME: ghcr.io/rkutyna/fitness-analyst-demo
+      RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+      DIGEST_INPUT: ${{ inputs.digest }}
+      CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+      MANAGED_CERTIFICATE_NAME: ${{ vars.MANAGED_CERTIFICATE_NAME }}
+      BUDGET_START_DATE: ${{ vars.BUDGET_START_DATE }}
+      BUDGET_CONTACT_EMAIL: ${{ secrets.BUDGET_CONTACT_EMAIL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve the image digest
+        id: image
+        run: |
+          set -euo pipefail
+          digest="$DIGEST_INPUT"
+          if [ -z "$digest" ]; then
+            echo "No digest given; resolving the latest tag."
+            digest=$(docker buildx imagetools inspect "$IMAGE_NAME:latest" --format '{{.Manifest.Digest}}')
+          fi
+          if ! printf '%s' "$digest" | grep -Eq '^sha256:[0-9a-f]{64}$'; then
+            echo "::error::Not a valid image digest: $digest"
+            exit 1
+          fi
+          echo "Deploying $IMAGE_NAME@$digest"
+          echo "ref=$IMAGE_NAME@$digest" >> "$GITHUB_OUTPUT"
+
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Deploy infra/main.bicep
+        id: deploy
+        env:
+          IMAGE_REF: ${{ steps.image.outputs.ref }}
+        run: |
+          set -euo pipefail
+          params=("image=$IMAGE_REF")
+          # Once the custom domain is added it must be passed on every deploy,
+          # or the redeploy removes it. See docs/DEPLOY.md.
+          [ -z "$CUSTOM_DOMAIN" ] || params+=("customDomain=$CUSTOM_DOMAIN")
+          [ -z "$MANAGED_CERTIFICATE_NAME" ] || params+=("managedCertificateName=$MANAGED_CERTIFICATE_NAME")
+          [ -z "$BUDGET_START_DATE" ] || params+=("budgetStartDate=$BUDGET_START_DATE")
+          [ -z "$BUDGET_CONTACT_EMAIL" ] || params+=("budgetContactEmail=$BUDGET_CONTACT_EMAIL")
+          # --query keeps the deployment's parameters out of the public log.
+          fqdn=$(az deployment group create \
+            --resource-group "$RESOURCE_GROUP" \
+            --name "faa-demo-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" \
+            --template-file infra/main.bicep \
+            --parameters "${params[@]}" \
+            --query properties.outputs.fqdn.value \
+            --output tsv)
+          echo "fqdn=$fqdn" >> "$GITHUB_OUTPUT"
+          echo "Deployed to https://$fqdn"
+
+      - name: Wait for /healthz
+        env:
+          FQDN: ${{ steps.deploy.outputs.fqdn }}
+        run: |
+          set -euo pipefail
+          # With zero replicas the first request starts a container, so allow
+          # several minutes before giving up.
+          for attempt in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "https://$FQDN/healthz" || true)
+            echo "attempt $attempt: HTTP $code"
+            if [ "$code" = 200 ]; then
+              echo "Healthy: https://$FQDN"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::https://$FQDN/healthz never returned 200"
+          exit 1

@@ -28,3 +28,62 @@ jobs:
         run: docker build -t fitness-analyst-demo:ci .
       - name: Smoke test the built image
         run: IMAGE=fitness-analyst-demo:ci ./scripts/smoke.sh
+
+  # Publishes the image that the two jobs above verified. Runs on pushes to
+  # main only: pull requests and other branches never reach this job. It is the
+  # only job in this workflow with write access to packages.
+  publish:
+    needs: [test, image]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    env:
+      IMAGE_NAME: ghcr.io/rkutyna/fitness-analyst-demo
+    outputs:
+      digest: ${{ steps.push.outputs.digest }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix=,format=long
+            type=raw,value=latest
+          labels: |
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+      - id: push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/amd64
+          push: true
+          provenance: false
+          sbom: false
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  # Deploys exactly the digest the publish job pushed, by calling deploy.yml as
+  # a reusable workflow. Skipped (not failed) until the owner has set the
+  # AZURE_CLIENT_ID repository variable; also skipped whenever publish is.
+  deploy:
+    needs: publish
+    if: ${{ vars.AZURE_CLIENT_ID != '' }}
+    permissions:
+      contents: read
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+    with:
+      digest: ${{ needs.publish.outputs.digest }}
+    secrets: inherit

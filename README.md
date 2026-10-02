@@ -55,6 +55,14 @@ make smoke                  # build, run, fetch every route in /api/tree, stop
 validates every file with `app/bundle_schema.py` at startup and refuses to
 start if any is missing or invalid.
 
+## Deploy
+
+The repository publishes its image to GitHub Container Registry on every push
+to `main`, and `infra/main.bicep` plus `.github/workflows/deploy.yml` deploy it
+to Azure Container Apps (consumption plan, scaled to zero). The owner's
+step-by-step runbook, including the custom domain, cost notes, rollback and
+teardown, is in [docs/DEPLOY.md](docs/DEPLOY.md).
+
 ## The API
 
 All routes are `GET`; there are no write routes, no auth and no cookies.
